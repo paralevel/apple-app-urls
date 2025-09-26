@@ -1,40 +1,40 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
-**Camera** <sup>iOS</sup>
+**Camera**&ensp;<i><sup>iOS</sup></i>
 \
 `camera://`
 \
 \
-**Camera > *Photo mode with back camera*** <sup>iOS</sup>
+**Camera > *Photo mode with back camera***&ensp;<i><sup>iOS</sup></i>
 \
 `camera://configuration?capturemode=photo&capturedevice=back`
 \
 \
-**Camera > *Photo mode with front camera*** <sup>iOS</sup>
+**Camera > *Photo mode with front camera***&ensp;<i><sup>iOS</sup></i>
 \
 `camera://configuration?capturemode=photo&capturedevice=front`
 \
 \
-**Camera > *Video mode with back camera*** <sup>iOS</sup>
+**Camera > *Video mode with back camera***&ensp;<i><sup>iOS</sup></i>
 \
 `camera://configuration?capturemode=video&capturedevice=back`
 \
 \
-**Camera > *Video mode with front camera*** <sup>iOS</sup>
+**Camera > *Video mode with front camera***&ensp;<i><sup>iOS</sup></i>
 \
 `camera://configuration?capturemode=video&capturedevice=front`
 \
 \
-**Notes**
+**Notes**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `applenotes://`
 \
 &emsp;or
 \
-`mobilenotes://` <sup>iOS</sup>
+`mobilenotes://`&ensp;<i><sup>iOS</sup></i>
 \
 \
-**Notes > New note** <sup>iOS</sup>
+**Notes > New note**&ensp;<i><sup>iOS</sup></i>
 \
 `mobilenotes-quicknote://quicknote`
 \
@@ -43,71 +43,71 @@
 `mobilenotes://newNote`
 \
 \
-**Phone > Contacts** <sup>iOS</sup>
+**Phone > Contacts**&ensp;<i><sup>iOS</sup></i>
 \
 `mobilephone-contacts://`
 \
 \
-**Phone > Favorites** (Classic mode) <sup>iOS</sup>
+**Phone > Favorites** (Classic mode)&ensp;<i><sup>iOS</sup></i>
 \
 `mobilephone-favorites://`
 \
 \
-**Phone > Keypad** <sup>iOS</sup>
+**Phone > Keypad**&ensp;<i><sup>iOS</sup></i>
 \
 `mobilephone-keypad://`
 \
 \
-**Phone > Recents** (Classic mode) or **Calls** (Unified mode) <sup>iOS</sup>
+**Phone > Recents** (Classic mode) or **Calls** (Unified mode)&ensp;<i><sup>iOS</sup></i>
 \
 `mobilephone-recents://`
 \
 \
-**Photos > Search > 'example'** <sup>iOS</sup>
+**Photos > Search > 'example'**&ensp;<i><sup>iOS</sup></i>
 \
 `photos-navigation://search?searchTerm=example`
 \
 \
-**Photos > Favorites**
+**Photos > Favorites**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://album?name=favorites`
 \
 \
-**Photos > Duplicates**
+**Photos > Duplicates**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://album?name=duplicates`
 \
 \
-**Photos > Recently Deleted**
+**Photos > Recently Deleted**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://album?name=recently-deleted`
 \
 \
-**Photos > Recently Saved**
+**Photos > Recently Saved**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://album?name=recently-saved`
 \
 \
-**Photos > Featured Photos** <sup>iOS</sup>
+**Photos > Featured Photos**&ensp;<i><sup>iOS</sup></i>
 \
 `photos://featuredPhoto`
 \
 \
-**Photos > Most recent photo**
+**Photos > Most recent photo**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://lastasset`
 \
 \
-**Photos > Memories**
+**Photos > Memories**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://memory-generation`
 \
 \
-**Photos > People & Pets**
+**Photos > People & Pets**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://people`
 \
 \
-**Photos > Map**
+**Photos > Map**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
 `photos://places`
