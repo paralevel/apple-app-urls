@@ -1,113 +1,69 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
-**Camera**&ensp;<i><sup>iOS</sup></i>
+`camera://`<i><sub>iOS</sub></i>&emsp;_Opens Camera app_
 \
-`camera://`
 \
+`camera://configuration?capturemode=photo&capturedevice=back`<i><sub>iOS</sub></i>&emsp;_Opens Camera in photo/back cam mode_
 \
-**Camera > *Photo mode with back camera***&ensp;<i><sup>iOS</sup></i>
 \
-`camera://configuration?capturemode=photo&capturedevice=back`
+`camera://configuration?capturemode=photo&capturedevice=front`<i><sup>iOS</sup></i>&emsp;_Opens Camera in photo/front cam mode_
 \
 \
-**Camera > *Photo mode with front camera***&ensp;<i><sup>iOS</sup></i>
+`camera://configuration?capturemode=video&capturedevice=back`<i><sup>iOS</sup></i>&emsp;_Opens Camera in video/back cam mode_
 \
-`camera://configuration?capturemode=photo&capturedevice=front`
 \
+`camera://configuration?capturemode=video&capturedevice=front`<i><sup>iOS</sup></i>&emsp;_Opens Camera in video/front cam mode_
 \
-**Camera > *Video mode with back camera***&ensp;<i><sup>iOS</sup></i>
 \
-`camera://configuration?capturemode=video&capturedevice=back`
+`applenotes://`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Notes app_
 \
 \
-**Camera > *Video mode with front camera***&ensp;<i><sup>iOS</sup></i>
+`mobilenotes://`<i><sup>iOS</sup></i>&emsp;_Opens Notes app_
 \
-`camera://configuration?capturemode=video&capturedevice=front`
 \
+`mobilenotes-quicknote://quicknote`<i><sup>iOS</sup></i>&emsp;_Opens Notes app and creates a new note_
 \
-**Notes**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
-`applenotes://`
+`mobilenotes://newNote`<i><sup>iOS</sup></i>&emsp;_Opens Notes app and creates a new note_
 \
-&emsp;or
 \
-`mobilenotes://`&ensp;<i><sup>iOS</sup></i>
+`mobilephone-contacts://`<i><sup>iOS</sup></i>&emsp;_Opens Phone app and navigates to Contacts_
 \
 \
-**Notes > New note**&ensp;<i><sup>iOS</sup></i>
+`mobilephone-favorites://`<i><sup>iOS</sup></i>&emsp;_Opens Phone app and navigates to Favorites_
 \
-`mobilenotes-quicknote://quicknote`
 \
-&emsp;or
+`mobilephone-keypad://`<i><sup>iOS</sup></i>&emsp;_Opens Phone app and navigates to the keypad/dial pad_
 \
-`mobilenotes://newNote`
 \
+`mobilephone-recents://`<i><sup>iOS</sup></i>&emsp;_Opens Phone app and navigates to Recents (in Classic mode) or Calls (in Unified mode)_
 \
-**Phone > Contacts**&ensp;<i><sup>iOS</sup></i>
 \
-`mobilephone-contacts://`
+`photos-navigation://search?searchTerm=example`<i><sup>iOS</sup></i>&emsp;_Opens Photos app and does a search for 'example'_
 \
 \
-**Phone > Favorites** (Classic mode)&ensp;<i><sup>iOS</sup></i>
+`photos://album?name=favorites`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Favorites_
 \
-`mobilephone-favorites://`
 \
+`photos://album?name=duplicates`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Duplicates_
 \
-**Phone > Keypad**&ensp;<i><sup>iOS</sup></i>
 \
-`mobilephone-keypad://`
+`photos://album?name=recently-deleted`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Recently Deleted_
 \
 \
-**Phone > Recents** (Classic mode) or **Calls** (Unified mode)&ensp;<i><sup>iOS</sup></i>
+`photos://album?name=recently-saved`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Recently Saved_
 \
-`mobilephone-recents://`
 \
+`photos://featuredPhoto`<i><sup>iOS</sup></i>&emsp;_Opens Photos app and navigates to Featured Photos_
 \
-**Photos > Search > 'example'**&ensp;<i><sup>iOS</sup></i>
 \
-`photos-navigation://search?searchTerm=example`
+`photos://lastasset`<i><sup>iOS & macOS</sup></i>&emsp;_Opens the most recent photo in Photos app_
 \
 \
-**Photos > Favorites**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
+`photos://memory-generation`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Memories_
 \
-`photos://album?name=favorites`
 \
+`photos://people`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to People & Pets_
 \
-**Photos > Duplicates**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
 \
-`photos://album?name=duplicates`
-\
-\
-**Photos > Recently Deleted**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://album?name=recently-deleted`
-\
-\
-**Photos > Recently Saved**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://album?name=recently-saved`
-\
-\
-**Photos > Featured Photos**&ensp;<i><sup>iOS</sup></i>
-\
-`photos://featuredPhoto`
-\
-\
-**Photos > Most recent photo**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://lastasset`
-\
-\
-**Photos > Memories**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://memory-generation`
-\
-\
-**Photos > People & Pets**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://people`
-\
-\
-**Photos > Map**&ensp;<i><sup>iOS</sup>&ensp;<sup>macOS</sup></i>
-\
-`photos://places`
+`photos://places`<i><sup>iOS & macOS</sup></i>&emsp;_Opens Photos app and navigates to Maps_
