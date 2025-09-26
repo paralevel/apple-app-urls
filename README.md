@@ -28,16 +28,18 @@
 **Notes**
 \
 `applenotes://`
-- or
-
+\
+&emsp;or
+\
 `mobilenotes://` <sup>iOS</sup>
 \
 \
 **Notes > New note** <sup>iOS</sup>
 \
 `mobilenotes-quicknote://quicknote`
-- or
-
+\
+&emsp;or
+\
 `mobilenotes://newNote`
 \
 \
