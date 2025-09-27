@@ -1,10 +1,10 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
-`esim://` <i><sup>iOS</sup></i>&emsp;Battery settings
+`ibooks://` <i><sup>iOS & macOS</sup></i>&emsp;Books
 \
 \
 \
-`calshow://`, `calinvitelist://` <i><sup>iOS</sup></i>&emsp;Calendar
+`calshow://` <i><sup>iOS</sup></i>&emsp;Calendar
 \
 \
 \
@@ -28,18 +28,18 @@
 \
 \
 \
-`facetime://`, `facetime-audio-prompt://`, `facetime-audio://` <i><sup>iOS & macOS</sup></i>&emsp;FaceTime
+`facetime://` <i><sup>iOS & macOS</sup></i>&emsp;FaceTime
 \
 \
 \
-`findmy://`, `fmip1://` <i><sup>iOS & macOS</sup></i>&emsp;Find My
+`findmy://` <i><sup>iOS & macOS</sup></i>&emsp;Find My
 \
 \
-`findmyfriends://`, `fmf1://` <i><sup>iOS & macOS</sup></i>&emsp;Find My Friends tab in Find My app
+`findmyfriends://` <i><sup>iOS & macOS</sup></i>&emsp;Find My Friends tab in Find My app
 \
 \
 \
-`fitnessapp://`, `activitysharing://`, `activitytoday://`, `fitnessapp-settings://`<i><sup>iOS</sup></i>&emsp;Fitness
+`fitnessapp://` <i><sup>iOS</sup></i>&emsp;Fitness
 \
 \
 \
@@ -47,17 +47,38 @@
 \
 \
 \
-`audio-player-event://` <i><sup>iOS</sup></i>&emsp;Music
+`games://` <i><sup>iOS & macOS</sup></i>&emsp;Games
+\
+\
+\
+`itms://` <i><sup>iOS & macOS</sup></i>&emsp;iTunes Store on iOS and Music on macOS
+\
+\
+\
+`moments://` <i><sup>iOS & macOS</sup></i>&emsp;Journal
+\
+\
+\
+`maps://` <i><sup>iOS & macOS</sup></i>&emsp;Maps
+\
+\
+\
+`iChat://` <i><sup>iOS & macOS</sup></i>&emsp;Messages
+\
+\
+`im://` <i><sup>iOS & macOS</sup></i>&emsp;Messages - new message
+\
+\
+\
+`music://` <i><sup>iOS</sup></i>&emsp;Music
 \
 \
 \
 `applenotes://` <i><sup>iOS & macOS</sup></i>&emsp;Notes
 \
 \
-`mobilenotes://` <i><sup>iOS</sup></i>&emsp;Notes
 \
-\
-`mobilenotes://newNote`, `mobilenotes-quicknote://quicknote` <i><sup>iOS</sup></i>&emsp;Create new note in Notes
+`mobilenotes://newNote` <i><sup>iOS</sup></i>&emsp;Create new note in Notes
 \
 \
 \
@@ -82,7 +103,7 @@
 \
 \
 \
-`photos://`, `com.apple.mobileslideshow://` <i><sup>iOS & macOS</sup></i>&emsp;Photos
+`photos://` <i><sup>iOS & macOS</sup></i>&emsp;Photos
 \
 \
 \
@@ -123,6 +144,10 @@
 \
 \
 \
+`pcast://` <i><sup>iOS & macOS</sup></i>&emsp;Podcasts
+\
+\
+\
 `com.apple.preferences://` <i><sup>iOS</sup></i>&emsp;Settings
 \
 \
@@ -131,7 +156,7 @@
 \
 \
 \
-`bridge://`, `com.apple.Bridge://` <i><sup>iOS</sup></i>&emsp;Watch
+`bridge://` <i><sup>iOS</sup></i>&emsp;Watch
 \
 \
 `facegallery://` <i><sup>iOS</sup></i>&emsp;Watch app Face Gallery
@@ -159,4 +184,4 @@
 `ContinuitySing://` <i><sup>iOS</sup></i>&emsp;unknown/hidden app
 \
 \
-`diagnostics://`, `diags://` <i><sup>iOS & macOS</sup></i>&emsp;Diagnostics/Enhanced Logging
+`diags://` <i><sup>iOS & macOS</sup></i>&emsp;Diagnostics/Enhanced Logging
