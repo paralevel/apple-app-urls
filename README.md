@@ -3,16 +3,16 @@
 `camera://` <i><sub>iOS</sub></i>&emsp;_Opens Camera_
 \
 \
-`camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in photo/back cam mode_
+`camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in back cam photo mode_
 \
 \
-`camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in photo/front cam mode_
+`camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in front cam photo mode_
 \
 \
-`camera://configuration?capturemode=video&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in video/back cam mode_
+`camera://configuration?capturemode=video&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in back cam video mode_
 \
 \
-`camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in video/front cam mode_
+`camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in front cam video mode_
 \
 \
 \
