@@ -8,10 +8,7 @@
 \
 \
 \
-`calshow://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
-\
-\
-`calinvitelist://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
+`calshow://` or `calinvitelist://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
 \
 \
 \
@@ -35,14 +32,22 @@
 \
 \
 \
-`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Feedback Assistant_
+`facetime://` or `facetime-audio-prompt://` or `facetime-audio://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens FaceTime_
 \
 \
 \
-`activitysharing://` <i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+`findmy://` or `fmip1://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Find My_
 \
 \
-`activitytoday://` <i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+`findmyfriends://` or `fmf1://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens the Find My Friends tab in Find My app_
+\
+\
+\
+`fitnessapp://` or `activitysharing://` or `activitytoday://` or `fitnessapp-settings://`<i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+\
+\
+\
+`freeform://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Freeform_
 \
 \
 \
@@ -135,10 +140,7 @@
 \
 \
 \
-`bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
-\
-\
-`com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
+`bridge://` or `com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
 \
 \
 `facegallery://` <i><sub>iOS</sub></i>&emsp;_Opens Face Gallery in Watch app_
@@ -146,6 +148,9 @@
 \
 \
 **Other**
+\
+\
+`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Feedback/Feedback Assistant_
 \
 \
 `carplaysettings://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
@@ -160,7 +165,4 @@
 `ContinuitySing://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
 \
 \
-`diagnostics://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
-\
-\
-`diags://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
+`diagnostics://` or `diags://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
