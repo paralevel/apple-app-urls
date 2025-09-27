@@ -1,5 +1,16 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
+`apple-axreader://` <i><sub>iOS</sub></i>&emsp;_Opens Accessibility Reader_
+\
+\
+\
+`calshow://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
+\
+\
+`calinvitelist://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
+\
+\
+\
 `camera://` <i><sub>iOS</sub></i>&emsp;_Opens Camera_
 \
 \
@@ -16,6 +27,21 @@
 \
 \
 \
+`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Feedback Assistant_
+\
+\
+\
+`activitysharing://` <i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+\
+\
+`activitytoday://` <i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+\
+\
+\
+`audio-player-event://` <i><sub>iOS</sub></i>&emsp;_Opens Music_
+\
+\
+\
 `applenotes://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Notes_
 \
 \
@@ -26,6 +52,14 @@
 \
 \
 `mobilenotes://newNote` <i><sub>iOS</sub></i>&emsp;_Opens Notes and creates a new note_
+\
+\
+\
+`apple-magnifier://` <i><sub>iOS</sub></i>&emsp;_Opens Magnifier_
+\
+\
+\
+`com.apple.mobilemail://` <i><sub>iOS</sub></i>&emsp;_Opens Mail_
 \
 \
 \
@@ -43,6 +77,9 @@
 \
 \
 `photos://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos_
+\
+\
+`com.apple.mobileslideshow://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos_
 \
 \
 `photos://library` <i><sub>iOS</sub></i>&emsp;_Opens Photos in the Library tab_
@@ -79,3 +116,28 @@
 \
 \
 `photos://places` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Maps_
+\
+\
+\
+`com.apple.preferences://` <i><sub>iOS</sub></i>&emsp;_Opens Settings_
+\
+\
+\
+`com.apple.WatchList://` <i><sub>iOS</sub></i>&emsp;_Opens TV_
+\
+\
+\
+`bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
+\
+\
+`com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
+\
+\
+\
+`carplaysettings://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
+\
+\
+`climate://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
+\
+\
+`autoSettings://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
