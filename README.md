@@ -135,7 +135,7 @@ _Phone – Contacts tab_
 `mobilephone-contacts://` <i><sub>iOS</sub></i>
 \
 \
-_PHone – Keypad tab_
+_Phone – Keypad tab_
 \
 `mobilephone-keypad://` <i><sub>iOS</sub></i>
 \
@@ -228,28 +228,3 @@ _Watch_
 _Watch – Face Gallery_
 \
 `facegallery://` <i><sub>iOS</sub></i>
-\
-\
-\
-**Other**
-\
-\
-`apple-axreader://` <i><sub>iOS</sub></i>&emsp;Accessibility Reader
-\
-\
-`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;Feedback/Feedback Assistant
-\
-\
-`carplaysettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
-\
-\
-`climate://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
-\
-\
-`autoSettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
-\
-\
-`ContinuitySing://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
-\
-\
-`diags://` <i><sub>iOS & macOS</sub></i>&emsp;Diagnostics/Enhanced Logging
