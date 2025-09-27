@@ -15,12 +15,12 @@ _Camera_
 `camera://` <i><sub>iOS</sub></i>
 \
 \
-_Camera – shoot photo with back camera_
+_Camera – take photo with back camera_
 \
 `camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>
 \
 \
-_Camera – shoot photo with front camera_
+_Camera – take photo with front camera_
 \
 `camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>
 \
