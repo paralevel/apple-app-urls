@@ -1,187 +1,255 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
-`ibooks://` <i><sup>iOS & macOS</sup></i>&emsp;Books
+_Books_
 \
+`ibooks://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`calshow://` <i><sup>iOS</sup></i>&emsp;Calendar
+_Calendar_
 \
+`calshow://` <i><sub>iOS</sub></i>
 \
 \
-`camera://` <i><sup>iOS</sup></i>&emsp;Camera
+_Camera_
 \
+`camera://` <i><sub>iOS</sub></i>
 \
-`camera://configuration?capturemode=photo&capturedevice=back` <i><sup>iOS</sup></i>&emsp;Camera in back cam photo mode
 \
+_Camera – shoot photo with back camera_
 \
-`camera://configuration?capturemode=photo&capturedevice=front` <i><sup>iOS</sup></i>&emsp;Camera in front cam photo mode
+`camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>
 \
 \
-`camera://configuration?capturemode=video&capturedevice=back` <i><sup>iOS</sup></i>&emsp;Camera in back cam video mode
+_Camera – shoot photo with front camera_
 \
+`camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>
 \
-`camera://configuration?capturemode=video&capturedevice=front` <i><sup>iOS</sup></i>&emsp;Camera in front cam video mode
 \
+_Camera – shoot video with back camera_
 \
+`camera://configuration?capturemode=video&capturedevice=back` <i><sub>iOS</sub></i>
 \
-`contact://` <i><sup>iOS</sup></i>&emsp;Contacts
 \
+_Camera – shoot video with front camera_
 \
+`camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>
 \
-`facetime://` <i><sup>iOS & macOS</sup></i>&emsp;FaceTime
 \
+_Contacts_
 \
+`contact://` <i><sub>iOS</sub></i>
 \
-`findmy://` <i><sup>iOS & macOS</sup></i>&emsp;Find My
 \
+_FaceTime_
 \
-`findmyfriends://` <i><sup>iOS & macOS</sup></i>&emsp;Find My Friends tab in Find My app
+`facetime://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Find My_
 \
-`fitnessapp://` <i><sup>iOS</sup></i>&emsp;Fitness
+`findmy://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Find My – Find My Friends tab_
 \
-`freeform://` <i><sup>iOS & macOS</sup></i>&emsp;Freeform
+`findmyfriends://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Fitness_
 \
-`games://` <i><sup>iOS & macOS</sup></i>&emsp;Games
+`fitnessapp://` <i><sub>iOS</sub></i>
 \
 \
+_Freeform_
 \
-`itms://` <i><sup>iOS & macOS</sup></i>&emsp;iTunes Store on iOS and Music on macOS
+`freeform://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Games_
 \
-`moments://` <i><sup>iOS & macOS</sup></i>&emsp;Journal
+`games://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_iTunes Store_
 \
-`maps://` <i><sup>iOS & macOS</sup></i>&emsp;Maps
+`itms://` <i><sub>iOS</sub></i>
 \
 \
+_Journal_
 \
-`iChat://` <i><sup>iOS & macOS</sup></i>&emsp;Messages
+`moments://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`im://` <i><sup>iOS & macOS</sup></i>&emsp;Messages - new message
+_Maps_
 \
+`maps://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`music://` <i><sup>iOS</sup></i>&emsp;Music
+_Messages_
 \
+`iChat://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`applenotes://` <i><sup>iOS & macOS</sup></i>&emsp;Notes
+_Messages — new message_
 \
+`im://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`mobilenotes://newNote` <i><sup>iOS</sup></i>&emsp;Create new note in Notes
+_Music_
 \
+`music://` <i><sub>iOS</sub></i>
 \
 \
-`apple-magnifier://` <i><sup>iOS</sup></i>&emsp;Magnifier
+_Notes_
 \
+`applenotes://` <i><sub>iOS & macOS</sub></i>
 \
 \
-`com.apple.mobilemail://` <i><sup>iOS</sup></i>&emsp;Mail
+_Notes – create new note_
 \
+`mobilenotes://newNote` <i><sub>iOS</sub></i>
 \
 \
-`mobilephone-favorites://` <i><sup>iOS</sup></i>&emsp;Favorites tab in Phone app
+_Magnifier_
 \
+`apple-magnifier://` <i><sub>iOS</sub></i>
 \
-`mobilephone-recents://` <i><sup>iOS</sup></i>&emsp;Recents tab (Classic mode) or Calls tab (Unified mode) in Phone app
 \
+_Mail_
 \
-`mobilephone-contacts://` <i><sup>iOS</sup></i>&emsp;Contacts tab in Phone app
+`com.apple.mobilemail://` <i><sub>iOS</sub></i>
 \
 \
-`mobilephone-keypad://` <i><sup>iOS</sup></i>&emsp;Keypad in Phone app
+_Phone – Favorites tab_
 \
+`mobilephone-favorites://` <i><sub>iOS</sub></i>
 \
 \
-`photos://` <i><sup>iOS & macOS</sup></i>&emsp;Photos
+_Phone – Recents tab (Classic mode) or Calls tab (Unified mode)_
 \
+`mobilephone-recents://` <i><sub>iOS</sub></i>
 \
 \
-`photos://library` <i><sup>iOS</sup></i>&emsp;Library tab in Photos
+_Phone – Contacts tab_
 \
+`mobilephone-contacts://` <i><sub>iOS</sub></i>
 \
-`photos://collections` <i><sup>iOS</sup></i>&emsp;Collections tab in Photos
 \
+_PHone – Keypad tab_
 \
-`photos-navigation://search?searchTerm=example` <i><sup>iOS</sup></i>&emsp;Search for 'example' in Photos
+`mobilephone-keypad://` <i><sub>iOS</sub></i>
 \
 \
-`photos://album?name=favorites` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Favorites
+_Photos_
 \
+`photos://` <i><sub>iOS & macOS</sub></i>
 \
-`photos://album?name=duplicates` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Duplicates
 \
+_Photos – Library tab_
 \
-`photos://album?name=recently-deleted` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Recently Deleted
+`photos://library` <i><sub>iOS</sub></i>
 \
 \
-`photos://album?name=recently-saved` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Recently Saved
+_Photos – Collections tab_
 \
+`photos://collections` <i><sub>iOS</sub></i>
 \
-`photos://featuredPhoto` <i><sup>iOS</sup></i>&emsp;Photos app Featured Photos
 \
+_Photos – search for 'example'_
 \
-`photos://lastasset` <i><sup>iOS & macOS</sup></i>&emsp;Most recent photo in Photos
+`photos-navigation://search?searchTerm=example` <i><sub>iOS</sub></i>
 \
 \
-`photos://memory-generation` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Memories
+_Photos – Favorites_
 \
+`photos://album?name=favorites` <i><sub>iOS & macOS</sub></i>
 \
-`photos://people` <i><sup>iOS & macOS</sup></i>&emsp;Photos app People & Pets
 \
+_Photos – Duplicates_
 \
-`photos://places` <i><sup>iOS & macOS</sup></i>&emsp;Photos app Maps
+`photos://album?name=duplicates` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Photos – Recently Deleted_
 \
-`pcast://` <i><sup>iOS & macOS</sup></i>&emsp;Podcasts
+`photos://album?name=recently-deleted` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Photos – Recently Saved_
 \
-`com.apple.preferences://` <i><sup>iOS</sup></i>&emsp;Settings
+`photos://album?name=recently-saved` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Photos – Featured Photos_
 \
-`com.apple.WatchList://` <i><sup>iOS</sup></i>&emsp;TV
+`photos://featuredPhoto` <i><sub>iOS</sub></i>
 \
 \
+_Photos – most recent photo_
 \
-`bridge://` <i><sup>iOS</sup></i>&emsp;Watch
+`photos://lastasset` <i><sub>iOS & macOS</sub></i>
 \
 \
-`facegallery://` <i><sup>iOS</sup></i>&emsp;Watch app Face Gallery
+_Photos – Memories_
+\
+`photos://memory-generation` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Photos – People & Pets_
+\
+`photos://people` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Photos – Maps_
+\
+`photos://places` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Podcasts_
+\
+`pcast://` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Settings_
+\
+`com.apple.preferences://` <i><sub>iOS</sub></i>
+\
+\
+_TV_
+\
+`com.apple.WatchList://` <i><sub>iOS</sub></i>
+\
+\
+_Watch_
+\
+`bridge://` <i><sub>iOS</sub></i>
+\
+\
+_Watch – Face Gallery_
+\
+`facegallery://` <i><sub>iOS</sub></i>
 \
 \
 \
 **Other**
 \
 \
-`apple-axreader://` <i><sup>iOS</sup></i>&emsp;Accessibility Reader
+`apple-axreader://` <i><sub>iOS</sub></i>&emsp;Accessibility Reader
 \
 \
-`applefeedback://` <i><sup>iOS & macOS</sup></i>&emsp;Feedback/Feedback Assistant
+`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;Feedback/Feedback Assistant
 \
 \
-`carplaysettings://` <i><sup>iOS</sup></i>&emsp;unknown/hidden app
+`carplaysettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`climate://` <i><sup>iOS</sup></i>&emsp;unknown/hidden app
+`climate://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`autoSettings://` <i><sup>iOS</sup></i>&emsp;unknown/hidden app
+`autoSettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`ContinuitySing://` <i><sup>iOS</sup></i>&emsp;unknown/hidden app
+`ContinuitySing://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`diags://` <i><sup>iOS & macOS</sup></i>&emsp;Diagnostics/Enhanced Logging
+`diags://` <i><sub>iOS & macOS</sub></i>&emsp;Diagnostics/Enhanced Logging
