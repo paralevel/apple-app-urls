@@ -4,6 +4,10 @@
 \
 \
 \
+`esim://` <i><sub>iOS</sub></i>&emsp;_Opens the Battery page in Settings_
+\
+\
+\
 `calshow://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
 \
 \
@@ -24,6 +28,10 @@
 \
 \
 `camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in front cam video mode_
+\
+\
+\
+`contact://` <i><sub>iOS</sub></i>&emsp;_Opens Contacts_
 \
 \
 \
@@ -133,11 +141,26 @@
 `com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
 \
 \
-\
-`carplaysettings://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
-\
-\
-`climate://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
+`facegallery://` <i><sub>iOS</sub></i>&emsp;_Opens Face Gallery in Watch app_
 \
 \
-`autoSettings://` <i><sub>iOS</sub></i>&emsp;_unconfirmed/unknown purpose/hidden app_
+\
+**Other**
+\
+\
+`carplaysettings://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+\
+\
+`climate://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+\
+\
+`autoSettings://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+\
+\
+`ContinuitySing://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+\
+\
+`diagnostics://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
+\
+\
+`diags://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
