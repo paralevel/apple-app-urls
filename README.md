@@ -15,6 +15,7 @@
 `camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in video/front cam mode_
 \
 \
+\
 `applenotes://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Notes_
 \
 \
@@ -27,6 +28,7 @@
 `mobilenotes://newNote` <i><sub>iOS</sub></i>&emsp;_Opens Notes and creates a new note_
 \
 \
+\
 `mobilephone-favorites://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Favorites tab_
 \
 \
@@ -37,6 +39,7 @@
 \
 \
 `mobilephone-keypad://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Keypad tab_
+\
 \
 \
 `photos://library` <i><sub>iOS</sub></i>&emsp;_Opens Photos in the Library tab_
