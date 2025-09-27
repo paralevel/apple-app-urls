@@ -1,168 +1,162 @@
 # Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
 
-`apple-axreader://` <i><sub>iOS</sub></i>&emsp;_Opens Accessibility Reader_
+`esim://` <i><sub>iOS</sub></i>&emsp;Battery settings
 \
 \
 \
-`esim://` <i><sub>iOS</sub></i>&emsp;_Opens the Battery page in Settings_
+`calshow://` || `calinvitelist://` <i><sub>iOS</sub></i>&emsp;Calendar
 \
 \
 \
-`calshow://` or `calinvitelist://` <i><sub>iOS</sub></i>&emsp;_Opens Calendar_
+`camera://` <i><sub>iOS</sub></i>&emsp;Camera
 \
 \
+`camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>&emsp;Camera in back cam photo mode
 \
-`camera://` <i><sub>iOS</sub></i>&emsp;_Opens Camera_
 \
+`camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>&emsp;Camera in front cam photo mode
 \
-`camera://configuration?capturemode=photo&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in back cam photo mode_
 \
+`camera://configuration?capturemode=video&capturedevice=back` <i><sub>iOS</sub></i>&emsp;Camera in back cam video mode
 \
-`camera://configuration?capturemode=photo&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in front cam photo mode_
 \
+`camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;Camera in front cam video mode
 \
-`camera://configuration?capturemode=video&capturedevice=back` <i><sub>iOS</sub></i>&emsp;_Opens Camera in back cam video mode_
 \
 \
-`camera://configuration?capturemode=video&capturedevice=front` <i><sub>iOS</sub></i>&emsp;_Opens Camera in front cam video mode_
+`contact://` <i><sub>iOS</sub></i>&emsp;Contacts
 \
 \
 \
-`contact://` <i><sub>iOS</sub></i>&emsp;_Opens Contacts_
+`facetime://` || `facetime-audio-prompt://` || `facetime-audio://` <i><sub>iOS & macOS</sub></i>&emsp;FaceTime
 \
 \
 \
-`facetime://` or `facetime-audio-prompt://` or `facetime-audio://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens FaceTime_
+`findmy://` || `fmip1://` <i><sub>iOS & macOS</sub></i>&emsp;Find My
 \
 \
+`findmyfriends://` || `fmf1://` <i><sub>iOS & macOS</sub></i>&emsp;Find My Friends tab in Find My app
 \
-`findmy://` or `fmip1://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Find My_
 \
 \
-`findmyfriends://` or `fmf1://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens the Find My Friends tab in Find My app_
+`fitnessapp://` || `activitysharing://` || `activitytoday://` || `fitnessapp-settings://`<i><sub>iOS</sub></i>&emsp;Fitness
 \
 \
 \
-`fitnessapp://` or `activitysharing://` or `activitytoday://` or `fitnessapp-settings://`<i><sub>iOS</sub></i>&emsp;_Opens Fitness_
+`freeform://` <i><sub>iOS & macOS</sub></i>&emsp;Freeform
 \
 \
 \
-`freeform://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Freeform_
+`audio-player-event://` <i><sub>iOS</sub></i>&emsp;Music
 \
 \
 \
-`audio-player-event://` <i><sub>iOS</sub></i>&emsp;_Opens Music_
+`applenotes://` <i><sub>iOS & macOS</sub></i>&emsp;Notes
 \
 \
+`mobilenotes://` <i><sub>iOS</sub></i>&emsp;Notes
 \
-`applenotes://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Notes_
 \
+`mobilenotes://newNote` || `mobilenotes-quicknote://quicknote` <i><sub>iOS</sub></i>&emsp;Create new note in Notes
 \
-`mobilenotes://` <i><sub>iOS</sub></i>&emsp;_Opens Notes_
 \
 \
-`mobilenotes-quicknote://quicknote` <i><sub>iOS</sub></i>&emsp;_Opens Notes and creates a new note_
+`apple-magnifier://` <i><sub>iOS</sub></i>&emsp;Magnifier
 \
 \
-`mobilenotes://newNote` <i><sub>iOS</sub></i>&emsp;_Opens Notes and creates a new note_
 \
+`com.apple.mobilemail://` <i><sub>iOS</sub></i>&emsp;Mail
 \
 \
-`apple-magnifier://` <i><sub>iOS</sub></i>&emsp;_Opens Magnifier_
 \
+`mobilephone-favorites://` <i><sub>iOS</sub></i>&emsp;Favorites tab in Phone app
 \
 \
-`com.apple.mobilemail://` <i><sub>iOS</sub></i>&emsp;_Opens Mail_
+`mobilephone-recents://` <i><sub>iOS</sub></i>&emsp;Recents tab (Classic mode) or Calls tab (Unified mode) in Phone app
 \
 \
+`mobilephone-contacts://` <i><sub>iOS</sub></i>&emsp;Contacts tab in Phone app
 \
-`mobilephone-favorites://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Favorites tab_
 \
+`mobilephone-keypad://` <i><sub>iOS</sub></i>&emsp;Keypad in Phone app
 \
-`mobilephone-recents://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Recents tab (in Classic mode) or the Calls tab (in Unified mode)_
 \
 \
-`mobilephone-contacts://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Contacts tab_
+`photos://` || `com.apple.mobileslideshow://` <i><sub>iOS & macOS</sub></i>&emsp;Photos
 \
 \
-`mobilephone-keypad://` <i><sub>iOS</sub></i>&emsp;_Opens Phone in the Keypad tab_
 \
+`photos://library` <i><sub>iOS</sub></i>&emsp;Library tab in Photos
 \
 \
-`photos://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos_
+`photos://collections` <i><sub>iOS</sub></i>&emsp;Collections tab in Photos
 \
 \
-`com.apple.mobileslideshow://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos_
+`photos-navigation://search?searchTerm=example` <i><sub>iOS</sub></i>&emsp;Search for 'example' in Photos
 \
 \
-`photos://library` <i><sub>iOS</sub></i>&emsp;_Opens Photos in the Library tab_
+`photos://album?name=favorites` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Favorites
 \
 \
-`photos://collections` <i><sub>iOS</sub></i>&emsp;_Opens Photos in the Collections tab_
+`photos://album?name=duplicates` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Duplicates
 \
 \
-`photos-navigation://search?searchTerm=example` <i><sub>iOS</sub></i>&emsp;_Opens Photos and does a search for 'example'_
+`photos://album?name=recently-deleted` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Recently Deleted
 \
 \
-`photos://album?name=favorites` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Favorites_
+`photos://album?name=recently-saved` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Recently Saved
 \
 \
-`photos://album?name=duplicates` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Duplicates_
+`photos://featuredPhoto` <i><sub>iOS</sub></i>&emsp;Photos app Featured Photos
 \
 \
-`photos://album?name=recently-deleted` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Recently Deleted_
+`photos://lastasset` <i><sub>iOS & macOS</sub></i>&emsp;Most recent photo in Photos
 \
 \
-`photos://album?name=recently-saved` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Recently Saved_
+`photos://memory-generation` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Memories
 \
 \
-`photos://featuredPhoto` <i><sub>iOS</sub></i>&emsp;_Opens Photos and navigates to Featured Photos_
+`photos://people` <i><sub>iOS & macOS</sub></i>&emsp;Photos app People & Pets
 \
 \
-`photos://lastasset` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and goes to the most recent photo_
+`photos://places` <i><sub>iOS & macOS</sub></i>&emsp;Photos app Maps
 \
 \
-`photos://memory-generation` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Memories_
 \
+`com.apple.preferences://` <i><sub>iOS</sub></i>&emsp;Settings
 \
-`photos://people` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to People & Pets_
 \
 \
-`photos://places` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos and navigates to Maps_
+`com.apple.WatchList://` <i><sub>iOS</sub></i>&emsp;TV
 \
 \
 \
-`com.apple.preferences://` <i><sub>iOS</sub></i>&emsp;_Opens Settings_
+`bridge://` || `com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;Watch
 \
 \
-\
-`com.apple.WatchList://` <i><sub>iOS</sub></i>&emsp;_Opens TV_
-\
-\
-\
-`bridge://` or `com.apple.Bridge://` <i><sub>iOS</sub></i>&emsp;_Opens Watch_
-\
-\
-`facegallery://` <i><sub>iOS</sub></i>&emsp;_Opens Face Gallery in Watch app_
+`facegallery://` <i><sub>iOS</sub></i>&emsp;Watch app Face Gallery
 \
 \
 \
 **Other**
 \
 \
-`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Feedback/Feedback Assistant_
+`apple-axreader://` <i><sub>iOS</sub></i>&emsp;Accessibility Reader
 \
 \
-`carplaysettings://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+`applefeedback://` <i><sub>iOS & macOS</sub></i>&emsp;Feedback/Feedback Assistant
 \
 \
-`climate://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+`carplaysettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`autoSettings://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+`climate://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`ContinuitySing://` <i><sub>iOS</sub></i>&emsp;_unknown/hidden app_
+`autoSettings://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
 \
 \
-`diagnostics://` or `diags://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Diagnostics/Enhanced Logging_
+`ContinuitySing://` <i><sub>iOS</sub></i>&emsp;unknown/hidden app
+\
+\
+`diagnostics://` || `diags://` <i><sub>iOS & macOS</sub></i>&emsp;Diagnostics/Enhanced Logging
