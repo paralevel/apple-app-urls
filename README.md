@@ -42,6 +42,9 @@
 \
 \
 \
+`photos://` <i><sub>iOS & macOS</sub></i>&emsp;_Opens Photos_
+\
+\
 `photos://library` <i><sub>iOS</sub></i>&emsp;_Opens Photos in the Library tab_
 \
 \
