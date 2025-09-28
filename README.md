@@ -258,7 +258,7 @@ _Photos – Featured Photos_
 `photos://featuredPhoto`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Photos – most recent photo_
+_Photos – open most recent photo_
 \
 `photos://lastasset`&ensp;<i><sub>iOS & macOS</sub></i>
 \
