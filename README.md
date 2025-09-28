@@ -10,6 +10,11 @@ _Calendar_
 `calshow://` <i><sub>iOS</sub></i>
 \
 \
+_Calendar – Add Subscription Calendar_
+\
+`webcal://` <i><sub>iOS & macOS</sub></i>
+\
+\
 _Camera_
 \
 `camera://` <i><sub>iOS</sub></i>
@@ -45,6 +50,11 @@ _FaceTime_
 `facetime://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Files_
+\
+`shareddocuments://` <i><sub>iOS</sub></i>
+\
+\
 _Find My_
 \
 `findmy://` <i><sub>iOS & macOS</sub></i>
@@ -70,6 +80,10 @@ _Games_
 `games://` <i><sub>iOS & macOS</sub></i>
 \
 \
+_Health_
+\
+`x-argonaut-app://` <i><sub>iOS</sub></i>
+
 _iTunes Store_
 \
 `itms://` <i><sub>iOS</sub></i>
@@ -92,7 +106,7 @@ _Messages_
 \
 _Messages — new message_
 \
-`im://` <i><sub>iOS & macOS</sub></i>
+`sms://` <i><sub>iOS & macOS</sub></i>
 \
 \
 _Music_
@@ -207,17 +221,47 @@ _Photos – Maps_
 \
 _Podcasts_
 \
-`pcast://` <i><sub>iOS & macOS</sub></i>
+`podcasts://` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Reminders_
+\
+`x-apple-reminderkit://` <i><sub>iOS & macOS</sub></i>
 \
 \
 _Settings_
 \
-`com.apple.preferences://` <i><sub>iOS</sub></i>
+`prefs://` <i><sub>iOS</sub></i>
+\
+\
+_Shortcuts_
+\
+`shortcuts://` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Stocks_
+\
+`stocks://` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Tips_
+\
+`x-apple-tips://` <i><sub>iOS & macOS</sub></i>
 \
 \
 _TV_
 \
-`com.apple.WatchList://` <i><sub>iOS</sub></i>
+`videos://` <i><sub>iOS & macOS</sub></i>
+\
+\
+_Voice Memos_
+\
+`voicememos://` <i><sub>iOS</sub></i>
+\
+\
+_Wallet_
+\
+`wallet://` <i><sub>iOS</sub></i>
 \
 \
 _Watch_
@@ -228,3 +272,9 @@ _Watch_
 _Watch – Face Gallery_
 \
 `facegallery://` <i><sub>iOS</sub></i>
+\
+\
+_Weather_
+\
+`weather://` <i><sub>iOS & macOS</sub></i>
+
