@@ -128,6 +128,21 @@ _Journal_
 `moments://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
+_Keynote_
+\
+`com.apple.iwork.keynote-share://`&ensp;<i><sub>macOS</sub></i>
+\
+\
+_Magnifier_
+\
+`apple-magnifier://`&ensp;<i><sub>iOS</sub></i>
+\
+\
+_Mail_
+\
+`com.apple.mobilemail://`&ensp;<i><sub>iOS</sub></i>
+\
+\
 _Maps_
 \
 `maps://`&ensp;<i><sub>iOS & macOS</sub></i>
@@ -158,14 +173,14 @@ _Notes – create new note_
 `mobilenotes://newNote`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Magnifier_
+_Numbers_
 \
-`apple-magnifier://`&ensp;<i><sub>iOS</sub></i>
+`com.apple.iwork.numbers-share://`&ensp;<i><sub>macOS</sub></i>
 \
 \
-_Mail_
+_Pages_
 \
-`com.apple.mobilemail://`&ensp;<i><sub>iOS</sub></i>
+`com.apple.iwork.pages-share://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Phone – Favorites tab_
