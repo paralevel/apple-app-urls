@@ -69,7 +69,7 @@ _Dictionary_
 `dict://`&ensp;<i><sub>macOS</sub></i>
 \
 \
-_Dictionary – search for "example"_
+_Dictionary – search for 'example'_
 \
 `dict://example`&ensp;<i><sub>macOS</sub></i>
 \
