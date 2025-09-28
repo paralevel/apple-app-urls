@@ -1,4 +1,4 @@
-# Apple apps URL schemes for iOS 26 and macOS 26 Tahoe
+# Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
 _Apple Configurator_
 \
@@ -153,7 +153,7 @@ _Messages_
 `iChat://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Messages — new message_
+_Messages – new message_
 \
 `sms://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
@@ -181,6 +181,16 @@ _Numbers_
 _Pages_
 \
 `com.apple.iwork.pages-share://`&ensp;<i><sub>macOS</sub></i>
+\
+\
+_Passwords_
+\
+`apple-otpauth://`&ensp;<i><sub>iOS & macOS</sub></i>
+\
+\
+_Phone_
+\
+`phoneapp://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Phone – Favorites tab_
@@ -278,9 +288,11 @@ _Reminders_
 `x-apple-reminderkit://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Settings_
+_Settings/System Settings_
 \
 `prefs://`&ensp;<i><sub>iOS</sub></i>
+\
+`x-apple.systempreferences://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Shortcuts_
