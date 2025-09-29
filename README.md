@@ -160,7 +160,7 @@ _Messages – new message_
 \
 _Music_
 \
-`music://`&ensp;<i><sub>iOS</sub></i>
+`music://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
 _Notes_
