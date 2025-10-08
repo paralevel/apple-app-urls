@@ -27,7 +27,7 @@ _Calendar_
 `ical://`&ensp;<i><sub>macOS</sub></i>
 \
 \
-_Calendar – Add Subscription Calendar_
+_Calendar – add subscription calendar_
 \
 `webcal://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
@@ -94,7 +94,7 @@ _Find My_
 `findmy://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Find My – Find My Friends tab_
+_Find My – “Find My Friends” tab_
 \
 `findmyfriends://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
@@ -211,22 +211,22 @@ _Phone_
 `phoneapp://`&ensp;<i><sub>macOS</sub></i>
 \
 \
-_Phone – Favorites tab_
+_Phone – “Favorites” tab_
 \
 `mobilephone-favorites://`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Phone – Recents tab (Classic mode) or Calls tab (Unified mode)_
+_Phone – “Recents” tab (Classic mode) or Calls tab (Unified mode)_
 \
 `mobilephone-recents://`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Phone – Contacts tab_
+_Phone – “Contacts” tab_
 \
 `mobilephone-contacts://`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Phone – Keypad tab_
+_Phone – “Keypad” tab_
 \
 `mobilephone-keypad://`&ensp;<i><sub>iOS</sub></i>
 \
@@ -236,12 +236,12 @@ _Photos_
 `photos://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Library tab_
+_Photos – “Library” tab_
 \
 `photos://library`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Photos – Collections tab_
+_Photos – “Collections” tab_
 \
 `photos://collections`&ensp;<i><sub>iOS</sub></i>
 \
@@ -251,27 +251,27 @@ _Photos – search for 'example'_
 `photos-navigation://search?searchTerm=example`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Photos – Favorites_
+_Photos – “Favorites”_
 \
 `photos://album?name=favorites`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Duplicates_
+_Photos – “Duplicates”_
 \
 `photos://album?name=duplicates`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Recently Deleted_
+_Photos – “Recently Deleted”_
 \
 `photos://album?name=recently-deleted`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Recently Saved_
+_Photos – “Recently Saved”_
 \
 `photos://album?name=recently-saved`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Featured Photos_
+_Photos – “Featured Photos”_
 \
 `photos://featuredPhoto`&ensp;<i><sub>iOS</sub></i>
 \
@@ -281,17 +281,17 @@ _Photos – open most recent photo_
 `photos://lastasset`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Memories_
+_Photos – “Memories”_
 \
 `photos://memory-generation`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – People & Pets_
+_Photos – “People & Pets”_
 \
 `photos://people`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
-_Photos – Maps_
+_Photos – “Maps”_
 \
 `photos://places`&ensp;<i><sub>iOS & macOS</sub></i>
 \
@@ -348,7 +348,7 @@ _Watch_
 `bridge://`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Watch – Face Gallery_
+_Watch – “Face Gallery”_
 \
 `facegallery://`&ensp;<i><sub>iOS</sub></i>
 \
