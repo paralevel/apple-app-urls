@@ -5,6 +5,11 @@ _Apple Configurator_
 `configurator://`&ensp;<i><sub>macOS</sub></i>
 \
 \
+_Apps_
+\
+`spotlight://apps`&ensp;<i><sub>macOS</sub></i>
+\
+\
 _Books_
 \
 `ibooks://`&ensp;<i><sub>iOS & macOS</sub></i>
