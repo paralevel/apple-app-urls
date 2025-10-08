@@ -59,7 +59,7 @@ _Camera – shoot video with front camera_
 \
 _Clock_
 \
-`clock-alarm://`&ensp;<i><sub>iOS & macOS</sub></i>
+`clock-worldclock://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
 _Contacts_
@@ -99,6 +99,11 @@ _Find My – Find My Friends tab_
 `findmyfriends://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
+_Finder_
+\
+`file:///Users/Shared`&ensp;<i><sub>macOS</sub></i>
+\
+\
 _Fitness_
 \
 `fitnessapp://`&ensp;<i><sub>iOS</sub></i>
@@ -122,7 +127,8 @@ _Games_
 _Health_
 \
 `x-argonaut-app://`&ensp;<i><sub>iOS</sub></i>
-
+\
+\
 _iTunes Store_
 \
 `itms://`&ensp;<i><sub>iOS</sub></i>
@@ -146,6 +152,11 @@ _Magnifier_
 _Mail_
 \
 `com.apple.mobilemail://`&ensp;<i><sub>iOS</sub></i>
+\
+\
+_Mail – compose new e-mail_
+\
+`mailto://`&ensp;<i><sub>iOS & macOS</sub></i>
 \
 \
 _Maps_
@@ -176,6 +187,8 @@ _Notes_
 _Notes – create new note_
 \
 `mobilenotes://newNote`&ensp;<i><sub>iOS</sub></i>
+\
+`notes://newNote?displayMode=paper`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Numbers_
