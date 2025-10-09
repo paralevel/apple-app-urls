@@ -22,7 +22,7 @@ _Calculator_
 \
 _Calendar_
 \
-`calshow://`&ensp;<i><sub>iOS</sub></i>&emsp;`ical://`&ensp;<i><sub>macOS</sub></i>
+`calshow://`&ensp;<i><sub>iOS</sub></i>&emsp;&emsp;`ical://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Calendar – add subscription calendar_
@@ -62,7 +62,7 @@ _Clock_
 \
 _Contacts_
 \
-`contact://`&ensp;<i><sub>iOS</sub></i>&emsp;`addressbook://`&ensp;<i><sub>macOS</sub></i>
+`contact://`&ensp;<i><sub>iOS</sub></i>&emsp;&emsp;`addressbook://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Dictionary_
@@ -182,7 +182,7 @@ _Notes_
 \
 _Notes – create new note_
 \
-`mobilenotes://newNote`&ensp;<i><sub>iOS</sub></i>&emsp;`notes://newNote?displayMode=paper`&ensp;<i><sub>macOS</sub></i>
+`mobilenotes://newNote`&ensp;<i><sub>iOS</sub></i>&emsp;&emsp;`notes://newNote?displayMode=paper`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Numbers_
@@ -302,7 +302,7 @@ _Reminders_
 \
 _Settings/System Settings_
 \
-`prefs://`&ensp;<i><sub>iOS</sub></i>&emsp;`x-apple.systempreferences://`&ensp;<i><sub>macOS</sub></i>
+`prefs://`&ensp;<i><sub>iOS</sub></i>&emsp;&emsp;`x-apple.systempreferences://`&ensp;<i><sub>macOS</sub></i>
 \
 \
 _Shortcuts_
