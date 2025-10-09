@@ -216,7 +216,7 @@ _Phone – “Favorites” tab_
 `mobilephone-favorites://`&ensp;<i><sub>iOS</sub></i>
 \
 \
-_Phone – “Recents” tab (Classic mode) or Calls tab (Unified mode)_
+_Phone – “Recents” tab (Classic mode) or “Calls” tab (Unified mode)_
 \
 `mobilephone-recents://`&ensp;<i><sub>iOS</sub></i>
 \
