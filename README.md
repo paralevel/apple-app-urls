@@ -5,65 +5,75 @@ _Apple Configurator_
 `configurator://`&ensp;<i><sub>macOS</sub></i>
 \
 \
-_Apps_
+_Apps <sup>macOS</sup>_
 \
-`spotlight://apps`&ensp;<i><sub>macOS</sub></i>
+`spotlight://apps`
 \
 \
 _Books_
 \
-`ibooks://`&ensp;<i><sub>iOS & macOS</sub></i>
+`ibooks://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Calculator_
 \
-`calc://`&ensp;<i><sub>iOS & macOS</sub></i>
+`calc://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Calendar_
-- `calshow://`&ensp;<i><sub>iOS</sub></i>
-- `ical://`&ensp;<i><sub>macOS</sub></i>
-
+_Calendar <sup>iOS</sup>_
+\
+`calshow://`
+\
+\
+_Calendar <sup>macOS</sup>_
+\
+`ical://`
+\
 \
 _Calendar – add subscription calendar_
 \
-`webcal://`&ensp;<i><sub>iOS & macOS</sub></i>
+`webcal://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Camera_
+_Camera <sup>iOS</sup>_
 \
-`camera://`&ensp;<i><sub>iOS</sub></i>
-\
-\
-_Camera – take photo with back camera_
-\
-`camera://configuration?capturemode=photo&capturedevice=back`&ensp;<i><sub>iOS</sub></i>
+`camera://`
 \
 \
-_Camera – take photo with front camera_
+_Camera <sup>iOS</sup> – take photo with back camera_
 \
-`camera://configuration?capturemode=photo&capturedevice=front`&ensp;<i><sub>iOS</sub></i>
-\
-\
-_Camera – shoot video with back camera_
-\
-`camera://configuration?capturemode=video&capturedevice=back`&ensp;<i><sub>iOS</sub></i>
+`camera://configuration?capturemode=photo&capturedevice=back`
 \
 \
-_Camera – shoot video with front camera_
+_Camera <sup>iOS</sup> – take photo with front camera_
 \
-`camera://configuration?capturemode=video&capturedevice=front`&ensp;<i><sub>iOS</sub></i>
+`camera://configuration?capturemode=photo&capturedevice=front`
+\
+\
+_Camera <sup>iOS</sup> – shoot video with back camera_
+\
+`camera://configuration?capturemode=video&capturedevice=back`
+\
+\
+_Camera <sup>iOS</sup> – shoot video with front camera_
+\
+`camera://configuration?capturemode=video&capturedevice=front`
 \
 \
 _Clock_
 \
-`clock-worldclock://`&ensp;<i><sub>iOS & macOS</sub></i>
+`clock-worldclock://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Contacts_
-- `contact://`&ensp;<i><sub>iOS</sub></i>
-- `addressbook://`&ensp;<i><sub>macOS</sub></i>
-
+_Contacts <sup>iOS</sup>_
+\
+`contact://`
+\
+\
+_Contacts <sup>macOS</sup>_
+\
+`addressbook://`
+\
 \
 _Dictionary_
 \
@@ -77,62 +87,62 @@ _Dictionary – search for 'example'_
 \
 _FaceTime_
 \
-`facetime://`&ensp;<i><sub>iOS & macOS</sub></i>
+`facetime://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Files_
+_Files <sup>iOS</sup>_
 \
-`shareddocuments://`&ensp;<i><sub>iOS</sub></i>
+`shareddocuments://`
 \
 \
 _Find My_
 \
-`findmy://`&ensp;<i><sub>iOS & macOS</sub></i>
+`findmy://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Find My – “Find My Friends” tab_
 \
-`findmyfriends://`&ensp;<i><sub>iOS & macOS</sub></i>
+`findmyfriends://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Finder_
+_Finder <sup>macOS</sup>_
 \
-`file:///Users/Shared`&ensp;<i><sub>macOS</sub></i>
-\
-\
-_Fitness_
-\
-`fitnessapp://`&ensp;<i><sub>iOS</sub></i>
+`file:///Users/Shared`
 \
 \
-_Font Book_
+_Fitness <sup>iOS</sup>_
 \
-`fontbook://`&ensp;<i><sub>macOS</sub></i>
+`fitnessapp://`
+\
+\
+_Font Book <sup>macOS</sup>_
+\
+`fontbook://`
 \
 \
 _Freeform_
 \
-`freeform://`&ensp;<i><sub>iOS & macOS</sub></i>
+`freeform://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Games_
 \
-`games://`&ensp;<i><sub>iOS & macOS</sub></i>
+`games://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Health_
+_Health <sup>iOS</sup>_
 \
-`x-argonaut-app://`&ensp;<i><sub>iOS</sub></i>
+`x-argonaut-app://`
 \
 \
-_iTunes Store_
+_iTunes Store <sup>iOS</sup>_
 \
-`itms://`&ensp;<i><sub>iOS</sub></i>
+`itms://`
 \
 \
 _Journal_
 \
-`moments://`&ensp;<i><sub>iOS & macOS</sub></i>
+`moments://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Keynote_
@@ -152,38 +162,43 @@ _Mail_
 \
 _Mail – compose new e-mail_
 \
-`mailto://`&ensp;<i><sub>iOS & macOS</sub></i>
+`mailto://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Maps_
 \
-`maps://`&ensp;<i><sub>iOS & macOS</sub></i>
+`maps://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Messages_
 \
-`iChat://`&ensp;<i><sub>iOS & macOS</sub></i>
+`iChat://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Messages – new message_
 \
-`sms://`&ensp;<i><sub>iOS & macOS</sub></i>
+`sms://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Music_
 \
-`music://`&ensp;<i><sub>iOS & macOS</sub></i>
+`music://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Notes_
 \
-`applenotes://`&ensp;<i><sub>iOS & macOS</sub></i>
+`applenotes://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Notes – create new note_
-- `mobilenotes://newNote`&ensp;<i><sub>iOS</sub></i>
-- `notes://newNote?displayMode=paper`&ensp;<i><sub>macOS</sub></i>
-
+_Notes – create new note <sup>iOS</sup>_
+\
+`mobilenotes://newNote`
+\
+\
+_Notes – create new note <sup>macOS</sup>_
+\
+`notes://newNote?displayMode=paper`
+\
 \
 _Numbers_
 \
@@ -197,7 +212,7 @@ _Pages_
 \
 _Passwords_
 \
-`apple-otpauth://`&ensp;<i><sub>iOS & macOS</sub></i>
+`apple-otpauth://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Phone_
@@ -227,7 +242,7 @@ _Phone – “Keypad” tab_
 \
 _Photos_
 \
-`photos://`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Library” tab_
@@ -247,22 +262,22 @@ _Photos – search for 'example'_
 \
 _Photos – “Favorites”_
 \
-`photos://album?name=favorites`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://album?name=favorites`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Duplicates”_
 \
-`photos://album?name=duplicates`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://album?name=duplicates`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Recently Deleted”_
 \
-`photos://album?name=recently-deleted`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://album?name=recently-deleted`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Recently Saved”_
 \
-`photos://album?name=recently-saved`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://album?name=recently-saved`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Featured Photos”_
@@ -272,57 +287,62 @@ _Photos – “Featured Photos”_
 \
 _Photos – open most recent photo_
 \
-`photos://lastasset`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://lastasset`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Memories”_
 \
-`photos://memory-generation`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://memory-generation`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “People & Pets”_
 \
-`photos://people`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://people`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Photos – “Maps”_
 \
-`photos://places`&ensp;<i><sub>iOS & macOS</sub></i>
+`photos://places`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Podcasts_
 \
-`podcasts://`&ensp;<i><sub>iOS & macOS</sub></i>
+`podcasts://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Reminders_
 \
-`x-apple-reminderkit://`&ensp;<i><sub>iOS & macOS</sub></i>
+`x-apple-reminderkit://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
-_Settings/System Settings_
-- `prefs://`&ensp;<i><sub>iOS</sub></i>
-- `x-apple.systempreferences://`&ensp;<i><sub>macOS</sub></i>
-
+_Settings <sup>iOS</sup>_
+\
+`prefs://`
+\
 \
 _Shortcuts_
 \
-`shortcuts://`&ensp;<i><sub>iOS & macOS</sub></i>
+`shortcuts://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Stocks_
 \
-`stocks://`&ensp;<i><sub>iOS & macOS</sub></i>
+`stocks://`&ensp;<i><sub>iOS + macOS</sub></i>
+\
+\
+_System Settings <sup>macOS</sup>_
+\
+`x-apple.systempreferences://`
 \
 \
 _Tips_
 \
-`x-apple-tips://`&ensp;<i><sub>iOS & macOS</sub></i>
+`x-apple-tips://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _TV_
 \
-`videos://`&ensp;<i><sub>iOS & macOS</sub></i>
+`videos://`&ensp;<i><sub>iOS + macOS</sub></i>
 \
 \
 _Voice Memos_
@@ -347,5 +367,5 @@ _Watch – “Face Gallery”_
 \
 _Weather_
 \
-`weather://`&ensp;<i><sub>iOS & macOS</sub></i>
+`weather://`&ensp;<i><sub>iOS + macOS</sub></i>
 
