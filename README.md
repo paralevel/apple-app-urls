@@ -1,11 +1,11 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
-_Apple Configurator&ensp;<sub>macOS</sub>_
+_Apple Configurator <sub>macOS</sub>_
 \
 `configurator://`
 \
 \
-_Apps&ensp;<sub>macOS</sub>_
+_Apps <sub>macOS</sub>_
 \
 `spotlight://apps`
 \
@@ -20,12 +20,12 @@ _Calculator_
 `calc://`
 \
 \
-_Calendar&ensp;<sub>iOS</sub>_
+_Calendar <sub>iOS</sub>_
 \
 `calshow://`
 \
 \
-_Calendar&ensp;<sub>macOS</sub>_
+_Calendar <sub>macOS</sub>_
 \
 `ical://`
 \
@@ -35,27 +35,27 @@ _Calendar – add subscription calendar_
 `webcal://`
 \
 \
-_Camera&ensp;<sub>iOS</sub>_
+_Camera <sub>iOS</sub>_
 \
 `camera://`
 \
 \
-_Camera – take photo with back camera&ensp;<sub>iOS</sub>_
+_Camera – take photo with back camera <sub>iOS</sub>_
 \
 `camera://configuration?capturemode=photo&capturedevice=back`
 \
 \
-_Camera – take photo with front camera&ensp;<sub>iOS</sub>_
+_Camera – take photo with front camera <sub>iOS</sub>_
 \
 `camera://configuration?capturemode=photo&capturedevice=front`
 \
 \
-_Camera – shoot video with back camera&ensp;<sub>iOS</sub>_
+_Camera – shoot video with back camera <sub>iOS</sub>_
 \
 `camera://configuration?capturemode=video&capturedevice=back`
 \
 \
-_Camera – shoot video with front camera&ensp;<sub>iOS</sub>_
+_Camera – shoot video with front camera <sub>iOS</sub>_
 \
 `camera://configuration?capturemode=video&capturedevice=front`
 \
@@ -65,22 +65,22 @@ _Clock_
 `clock-worldclock://`
 \
 \
-_Contacts&ensp;<sub>iOS</sub>_
+_Contacts <sub>iOS</sub>_
 \
 `contact://`
 \
 \
-_Contacts&ensp;<sub>macOS</sub>_
+_Contacts <sub>macOS</sub>_
 \
 `addressbook://`
 \
 \
-_Dictionary&ensp;<sub>macOS</sub>_
+_Dictionary <sub>macOS</sub>_
 \
 `dict://`
 \
 \
-_Dictionary – search for 'example'&ensp;<sub>macOS</sub>_
+_Dictionary – search for 'example' <sub>macOS</sub>_
 \
 `dict://example`
 \
@@ -90,7 +90,7 @@ _FaceTime_
 `facetime://`
 \
 \
-_Files&ensp;<sub>iOS</sub>_
+_Files <sub>iOS</sub>_
 \
 `shareddocuments://`
 \
@@ -105,17 +105,17 @@ _Find My – “Find My Friends” tab_
 `findmyfriends://`
 \
 \
-_Finder&ensp;<sub>macOS</sub>_
+_Finder <sub>macOS</sub>_
 \
 `file:///Users/Shared`
 \
 \
-_Fitness&ensp;<sub>iOS</sub>_
+_Fitness <sub>iOS</sub>_
 \
 `fitnessapp://`
 \
 \
-_Font Book&ensp;<sub>macOS</sub>_
+_Font Book <sub>macOS</sub>_
 \
 `fontbook://`
 \
@@ -130,12 +130,12 @@ _Games_
 `games://`
 \
 \
-_Health&ensp;<sub>iOS</sub>_
+_Health <sub>iOS</sub>_
 \
 `x-argonaut-app://`
 \
 \
-_iTunes Store&ensp;<sub>iOS</sub>_
+_iTunes Store <sub>iOS</sub>_
 \
 `itms://`
 \
@@ -145,17 +145,17 @@ _Journal_
 `moments://`
 \
 \
-_Keynote&ensp;<sub>macOS</sub>_
+_Keynote <sub>macOS</sub>_
 \
 `com.apple.iwork.keynote-share://`
 \
 \
-_Magnifier&ensp;<sub>iOS</sub>_
+_Magnifier <sub>iOS</sub>_
 \
 `apple-magnifier://`
 \
 \
-_Mail&ensp;<sub>iOS</sub>_
+_Mail <sub>iOS</sub>_
 \
 `com.apple.mobilemail://`
 \
@@ -190,22 +190,22 @@ _Notes_
 `applenotes://`
 \
 \
-_Notes – create new note&ensp;<sub>iOS</sub>_
+_Notes – create new note <sub>iOS</sub>_
 \
 `mobilenotes://newNote`
 \
 \
-_Notes – create new note&ensp;<sub>macOS</sub>_
+_Notes – create new note <sub>macOS</sub>_
 \
 `notes://newNote?displayMode=paper`
 \
 \
-_Numbers&ensp;<sub>macOS</sub>_
+_Numbers <sub>macOS</sub>_
 \
 `com.apple.iwork.numbers-share://`
 \
 \
-_Pages&ensp;<sub>macOS</sub>_
+_Pages <sub>macOS</sub>_
 \
 `com.apple.iwork.pages-share://`
 \
@@ -215,27 +215,27 @@ _Passwords_
 `apple-otpauth://`
 \
 \
-_Phone&ensp;<sub>macOS</sub>_
+_Phone <sub>macOS</sub>_
 \
 `phoneapp://`
 \
 \
-_Phone – “Favorites” tab&ensp;<sub>iOS</sub>_
+_Phone – “Favorites” tab <sub>iOS</sub>_
 \
 `mobilephone-favorites://`
 \
 \
-_Phone – “Recents” tab (Classic mode) or “Calls” tab (Unified mode)&ensp;<sub>iOS</sub>_
+_Phone – “Recents” tab (Classic mode) or “Calls” tab (Unified mode) <sub>iOS</sub>_
 \
 `mobilephone-recents://`
 \
 \
-_Phone – “Contacts” tab&ensp;<sub>iOS</sub>_
+_Phone – “Contacts” tab <sub>iOS</sub>_
 \
 `mobilephone-contacts://`
 \
 \
-_Phone – “Keypad” tab&ensp;<sub>iOS</sub>_
+_Phone – “Keypad” tab <sub>iOS</sub>_
 \
 `mobilephone-keypad://`
 \
@@ -245,17 +245,17 @@ _Photos_
 `photos://`
 \
 \
-_Photos – “Library” tab&ensp;<sub>iOS</sub>_
+_Photos – “Library” tab <sub>iOS</sub>_
 \
 `photos://library`
 \
 \
-_Photos – “Collections” tab&ensp;<sub>iOS</sub>_
+_Photos – “Collections” tab <sub>iOS</sub>_
 \
 `photos://collections`
 \
 \
-_Photos – search for 'example'&ensp;<sub>iOS</sub>_
+_Photos – search for 'example' <sub>iOS</sub>_
 \
 `photos-navigation://search?searchTerm=example`
 \
@@ -280,7 +280,7 @@ _Photos – “Recently Saved”_
 `photos://album?name=recently-saved`
 \
 \
-_Photos – “Featured Photos”&ensp;<sub>iOS</sub>_
+_Photos – “Featured Photos” <sub>iOS</sub>_
 \
 `photos://featuredPhoto`
 \
@@ -315,7 +315,7 @@ _Reminders_
 `x-apple-reminderkit://`
 \
 \
-_Settings&ensp;<sub>iOS</sub>_
+_Settings <sub>iOS</sub>_
 \
 `prefs://`
 \
@@ -330,7 +330,7 @@ _Stocks_
 `stocks://`
 \
 \
-_System Settings&ensp;<sub>macOS</sub>_
+_System Settings <sub>macOS</sub>_
 \
 `x-apple.systempreferences://`
 \
@@ -345,22 +345,22 @@ _TV_
 `videos://`
 \
 \
-_Voice Memos&ensp;<sub>iOS</sub>_
+_Voice Memos <sub>iOS</sub>_
 \
 `voicememos://`
 \
 \
-_Wallet&ensp;<sub>iOS</sub>_
+_Wallet <sub>iOS</sub>_
 \
 `wallet://`
 \
 \
-_Watch&ensp;<sub>iOS</sub>_
+_Watch <sub>iOS</sub>_
 \
 `bridge://`
 \
 \
-_Watch – “Face Gallery”&ensp;<sub>iOS</sub>_
+_Watch – “Face Gallery” <sub>iOS</sub>_
 \
 `facegallery://`
 \
