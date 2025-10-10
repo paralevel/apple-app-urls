@@ -5,6 +5,16 @@ _App Store_
 `itms-apps://?action=today`
 \
 \
+_App Store > Updates_
+\
+`itms-apps://?action=updates`
+\
+\
+_Apps Store > Safari Extensions_
+\
+`itms-apps://safariExtensions`
+\
+\
 _Apple Configurator <sup>(macOS)</sup>_
 \
 `configurator://`
