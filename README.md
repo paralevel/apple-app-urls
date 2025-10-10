@@ -1,5 +1,10 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
+_App Store_
+\
+`itms-apps://?action=today`
+\
+\
 _Apple Configurator <sup>(macOS)</sup>_
 \
 `configurator://`
