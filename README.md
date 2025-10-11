@@ -468,4 +468,8 @@ _Watch – “Face Gallery” <sup>(iOS)</sup>_
 _Weather_
 \
 `weather://`
-
+\
+\
+_Web App – opens the least recent web app you have installed (for example through “Add To Home Screen” in Safari with “Open as Web App” enabled)_
+\
+`webapp://` _<sup>(only works in shortcuts)</sup>_
