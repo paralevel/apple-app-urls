@@ -10,9 +10,14 @@ _App Store > Updates_
 `itms-apps://?action=updates`
 \
 \
-_Apps Store > Safari Extensions_
+_App Store > Safari Extensions_
 \
 `itms-apps://safariExtensions`
+\
+\
+_App Store > Search for 'example'_
+\
+`itms-apps://?action=search&q=example`
 \
 \
 _Apple Configurator <sup>(macOS)</sup>_
