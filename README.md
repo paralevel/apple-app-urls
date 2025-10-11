@@ -15,7 +15,7 @@ _App Store > Safari Extensions_
 `itms-apps://safariExtensions`
 \
 \
-_App Store > Search for 'example'_
+_App Store – search for 'example'_
 \
 `itms-apps://?action=search&term=example`
 \
@@ -120,7 +120,7 @@ _Find My_
 `findmy://`
 \
 \
-_Find My – “Find My Friends” tab_
+_Find My > Find My Friends_
 \
 `findmyfriends://`
 \
@@ -195,7 +195,7 @@ _Messages_
 `iChat://`
 \
 \
-_Messages_ – new message
+_Messages – create new message_
 \
 `sms://`
 \
@@ -240,22 +240,22 @@ _Phone <sup>(macOS)</sup>_
 `phoneapp://`
 \
 \
-_Phone – “Favorites” tab <sup>(iOS)</sup>_
+_Phone > Favorites <sup>(iOS)</sup>_
 \
 `mobilephone-favorites://`
 \
 \
-_Phone – “Recents” tab (Classic mode) or “Calls” tab (Unified mode) <sup>(iOS)</sup>_
+_Phone > Calls (Unified mode) or Recents (Classic mode) <sup>(iOS)</sup>_
 \
 `mobilephone-recents://`
 \
 \
-_Phone – “Contacts” tab <sup>(iOS)</sup>_
+_Phone > Contacts <sup>(iOS)</sup>_
 \
 `mobilephone-contacts://`
 \
 \
-_Phone – “Keypad” tab <sup>(iOS)</sup>_
+_Phone > Keypad <sup>(iOS)</sup>_
 \
 `mobilephone-keypad://`
 \
@@ -265,12 +265,12 @@ _Photos_
 `photos://`
 \
 \
-_Photos – “Library” tab <sup>(iOS)</sup>_
+_Photos > Library (tab) <sup>(iOS)</sup>_
 \
 `photos://library`
 \
 \
-_Photos – “Collections” tab <sup>(iOS)</sup>_
+_Photos > Collections (tab) <sup>(iOS)</sup>_
 \
 `photos://collections`
 \
@@ -280,47 +280,47 @@ _Photos – search for 'example' <sup>(iOS)</sup>_
 `photos-navigation://search?searchTerm=example`
 \
 \
-_Photos – “Favorites”_
-\
-`photos://album?name=favorites`
-\
-\
-_Photos – “Duplicates”_
-\
-`photos://album?name=duplicates`
-\
-\
-_Photos – “Recently Deleted”_
-\
-`photos://album?name=recently-deleted`
-\
-\
-_Photos – “Recently Saved”_
-\
-`photos://album?name=recently-saved`
-\
-\
-_Photos – “Featured Photos” <sup>(iOS)</sup>_
-\
-`photos://featuredPhoto`
-\
-\
-_Photos – open most recent photo_
+_Photos > most recent photo_
 \
 `photos://lastasset`
 \
 \
-_Photos – “Memories”_
+_Photos > Recently Saved_
+\
+`photos://album?name=recently-saved`
+\
+\
+_Photos > Recently Deleted_
+\
+`photos://album?name=recently-deleted`
+\
+\
+_Photos > Favorites_
+\
+`photos://album?name=favorites`
+\
+\
+_Photos > Featured Photos <sup>(iOS)</sup>_
+\
+`photos://featuredPhoto`
+\
+\
+_Photos > Duplicates_
+\
+`photos://album?name=duplicates`
+\
+\
+_Photos > Memories_
 \
 `photos://memory-generation`
 \
 \
-_Photos – “People & Pets”_
+_Photos > People & Pets_
 \
 `photos://people`
 \
 \
-_Photos – “Maps”_
+_Photos > Maps_
 \
 `photos://places`
 \
@@ -335,6 +335,36 @@ _Reminders_
 `x-apple-reminderkit://`
 \
 \
+_Safari – search for 'example' on DuckDuckGo <sup>(iOS)</sup>_
+\
+`x-web-search://duckduckgo/?example`
+\
+\
+_Safari – search for 'example' on Google <sup>(iOS)</sup>_
+\
+`x-web-search://google/?example`
+\
+\
+_Safari – search for 'example' on Bing <sup>(iOS)</sup>_
+\
+`x-web-search://bing/?example`
+\
+\
+_Safari – search for 'example' on Yahoo <sup>(iOS)</sup>_
+\
+`x-web-search://yahoo/?example`
+\
+\
+_Safari – search for 'example' on Ecosia <sup>(iOS)</sup>_
+\
+`x-web-search://ecosia/?example`
+\
+\
+_Safari – search for 'example' on Wikipedia <sup>(iOS)</sup>_
+\
+`x-web-search://wikipedia/?example`
+\
+\
 _Settings <sup>(iOS)</sup>_
 \
 `prefs://`
@@ -345,32 +375,32 @@ _Shortcuts_
 `shortcuts://`
 \
 \
-_Shortcuts > Run shortcut 'example'_
+_Shortcuts – run shortcut 'example'_
 \
 `shortcuts://run-shortcut?name=example`
 \
 \
-_Shortcuts > Run shortcut 'example' with 'my text' as input_
+_Shortcuts – run shortcut 'example' with 'my text' as input_
 \
 `shortcuts://run-shortcut?name=example&input=my%20text`
 \
 \
-_Shortcuts > Run shortcut 'example' with the clipboard as input <sup>(iOS)</sup>_
+_Shortcuts – run shortcut 'example' with the clipboard as input <sup>(iOS)</sup>_
 \
 `shortcuts://run-shortcut?name=example&input=clipboard`
 \
 \
-_Shortcuts > Open shortcut 'example'_
+_Shortcuts – open shortcut 'example'_
 \
 `shortcuts://open-shortcut?name=example` _<sub>(case-insensitive)</sub>_
 \
 \
-_Shortcuts > Create new shortcut_
+_Shortcuts – create new shortcut_
 \
 `shortcuts://create-shortcut`
 \
 \
-_Shortcuts > Create new automation <sup>(iOS)</sup>_
+_Shortcuts – create new automation <sup>(iOS)</sup>_
 \
 `shortcuts://create-automation`
 \
@@ -385,12 +415,12 @@ _Shortcuts > Gallery_
 `shortcuts://gallery`
 \
 \
-_Shortcuts > Install shortcut with \[public iCloud link ID]_
+_Shortcuts – install shortcut with \[public iCloud link ID]_
 \
 `shortcuts://shortcuts/icloud_link_id`
 \
 \
-_Shortcuts `x-callback-url` with for example 'create shortcut'_
+_Shortcuts `x-callback-url` with for example `create-shortcut`_
 \
 `shortcuts://x-callback-url/create-shortcut`
 \
