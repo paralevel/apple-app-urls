@@ -355,6 +355,11 @@ _Shortcuts > Run shortcut 'example' with 'my text' as input_
 `shortcuts://run-shortcut?name=example&input=my%20text`
 \
 \
+_Shortcuts > Run shortcut 'example' with the current clipboard content as input <sup>(iOS)</sup>_
+\
+`shortcuts://run-shortcut?name=example&input=clipboard`
+\
+\
 _Shortcuts > Open shortcut 'example'_
 \
 `shortcuts://open-shortcut?name=example` _<sub>(case-insensitive)</sub>_
