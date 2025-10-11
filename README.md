@@ -345,6 +345,56 @@ _Shortcuts_
 `shortcuts://`
 \
 \
+_Shortcuts > Run shortcut 'example'_
+\
+`shortcuts://run-shortcut?name=example`
+\
+\
+_Shortcuts > Run shortcut 'example' with 'my text' as input_
+\
+`shortcuts://run-shortcut?name=example&input=text&text=my%20text`
+\
+\
+_Shortcuts > Run shortcut 'example' with the clipboard content as input_
+\
+`shortcuts://run-shortcut?name=example&input=clipboard`
+\
+\
+_Shortcuts > Open shortcut 'example'_
+\
+`shortcuts://open-shortcut?name=example` _<sub>(case-insensitive)</sub>_
+\
+\
+_Shortcuts > Install shortcut with ID \[public iCloud link ID]_
+\
+`shortcuts://shortcuts/icloud_link_id`
+\
+\
+_Shortcuts > Create new shortcut_
+\
+`shortcuts://create-shortcut`
+\
+\
+_Shortcuts > Create new automation <sup>(iOS)</sup>_
+\
+`shortcuts://create-automation`
+\
+\
+_Shortcuts > Automations <sup>(iOS)</sup>_
+\
+`shortcuts://automations`
+\
+\
+_Shortcuts > Gallery_
+\
+`shortcuts://gallery`
+\
+\
+_Shortcuts `x-callback-url`, for example, 'create shortcut'_
+\
+`open 'shortcuts://x-callback-url/create-shortcut`
+\
+\
 _Stocks_
 \
 `stocks://`
