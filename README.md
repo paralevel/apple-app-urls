@@ -17,7 +17,7 @@ _App Store > Safari Extensions_
 \
 _App Store > Search for 'example'_
 \
-`itms-apps://?action=search&q=example`
+`itms-apps://?action=search&term=example`
 \
 \
 _Apple Configurator <sup>(macOS)</sup>_
