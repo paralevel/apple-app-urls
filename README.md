@@ -470,12 +470,11 @@ _Weather_
 `weather://`
 \
 \
-_Web App <sup>(iOS)</sup> <sub>Opens the least recent web app you have installed (for example through “Add To Home Screen” in Safari with “Open as Web App” enabled</sup>_
+_Web App <sup>(iOS)</sup> <sub>Opens the least recently installed web app (for example through “Add To Home Screen” in Safari with “Open as Web App” enabled</sup>_
 \
 `webapp://`
 \
 \
 \
 \
-\
-_<sub>`Please note: These URLS are only guaranteed to work when used in shortcuts and not in other apps like e.g. Safari`</sub>_
+_<sub>`Please note: These URLs are only guaranteed to work in shortcuts and not in other apps`</sub>_
