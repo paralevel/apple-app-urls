@@ -355,7 +355,7 @@ _Shortcuts > Run shortcut 'example' with 'my text' as input_
 `shortcuts://run-shortcut?name=example&input=my%20text`
 \
 \
-_Shortcuts > Run shortcut 'example' with the current clipboard content as input <sup>(iOS)</sup>_
+_Shortcuts > Run shortcut 'example' with the clipboard as input <sup>(iOS)</sup>_
 \
 `shortcuts://run-shortcut?name=example&input=clipboard`
 \
@@ -363,11 +363,6 @@ _Shortcuts > Run shortcut 'example' with the current clipboard content as input 
 _Shortcuts > Open shortcut 'example'_
 \
 `shortcuts://open-shortcut?name=example` _<sub>(case-insensitive)</sub>_
-\
-\
-_Shortcuts > Install shortcut with \[public iCloud link ID]_
-\
-`shortcuts://shortcuts/icloud_link_id`
 \
 \
 _Shortcuts > Create new shortcut_
@@ -388,6 +383,11 @@ _Shortcuts > Automations <sup>(iOS)</sup>_
 _Shortcuts > Gallery_
 \
 `shortcuts://gallery`
+\
+\
+_Shortcuts > Install shortcut with \[public iCloud link ID]_
+\
+`shortcuts://shortcuts/icloud_link_id`
 \
 \
 _Shortcuts `x-callback-url` with for example 'create shortcut'_
