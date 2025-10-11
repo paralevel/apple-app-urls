@@ -365,7 +365,7 @@ _Shortcuts > Open shortcut 'example'_
 `shortcuts://open-shortcut?name=example` _<sub>(case-insensitive)</sub>_
 \
 \
-_Shortcuts > Install shortcut with ID \[public iCloud link ID]_
+_Shortcuts > Install shortcut with \[public iCloud link ID]_
 \
 `shortcuts://shortcuts/icloud_link_id`
 \
@@ -390,9 +390,9 @@ _Shortcuts > Gallery_
 `shortcuts://gallery`
 \
 \
-_Shortcuts `x-callback-url`, for example, 'create shortcut'_
+_Shortcuts `x-callback-url` with for example 'create shortcut'_
 \
-`open 'shortcuts://x-callback-url/create-shortcut`
+`shortcuts://x-callback-url/create-shortcut`
 \
 \
 _Stocks_
