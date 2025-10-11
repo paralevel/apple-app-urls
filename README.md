@@ -352,12 +352,7 @@ _Shortcuts > Run shortcut 'example'_
 \
 _Shortcuts > Run shortcut 'example' with 'my text' as input_
 \
-`shortcuts://run-shortcut?name=example&input=text&text=my%20text`
-\
-\
-_Shortcuts > Run shortcut 'example' with the clipboard content as input_
-\
-`shortcuts://run-shortcut?name=example&input=clipboard`
+`shortcuts://run-shortcut?name=example&input=my%20text`
 \
 \
 _Shortcuts > Open shortcut 'example'_
