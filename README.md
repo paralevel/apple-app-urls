@@ -1,7 +1,7 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
 | App Name | URL Scheme |
-| :--- | ---: |
+| --- | --- |
 | _App Store_ | <pre><code>itms-apps://?action=today</code></pre> |
 | _App Store > Updates_ | <pre><code>itms-apps://?action=updates</code></pre> |
 | _App Store > Safari Extensions_ | <pre><code>itms-apps://safariExtensions</code></pre> |
