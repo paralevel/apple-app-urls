@@ -376,7 +376,7 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
-_Web App <sup>(iOS)</sup> <sub>opens the least recent web app you have installed (for example through “Add To Home Screen” in Safari with “Open as Web App” enabled) – only works in shortcuts</sub>_
+_Web App <sup>(iOS)</sup> <sub>This URL scheme can be claimed for the web app of your choice, just make sure it's the first web app that's installed, then that's the one that opens (only works in shortcuts)</sub>_
 ~~~yaml
 webapp://
 ~~~
