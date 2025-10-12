@@ -193,7 +193,7 @@ _Phone <sup>(macOS)</sup>_
 ~~~yaml
 phoneapp://
 ~~~
-_Phone > Favorites <sup>(iOS)</sup>_
+_Phone > Favorites (only works in Classic mode) <sup>(iOS)</sup>_
 ~~~yaml
 mobilephone-favorites://
 ~~~
@@ -315,7 +315,8 @@ shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
 _Shortcuts – open shortcut 'example' <sup>(case-insensitive)</sup>_
 ~~~yaml
-shortcuts://open-shortcut?name=example` |
+shortcuts://open-shortcut?name=example
+~~~
 _Shortcuts – create new shortcut_
 ~~~yaml
 shortcuts://create-shortcut
@@ -332,7 +333,7 @@ _Shortcuts > Gallery_
 ~~~yaml
 shortcuts://gallery
 ~~~
-_Shortcuts – install shortcut using iCloud ID from public link_
+_Shortcuts – install shortcut using ID from iCloud shortcut link_
 ~~~yaml
 shortcuts://shortcuts/icloud_link_id
 ~~~
