@@ -381,4 +381,4 @@ _Web App <sup>(iOS)</sup>_
 ~~~yaml
 webapp://
 ~~~
-> _It's possible to reserve this URL for the web app of your choice, just make sure it's the first web app that's installed, then that's the one that opens (only works in shortcuts)_
+> _Opens the earliest installed web app if there is any, otherwise a blank screen is shown_
