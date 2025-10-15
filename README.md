@@ -377,8 +377,7 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
-_Web App <sup>(iOS)</sup>_
+_Web App <sup>(iOS)</sup> – opens the earliest installed web app if there is any, otherwise a blank screen is shown_
 ~~~yaml
 webapp://
 ~~~
-> _Opens the earliest installed web app if there is any, otherwise a blank screen is shown_
