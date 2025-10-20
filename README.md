@@ -17,11 +17,11 @@ _App Store – search for 'example'_
 ~~~yaml
 itms-apps://?action=search&term=example
 ~~~
-_Apple Configurator <sup>(macOS)</sup>_
+_Apple Configurator <sub>(macOS)</sub>_
 ~~~yaml
 configurator://
 ~~~
-_Apps <sup>(macOS)</sup>_
+_Apps <sub>(macOS)</sub>_
 ~~~yaml
 spotlight://apps
 ~~~
@@ -33,11 +33,11 @@ _Calculator_
 ~~~yaml
 calc://
 ~~~
-_Calendar <sup>(iOS)</sup>_
+_Calendar <sub>(iOS)</sub>_
 ~~~yaml
 calshow://
 ~~~
-_Calendar <sup>(macOS)</sup>_
+_Calendar <sub>(macOS)</sub>_
 ~~~yaml
 ical://
 ~~~
@@ -45,23 +45,23 @@ _Calendar – add subscription calendar_
 ~~~yaml
 webcal://
 ~~~
-_Camera <sup>(iOS)</sup>_
+_Camera <sub>(iOS)</sub>_
 ~~~yaml
 camera://
 ~~~
-_Camera – take photo with back camera <sup>(iOS)</sup>_
+_Camera <sub>(iOS)</sub> – take photo with back camera_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-_Camera – take photo with front camera <sup>(iOS)</sup>_
+_Camera <sub>(iOS)</sub> – take photo with front camera_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-_Camera – shoot video with back camera <sup>(iOS)</sup>_
+_Camera <sub>(iOS)</sub> – shoot video with back camera_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-_Camera – shoot video with front camera <sup>(iOS)</sup>_
+_Camera <sub>(iOS)</sub> – shoot video with front camera_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -69,19 +69,19 @@ _Clock_
 ~~~yaml
 clock-worldclock://
 ~~~
-_Contacts <sup>(iOS)</sup>_
+_Contacts <sub>(iOS)</sub>_
 ~~~yaml
 contact://
 ~~~
-_Contacts <sup>(macOS)</sup>_
+_Contacts <sub>(macOS)</sub>_
 ~~~yaml
 addressbook://
 ~~~
-_Dictionary <sup>(macOS)</sup>_
+_Dictionary <sub>(macOS)</sub>_
 ~~~yaml
 dict://
 ~~~
-_Dictionary – search for 'example' <sup>(macOS)</sup>_
+_Dictionary <sub>(macOS)</sub> – search for 'example'_
 ~~~yaml
 dict://example
 ~~~
@@ -89,7 +89,7 @@ _FaceTime_
 ~~~yaml
 facetime://
 ~~~
-_Files <sup>(iOS)</sup>_
+_Files <sub>(iOS)</sub>_
 ~~~yaml
 shareddocuments://
 ~~~
@@ -101,15 +101,15 @@ _Find My > Find My Friends_
 ~~~yaml
 findmyfriends://
 ~~~
-_Finder <sup>(macOS)</sup>_
+_Finder <sub>(macOS)</sub>_
 ~~~yaml
 file:///Users/Shared
 ~~~
-_Fitness <sup>(iOS)</sup>_
+_Fitness <sub>(iOS)</sub>_
 ~~~yaml
 fitnessapp://
 ~~~
-_Font Book <sup>(macOS)</sup>_
+_Font Book <sub>(macOS)</sub>_
 ~~~yaml
 fontbook://
 ~~~
@@ -121,11 +121,11 @@ _Games_
 ~~~yaml
 games://
 ~~~
-_Health <sup>(iOS)</sup>_
+_Health <sub>(iOS)</sub>_
 ~~~yaml
 x-argonaut-app://
 ~~~
-_iTunes Store <sup>(iOS)</sup>_
+_iTunes Store <sub>(iOS)</sub>_
 ~~~yaml
 itms://
 ~~~
@@ -133,15 +133,15 @@ _Journal_
 ~~~yaml
 moments://
 ~~~
-_Keynote <sup>(macOS)</sup>_
+_Keynote <sub>(macOS)</sub>_
 ~~~yaml
 com.apple.iwork.keynote-share://
 ~~~
-_Magnifier <sup>(iOS)</sup>_
+_Magnifier <sub>(iOS)</sub>_
 ~~~yaml
 apple-magnifier://
 ~~~
-_Mail <sup>(iOS)</sup>_
+_Mail <sub>(iOS)</sub>_
 ~~~yaml
 com.apple.mobilemail://
 ~~~
@@ -169,19 +169,19 @@ _Notes_
 ~~~yaml
 applenotes://
 ~~~
-_Notes – create new note <sup>(iOS)</sup>_
+_Notes <sub>(iOS)</sub> – create new note_
 ~~~yaml
 mobilenotes://newNote
 ~~~
-_Notes – create new note <sup>(macOS)</sup>_
+_Notes <sub>(macOS)</sub> – create new note_
 ~~~yaml
 notes://newNote?displayMode=paper
 ~~~
-_Numbers <sup>(macOS)</sup>_
+_Numbers <sub>(macOS)</sub>_
 ~~~yaml
 com.apple.iwork.numbers-share://
 ~~~
-_Pages <sup>(macOS)</sup>_
+_Pages <sub>(macOS)</sub>_
 ~~~yaml
 com.apple.iwork.pages-share://
 ~~~
@@ -189,23 +189,23 @@ _Passwords_
 ~~~yaml
 apple-otpauth://
 ~~~
-_Phone <sup>(macOS)</sup>_
+_Phone <sub>(macOS)</sub>_
 ~~~yaml
 phoneapp://
 ~~~
-_Phone > Favorites (only works in Classic mode) <sup>(iOS)</sup>_
+_Phone <sub>(iOS)</sub> > Favorites (only works in Classic mode)_
 ~~~yaml
 mobilephone-favorites://
 ~~~
-_Phone > Calls (Unified mode) or Recents (Classic mode) <sup>(iOS)</sup>_
+_Phone <sub>(iOS)</sub> > Calls (Unified mode) or Recents (Classic mode)_
 ~~~yaml
 mobilephone-recents://
 ~~~
-_Phone > Contacts <sup>(iOS)</sup>_
+_Phone <sub>(iOS)</sub> > Contacts_
 ~~~yaml
 mobilephone-contacts://
 ~~~
-_Phone > Keypad <sup>(iOS)</sup>_
+_Phone <sub>(iOS)</sub> > Keypad_
 ~~~yaml
 mobilephone-keypad://
 ~~~
@@ -213,15 +213,15 @@ _Photos_
 ~~~yaml
 photos://
 ~~~
-_Photos > Library (tab) <sup>(iOS)</sup>_
+_Photos <sub>(iOS)</sub> > Library (tab)_
 ~~~yaml
 photos://library
 ~~~
-_Photos > Collections (tab) <sup>(iOS)</sup>_
+_Photos <sub>(iOS)</sub> > Collections (tab)_
 ~~~yaml
 photos://collections
 ~~~
-_Photos – search for 'example' <sup>(iOS)</sup>_
+_Photos <sub>(iOS)</sub> – search for 'example'_
 ~~~yaml
 photos-navigation://search?searchTerm=example
 ~~~
@@ -241,7 +241,7 @@ _Photos > Favorites_
 ~~~yaml
 photos://album?name=favorites
 ~~~
-_Photos > Featured Photos <sup>(iOS)</sup>_
+_Photos <sub>(iOS)</sub> > Featured Photos_
 ~~~yaml
 photos://featuredPhoto
 ~~~
@@ -269,31 +269,31 @@ _Reminders_
 ~~~yaml
 x-apple-reminderkit://
 ~~~
-_Safari – search for 'example' on DuckDuckGo <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on DuckDuckGo_
 ~~~yaml
 x-web-search://duckduckgo/?example
 ~~~
-_Safari – search for 'example' on Google <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on Google_
 ~~~yaml
 x-web-search://google/?example
 ~~~
-_Safari – search for 'example' on Bing <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on Bing_
 ~~~yaml
 x-web-search://bing/?example
 ~~~
-_Safari – search for 'example' on Yahoo <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on Yahoo_
 ~~~yaml
 x-web-search://yahoo/?example
 ~~~
-_Safari – search for 'example' on Ecosia <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on Ecosia_
 ~~~yaml
 x-web-search://ecosia/?example
 ~~~
-_Safari – search for 'example' on Wikipedia <sup>(iOS)</sup>_
+_Safari <sub>(iOS)</sub> – search for 'example' on Wikipedia_
 ~~~yaml
 x-web-search://wikipedia/?example
 ~~~
-_Settings <sup>(iOS)</sup>_
+_Settings <sub>(iOS)</sub>_
 ~~~yaml
 prefs://
 ~~~
@@ -309,11 +309,11 @@ _Shortcuts – run shortcut 'example' with 'my text' as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-_Shortcuts – run shortcut 'example' with the clipboard as input <sup>(iOS)</sup>_
+_Shortcuts <sub>(iOS)</sub> – run shortcut 'example' with the clipboard as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
-_Shortcuts – open shortcut 'example' <sup>(case-insensitive)</sup>_
+_Shortcuts – open shortcut 'example' <sub>(case-insensitive)</sub>_
 ~~~yaml
 shortcuts://open-shortcut?name=example
 ~~~
@@ -321,11 +321,11 @@ _Shortcuts – create new shortcut_
 ~~~yaml
 shortcuts://create-shortcut
 ~~~
-_Shortcuts – create new automation <sup>(iOS)</sup>_
+_Shortcuts <sub>(iOS)</sub> – create new automation_
 ~~~yaml
 shortcuts://create-automation
 ~~~
-_Shortcuts > Automations <sup>(iOS)</sup>_
+_Shortcuts <sub>(iOS)</sub> > Automations_
 ~~~yaml
 shortcuts://automations
 ~~~
@@ -345,7 +345,7 @@ _Stocks_
 ~~~yaml
 stocks://
 ~~~
-_System Settings <sup>(macOS)</sup>_
+_System Settings <sub>(macOS)</sub>_
 ~~~yaml
 x-apple.systempreferences://
 ~~~
@@ -357,19 +357,19 @@ _TV_
 ~~~yaml
 videos://
 ~~~
-_Voice Memos <sup>(iOS)</sup>_
+_Voice Memos <sub>(iOS)</sub>_
 ~~~yaml
 voicememos://
 ~~~
-_Wallet <sup>(iOS)</sup>_
+_Wallet <sub>(iOS)</sub>_
 ~~~yaml
 wallet://
 ~~~
-_Watch <sup>(iOS)</sup>_
+_Watch <sub>(iOS)</sub>_
 ~~~yaml
 bridge://
 ~~~
-_Watch > Face Gallery_
+_Watch > Face Gallery <sub>(iOS)</sub>_
 ~~~yaml
 facegallery://
 ~~~
@@ -377,7 +377,7 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
-_Web App <sup>(iOS)</sup> – opens the earliest installed web app if there is any, otherwise a blank screen is shown_
+_Web App <sub>(iOS)</sub> – opens the earliest installed web app if there is any, otherwise a blank screen is shown_
 ~~~yaml
 webapp://
 ~~~
