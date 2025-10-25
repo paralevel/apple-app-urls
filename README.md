@@ -113,22 +113,6 @@ _Finder <sup>[macOS]</sup>_
 ~~~yaml
 file:///Users/Shared
 ~~~
-_Fitness <sup>[iOS]</sup>_
-~~~yaml
-fitnessapp://
-~~~
-_Fitness <sup>[iOS]</sup> > Summary > Activity Ring_
-~~~yaml
-activitytoday://
-~~~
-_Fitness <sup>[iOS]</sup> > Workout_
-~~~yaml
-fitnessapp://workout
-~~~
-_Fitness <sup>[iOS]</sup> > Sharing_
-~~~yaml
-activitysharing://
-~~~
 _Font Book <sup>[macOS]</sup>_
 ~~~yaml
 fontbook://
@@ -140,10 +124,6 @@ freeform://
 _Games_
 ~~~yaml
 games://
-~~~
-_Health <sup>[iOS]</sup>_
-~~~yaml
-x-argonaut-app://
 ~~~
 _Home <sup>[iOS]</sup>_
 ~~~yaml
