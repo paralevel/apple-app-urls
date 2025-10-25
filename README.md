@@ -181,22 +181,6 @@ _Messages – create new message_
 ~~~yaml
 sms://
 ~~~
-_Music_
-~~~yaml
-music://
-~~~
-_Music <sup>[iOS]</sup> – Search_
-~~~yaml
-music://search
-~~~
-_Music <sup>[iOS]</sup> – Search – Library_
-~~~yaml
-music://search?forcelocal=true
-~~~
-_Music <sup>[iOS]</sup> – Notification Settings_
-~~~yaml
-music://notificationSettings
-~~~
 _Notes_
 ~~~yaml
 applenotes://
@@ -337,10 +321,6 @@ _Settings <sup>[iOS]</sup>_
 ~~~yaml
 prefs://
 ~~~
-_Shazam <sup>[iOS]</sup>_
-~~~yaml
-shazam://
-~~~
 _Shortcuts_
 ~~~yaml
 shortcuts://
@@ -392,10 +372,6 @@ x-apple.systempreferences://
 _Tips_
 ~~~yaml
 x-apple-tips://
-~~~
-_TV_
-~~~yaml
-videos://
 ~~~
 _Voice Memos <sup>[iOS]</sup>_
 ~~~yaml
