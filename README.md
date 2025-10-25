@@ -101,14 +101,6 @@ _Files <sup>[iOS]</sup>_
 ~~~yaml
 shareddocuments://
 ~~~
-_Find My_
-~~~yaml
-findmy://
-~~~
-_Find My > Find My Friends_
-~~~yaml
-findmyfriends://
-~~~
 _Finder <sup>[macOS]</sup>_
 ~~~yaml
 file:///Users/Shared
