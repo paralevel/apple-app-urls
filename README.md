@@ -137,6 +137,10 @@ _Home <sup>[iOS]</sup> > Lights_
 ~~~yaml
 com.apple.home://accessorytype/lights
 ~~~
+_Home <sup>[iOS]</sup> > Security_
+~~~yaml
+com.apple.home://accessorytype/security
+~~~
 _Home <sup>[iOS]</sup> > Home Settings > Recognize My Voice > Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
@@ -180,6 +184,14 @@ sms://
 _Music_
 ~~~yaml
 music://
+~~~
+_Music <sup>[iOS]</sup> – Search_
+~~~yaml
+music://search
+~~~
+_Music <sup>[iOS]</sup> – Search – Library_
+~~~yaml
+music://search?forcelocal=true
 ~~~
 _Music <sup>[iOS]</sup> – Notification Settings_
 ~~~yaml
