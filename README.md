@@ -77,6 +77,10 @@ _Contacts <sup>[macOS]</sup>_
 ~~~yaml
 addressbook://
 ~~~
+_Desk View <sup>[macOS]</sup>_
+~~~yaml
+deskcam://
+~~~
 _Dictionary <sup>[macOS]</sup>_
 ~~~yaml
 dict://
@@ -87,7 +91,11 @@ dict://example
 ~~~
 _FaceTime_
 ~~~yaml
-facetime://
+facetimeapp://
+~~~
+_FaceTime – call {contact name/phone number}_
+~~~yaml
+facetime://name_or_number
 ~~~
 _Files <sup>[iOS]</sup>_
 ~~~yaml
@@ -108,6 +116,18 @@ file:///Users/Shared
 _Fitness <sup>[iOS]</sup>_
 ~~~yaml
 fitnessapp://
+~~~
+_Fitness <sup>[iOS]</sup> > Summary > Activity Ring_
+~~~yaml
+activitytoday://
+~~~
+_Fitness <sup>[iOS]</sup> > Workout_
+~~~yaml
+fitnessapp://workout
+~~~
+_Fitness <sup>[iOS]</sup> > Sharing_
+~~~yaml
+activitysharing://
 ~~~
 _Font Book <sup>[macOS]</sup>_
 ~~~yaml
@@ -144,6 +164,10 @@ com.apple.home://accessorytype/security
 _Home <sup>[iOS]</sup> > Home Settings > Recognize My Voice > Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
+~~~
+_Image Playground <sup>[macOS]</sup>_
+~~~yaml
+imageplayground.open://
 ~~~
 _iTunes Store <sup>[iOS]</sup>_
 ~~~yaml
@@ -216,6 +240,10 @@ com.apple.iwork.numbers-share://
 _Pages <sup>[macOS]</sup>_
 ~~~yaml
 com.apple.iwork.pages-share://
+~~~
+_Panel Editor <sup>[macOS]</sup>_
+~~~yaml
+assistivecontrolpanels://
 ~~~
 _Passwords_
 ~~~yaml
@@ -324,6 +352,10 @@ x-web-search://ecosia/?example
 _Safari <sup>[iOS]</sup> – search for 'example' on Wikipedia_
 ~~~yaml
 x-web-search://wikipedia/?example
+~~~
+_Script Editor <sup>[macOS]</sup>_
+~~~yaml
+applescript://
 ~~~
 _Settings <sup>[iOS]</sup>_
 ~~~yaml
