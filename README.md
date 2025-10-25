@@ -125,6 +125,22 @@ _Health <sup>[iOS]</sup>_
 ~~~yaml
 x-argonaut-app://
 ~~~
+_Home <sup>[iOS]</sup>_
+~~~yaml
+com.apple.home://
+~~~
+_Home <sup>[iOS]</sup> > Climate_
+~~~yaml
+com.apple.home://accessorytype/climate
+~~~
+_Home <sup>[iOS]</sup> > Lights_
+~~~yaml
+com.apple.home://accessorytype/lights
+~~~
+_Home <sup>[iOS]</sup> > Home Settings > Recognize My Voice > Personal Content_
+~~~yaml
+com.apple.home://personalRequestOptIn
+~~~
 _iTunes Store <sup>[iOS]</sup>_
 ~~~yaml
 itms://
@@ -164,6 +180,10 @@ sms://
 _Music_
 ~~~yaml
 music://
+~~~
+_Music <sup>[iOS]</sup> – Notification Settings_
+~~~yaml
+music://notificationSettings
 ~~~
 _Notes_
 ~~~yaml
@@ -296,6 +316,10 @@ x-web-search://wikipedia/?example
 _Settings <sup>[iOS]</sup>_
 ~~~yaml
 prefs://
+~~~
+_Shazam <sup>[iOS]</sup>_
+~~~yaml
+shazam://
 ~~~
 _Shortcuts_
 ~~~yaml
