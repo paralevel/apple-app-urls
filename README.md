@@ -145,10 +145,6 @@ _Home <sup>[iOS]</sup> > Home Settings > Recognize My Voice > Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
 ~~~
-_Image Playground <sup>[macOS]</sup>_
-~~~yaml
-imageplayground.open://
-~~~
 _iTunes Store <sup>[iOS]</sup>_
 ~~~yaml
 itms://
