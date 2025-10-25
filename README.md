@@ -385,10 +385,6 @@ _Shortcuts `x-callback-url` with for example `create-shortcut`_
 ~~~yaml
 shortcuts://x-callback-url/create-shortcut
 ~~~
-_Stocks_
-~~~yaml
-stocks://
-~~~
 _System Settings <sup>[macOS]</sup>_
 ~~~yaml
 x-apple.systempreferences://
