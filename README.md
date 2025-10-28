@@ -273,6 +273,18 @@ _Photos > Maps_
 ~~~yaml
 photos://places
 ~~~
+_Photos <sup>[macOS]</sup> > Preferences > General_
+~~~yaml
+photos://preferences/general
+~~~
+_Photos <sup>[macOS]</sup> > Preferences > iCloud_
+~~~yaml
+photos://preferences/icloud
+~~~
+_Photos <sup>[macOS]</sup> > Preferences > Shared Library_
+~~~yaml
+photos://preferences/shared-library
+~~~
 _Podcasts_
 ~~~yaml
 podcasts://
