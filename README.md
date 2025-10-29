@@ -1,6 +1,10 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
 \
+_Accessibility Reader <sup>[iOS]</sup>_
+~~~yaml
+apple-axreader://
+~~~
 _App Store_
 ~~~yaml
 itms-apps://?action=today
@@ -96,6 +100,10 @@ facetimeapp://
 _FaceTime – call {contact name/phone number}_
 ~~~yaml
 facetime://name_or_number
+~~~
+_Feedback Assistant_
+~~~yaml
+applefeedback://
 ~~~
 _Files <sup>[iOS]</sup>_
 ~~~yaml
