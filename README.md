@@ -17,7 +17,7 @@ _App Store > Safari Extensions_
 ~~~yaml
 itms-apps://safariExtensions
 ~~~
-_App Store – search for 'example'_
+_App Store – search for ‘example’_
 ~~~yaml
 itms-apps://?action=search&term=example
 ~~~
@@ -89,7 +89,7 @@ _Dictionary <sup>macOS</sup>_
 ~~~yaml
 dict://
 ~~~
-_Dictionary <sup>macOS</sup> – search for 'example'_
+_Dictionary <sup>macOS</sup> – search for ‘example’_
 ~~~yaml
 dict://example
 ~~~
@@ -185,11 +185,11 @@ _Messages – compose new message_
 ~~~yaml
 sms://
 ~~~
-_Messages – compose new message to `123`_
+_Messages – compose new message to ‘123’_
 ~~~yaml
 sms://123
 ~~~
-_Messages – compose new multi-person message to `123` and `345`_
+_Messages – compose new multi-person message to ‘123’ and ‘345’_
 ~~~yaml
 sms://?addresses=123,345
 ~~~
@@ -197,11 +197,11 @@ _Messages – compose new message with content included_
 ~~~yaml
 sms://?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new message to `123` with content included_
+_Messages – compose new message to ‘123’ with content included_
 ~~~yaml
 sms://123?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new multi-person message to `123` and `345` with content included_
+_Messages – compose new multi-person message to ‘123’ and ‘345’ with content included_
 ~~~yaml
 sms://?addresses=123,345&body=My%20URL%20encoded%20message
 ~~~
@@ -265,7 +265,7 @@ _Photos <sup>iOS</sup> > Collections (tab)_
 ~~~yaml
 photos://collections
 ~~~
-_Photos <sup>iOS</sup> – search for 'example'_
+_Photos <sup>iOS</sup> – search for ‘example’_
 ~~~yaml
 photos-navigation://search?searchTerm=example
 ~~~
@@ -325,27 +325,27 @@ _Reminders_
 ~~~yaml
 x-apple-reminderkit://
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on DuckDuckGo_
+_Safari <sup>iOS</sup> – search for ‘example’ on DuckDuckGo_
 ~~~yaml
 x-web-search://duckduckgo/?example
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on Google_
+_Safari <sup>iOS</sup> – search for ‘example’ on Google_
 ~~~yaml
 x-web-search://google/?example
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on Bing_
+_Safari <sup>iOS</sup> – search for ‘example’ on Bing_
 ~~~yaml
 x-web-search://bing/?example
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on Yahoo_
+_Safari <sup>iOS</sup> – search for ‘example’ on Yahoo_
 ~~~yaml
 x-web-search://yahoo/?example
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on Ecosia_
+_Safari <sup>iOS</sup> – search for ‘example’ on Ecosia_
 ~~~yaml
 x-web-search://ecosia/?example
 ~~~
-_Safari <sup>iOS</sup> – search for 'example' on Wikipedia_
+_Safari <sup>iOS</sup> – search for ‘example’ on Wikipedia_
 ~~~yaml
 x-web-search://wikipedia/?example
 ~~~
@@ -361,19 +361,23 @@ _Shortcuts_
 ~~~yaml
 shortcuts://
 ~~~
-_Shortcuts – run shortcut 'example'_
+_Shortcuts – run shortcut ‘example’_
 ~~~yaml
 shortcuts://run-shortcut?name=example
 ~~~
-_Shortcuts – run shortcut 'example' with 'my text' as input_
+_Shortcuts – run shortcut and open a URL afterwards_
+~~~yaml
+shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-success=the_url
+~~~
+_Shortcuts – run shortcut ‘example’ with ‘my text’ as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-_Shortcuts <sup>iOS</sup> – run shortcut 'example' with the clipboard as input_
+_Shortcuts <sup>iOS</sup> – run shortcut ‘example’ with the clipboard as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
-_Shortcuts – open shortcut 'example' <sub>(case-insensitive)</sub>_
+_Shortcuts – open shortcut ‘example’ <sub>(case-insensitive)</sub>_
 ~~~yaml
 shortcuts://open-shortcut?name=example
 ~~~
@@ -396,10 +400,6 @@ shortcuts://gallery
 _Shortcuts – install shortcut using ID from iCloud shortcut link_
 ~~~yaml
 shortcuts://shortcuts/icloud_link_id
-~~~
-_Shortcuts – open URL schemes from apps where they're normally restricted <sub>(requires that a shortcut called “My unique name” exists with e.g. only a “Nothing” action)</sub>_
-~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=My%20unique%20name&x-success={url scheme}
 ~~~
 _System Settings <sup>macOS</sup>_
 ~~~yaml
