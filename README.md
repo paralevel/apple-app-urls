@@ -115,6 +115,18 @@ file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/my
 ~~~
 _Finder <sup>macOS</sup> – Shared_
 ~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
+~~~
+_Finder <sup>macOS</sup> – Shared By Me_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
+~~~
+_Finder <sup>macOS</sup> – Shared With Me_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
+~~~
+_Finder <sup>macOS</sup> – /Users/Shared_
+~~~yaml
 file:///Users/Shared
 ~~~
 _Font Book <sup>macOS</sup>_
