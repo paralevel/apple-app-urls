@@ -109,7 +109,11 @@ _Files <sup>iOS</sup>_
 ~~~yaml
 shareddocuments://
 ~~~
-_Finder <sup>macOS</sup>_
+_Finder <sup>macOS</sup> – Recents_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
+~~~
+_Finder <sup>macOS</sup> – Shared_
 ~~~yaml
 file:///Users/Shared
 ~~~
