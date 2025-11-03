@@ -181,9 +181,29 @@ _Messages_
 ~~~yaml
 iChat://
 ~~~
-_Messages – create new message_
+_Messages – compose new message_
 ~~~yaml
 sms://
+~~~
+_Messages – compose new message to `123`_
+~~~yaml
+sms://123
+~~~
+_Messages – compose new multi-person message to `123` and `345`_
+~~~yaml
+sms://?addresses=123,345
+~~~
+_Messages – compose new message with content included_
+~~~yaml
+sms://?body=My%20URL%20encoded%20message
+~~~
+_Messages – compose new message to `123` with content included_
+~~~yaml
+sms://123?body=My%20URL%20encoded%20message
+~~~
+_Messages – compose new multi-person message to `123` and `345` with content included_
+~~~yaml
+sms://?addresses=123,345&body=My%20URL%20encoded%20message
 ~~~
 _Notes_
 ~~~yaml
