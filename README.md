@@ -377,9 +377,9 @@ _Shortcuts – install shortcut using ID from iCloud shortcut link_
 ~~~yaml
 shortcuts://shortcuts/icloud_link_id
 ~~~
-_Shortcuts `x-callback-url` with for example `create-shortcut`_
+_Shortcuts – open URL schemes from apps where they're normally restricted <sub>(requires that a shortcut called “My unique name” exists with e.g. only a “Nothing” action)</sub>_
 ~~~yaml
-shortcuts://x-callback-url/create-shortcut
+shortcuts://x-callback-url/run-shortcut?name=My%20unique%20name&x-success={url scheme}
 ~~~
 _System Settings <sup>macOS</sup>_
 ~~~yaml
