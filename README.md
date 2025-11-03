@@ -365,7 +365,7 @@ _Shortcuts – run shortcut ‘example’_
 ~~~yaml
 shortcuts://run-shortcut?name=example
 ~~~
-_Shortcuts – run shortcut and open a URL afterwards_
+_Shortcuts – run shortcut and if it finishes without error, open a URL afterwards_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-success=the_url
 ~~~
