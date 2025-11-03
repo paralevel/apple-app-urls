@@ -365,10 +365,6 @@ _Shortcuts – run shortcut ‘example’_
 ~~~yaml
 shortcuts://run-shortcut?name=example
 ~~~
-_Shortcuts – run shortcut and if it finishes without error, open a URL afterwards_
-~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-success=the_url
-~~~
 _Shortcuts – run shortcut ‘example’ with ‘my text’ as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=my%20text
@@ -377,6 +373,19 @@ _Shortcuts <sup>iOS</sup> – run shortcut ‘example’ with the clipboard as i
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
+_Shortcuts – run shortcut and open `URL` on success_
+~~~yaml
+shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-success=the_url
+~~~
+_Shortcuts – run shortcut and open `URL` if the user cancels_
+~~~yaml
+shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-cancel=the_url
+~~~
+_Shortcuts – run shortcut and open `URL` on error <sub>(not errors from programming mistakes in the shortcut or errors in the `URL` scheme)</sub>_
+~~~yaml
+shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-error=the_url
+~~~
+
 _Shortcuts – open shortcut ‘example’ <sub>(case-insensitive)</sub>_
 ~~~yaml
 shortcuts://open-shortcut?name=example
