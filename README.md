@@ -381,7 +381,7 @@ _Shortcuts – run shortcut and open `URL` if the user cancels_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-cancel=the_url
 ~~~
-_Shortcuts – run shortcut and open `URL` on error <sub>(not errors from programming mistakes in the shortcut or errors in the `URL` scheme)</sub>_
+_Shortcuts – run shortcut and open `URL` on error <sub>(not errors from programming mistakes in the shortcut or errors in the URL scheme)</sub>_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-error=the_url
 ~~~
