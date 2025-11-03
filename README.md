@@ -386,7 +386,7 @@ _Shortcuts – run shortcut and open `URL` on error <sub>(note: this URL scheme 
 shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-error=the_url
 ~~~
 
-_Shortcuts – open shortcut ‘example’ <sub>(case-insensitive)</sub>_
+_Shortcuts – open shortcut ‘example’_
 ~~~yaml
 shortcuts://open-shortcut?name=example
 ~~~
