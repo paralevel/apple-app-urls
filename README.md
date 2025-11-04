@@ -285,7 +285,7 @@ _Photos <sup>iOS</sup> – search for ‘example’_
 ~~~yaml
 photos-navigation://search?searchTerm=example
 ~~~
-_Photos > most recent photo_
+_Photos – most recent photo_
 ~~~yaml
 photos://lastasset
 ~~~
