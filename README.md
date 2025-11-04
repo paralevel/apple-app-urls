@@ -105,7 +105,7 @@ _Feedback Assistant_
 ~~~yaml
 applefeedback://
 ~~~
-_Feedback Assistant > New Feedback_
+_Feedback Assistant – New Feedback_
 ~~~yaml
 applefeedback://new
 ~~~
@@ -149,15 +149,15 @@ _Home <sup>iOS</sup>_
 ~~~yaml
 com.apple.home://
 ~~~
-_Home <sup>iOS</sup> > Climate_
+_Home <sup>iOS</sup> – Climate_
 ~~~yaml
 com.apple.home://accessorytype/climate
 ~~~
-_Home <sup>iOS</sup> > Lights_
+_Home <sup>iOS</sup> – Lights_
 ~~~yaml
 com.apple.home://accessorytype/lights
 ~~~
-_Home <sup>iOS</sup> > Security_
+_Home <sup>iOS</sup> – Security_
 ~~~yaml
 com.apple.home://accessorytype/security
 ~~~
@@ -253,19 +253,19 @@ _Phone <sup>macOS</sup>_
 ~~~yaml
 phoneapp://
 ~~~
-_Phone <sup>iOS</sup> > Favorites (only works in Classic mode)_
+_Phone <sup>iOS</sup> – Favorites (only works in Classic mode)_
 ~~~yaml
 mobilephone-favorites://
 ~~~
-_Phone <sup>iOS</sup> > Calls (Unified mode) or Recents (Classic mode)_
+_Phone <sup>iOS</sup> – Calls (Unified mode) or Recents (Classic mode)_
 ~~~yaml
 mobilephone-recents://
 ~~~
-_Phone <sup>iOS</sup> > Contacts_
+_Phone <sup>iOS</sup> – Contacts_
 ~~~yaml
 mobilephone-contacts://
 ~~~
-_Phone <sup>iOS</sup> > Keypad_
+_Phone <sup>iOS</sup> – Keypad_
 ~~~yaml
 mobilephone-keypad://
 ~~~
@@ -273,11 +273,11 @@ _Photos_
 ~~~yaml
 photos://
 ~~~
-_Photos <sup>iOS</sup> > Library (tab)_
+_Photos <sup>iOS</sup> – Library (tab)_
 ~~~yaml
 photos://library
 ~~~
-_Photos <sup>iOS</sup> > Collections (tab)_
+_Photos <sup>iOS</sup> – Collections (tab)_
 ~~~yaml
 photos://collections
 ~~~
@@ -289,35 +289,35 @@ _Photos > most recent photo_
 ~~~yaml
 photos://lastasset
 ~~~
-_Photos > Recently Saved_
+_Photos – Recently Saved_
 ~~~yaml
 photos://album?name=recently-saved
 ~~~
-_Photos > Recently Deleted_
+_Photos – Recently Deleted_
 ~~~yaml
 photos://album?name=recently-deleted
 ~~~
-_Photos > Favorites_
+_Photos – Favorites_
 ~~~yaml
 photos://album?name=favorites
 ~~~
-_Photos <sup>iOS</sup> > Featured Photos_
+_Photos <sup>iOS</sup> – Featured Photos_
 ~~~yaml
 photos://featuredPhoto
 ~~~
-_Photos > Duplicates_
+_Photos – Duplicates_
 ~~~yaml
 photos://album?name=duplicates
 ~~~
-_Photos > Memories_
+_Photos – Memories_
 ~~~yaml
 photos://memory-generation
 ~~~
-_Photos > People & Pets_
+_Photos – People & Pets_
 ~~~yaml
 photos://people
 ~~~
-_Photos > Maps_
+_Photos – Maps_
 ~~~yaml
 photos://places
 ~~~
@@ -413,11 +413,11 @@ _Shortcuts <sup>iOS</sup> – create new automation_
 ~~~yaml
 shortcuts://create-automation
 ~~~
-_Shortcuts <sup>iOS</sup> > Automations_
+_Shortcuts <sup>iOS</sup> – Automations_
 ~~~yaml
 shortcuts://automations
 ~~~
-_Shortcuts > Gallery_
+_Shortcuts – Gallery_
 ~~~yaml
 shortcuts://gallery
 ~~~
@@ -445,7 +445,7 @@ _Watch <sup>iOS</sup>_
 ~~~yaml
 bridge://
 ~~~
-_Watch <sup>iOS</sup> > Face Gallery_
+_Watch <sup>iOS</sup> – Face Gallery_
 ~~~yaml
 facegallery://
 ~~~
