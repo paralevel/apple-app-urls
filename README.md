@@ -105,6 +105,10 @@ _Feedback Assistant_
 ~~~yaml
 applefeedback://
 ~~~
+_Feedback Assistant > New Feedback_
+~~~yaml
+applefeedback://new
+~~~
 _Files <sup>iOS</sup>_
 ~~~yaml
 shareddocuments://
@@ -387,17 +391,16 @@ shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
 _Shortcuts – run shortcut and on success, open URL_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-success=the_url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_url
 ~~~
 _Shortcuts – run shortcut and if the user cancels, open URL_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-cancel=the_url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_url
 ~~~
-_Shortcuts – run shortcut and on error, open URL <sub>(note: this URL scheme will fail if you open it from inside Shortcuts app)</sub>_
+_Shortcuts – run shortcut and on error, open URL <sub>(note: it aborts on error instead if you open it from inside the Shortcuts app)</sub>_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=Shortcut%20name&x-error=the_url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_url
 ~~~
-
 _Shortcuts – open shortcut ‘example’_
 ~~~yaml
 shortcuts://open-shortcut?name=example
