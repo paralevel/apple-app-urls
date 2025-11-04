@@ -9,11 +9,11 @@ _App Store_
 ~~~yaml
 itms-apps://?action=today
 ~~~
-_App Store > Updates_
+_App Store – Updates_
 ~~~yaml
 itms-apps://?action=updates
 ~~~
-_App Store > Safari Extensions_
+_App Store – Safari Extensions_
 ~~~yaml
 itms-apps://safariExtensions
 ~~~
