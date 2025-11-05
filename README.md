@@ -425,15 +425,15 @@ _Shortcuts <sup>iOS</sup> – run shortcut ‘example’ with the clipboard as i
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
-_Shortcuts – run shortcut and on success, open URL_
+_Shortcuts – run shortcut and on success, open URL encoded URL <sub>(seems to only go 3 levels deep when using settings URLs, this applies to both the success, cancel and error variants)</sub>_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_url
 ~~~
-_Shortcuts – run shortcut and if the user cancels, open URL_
+_Shortcuts – run shortcut and if the user cancels, open URL encoded URL_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_url
 ~~~
-_Shortcuts – run shortcut and on error, open URL <sub>(note: it aborts on error instead if you open it from inside the Shortcuts app)</sub>_
+_Shortcuts – run shortcut and on error, open URL encoded URL <sub>(note: it aborts on error instead if you open it from inside the Shortcuts app)</sub>_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_url
 ~~~
