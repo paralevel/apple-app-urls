@@ -189,6 +189,34 @@ _Mail – compose new e-mail_
 ~~~yaml
 mailto://
 ~~~
+_Mail – compose new e-mail with recipient included_
+~~~yaml
+mailto:joe@example.com
+~~~
+_Mail – compose new e-mail with recipient included, in the form of `Name <user@domain.tld>`_
+~~~yaml
+mailto:Joe%20%3Cjoe@example.com%3E
+~~~
+_Mail – compose new e-mail with To and Cc contents included_
+~~~yaml
+mailto:joe@example.com?cc=bob@example.com
+~~~
+_Mail – compose new e-mail with To, Cc and Bcc contents included_
+~~~yaml
+mailto:joe@example.com?cc=bob@example.com&bcc=jim@example.com
+~~~
+_Mail – compose new e-mail with To and Subject contents included_
+~~~yaml
+mailto:joe@example.com?subject=Some%20subject
+~~~
+_Mail – compose new e-mail with To and Message contents included_
+~~~yaml
+mailto:joe@example.com?body=Some%20message
+~~~
+_Mail – compose new e-mail with To, Subject and Message contents included_
+~~~yaml
+mailto:joe@example.com?subject=Some%20subject&body=Some%20message
+~~~
 _Maps_
 ~~~yaml
 maps://
@@ -203,23 +231,23 @@ sms://
 ~~~
 _Messages – compose new message to ‘123’_
 ~~~yaml
-sms://123
+sms:123
 ~~~
 _Messages – compose new multi-person message to ‘123’ and ‘345’_
 ~~~yaml
-sms://?addresses=123,345
+sms:?addresses=123,345
 ~~~
 _Messages – compose new message with content included_
 ~~~yaml
-sms://?body=My%20URL%20encoded%20message
+sms:?body=My%20URL%20encoded%20message
 ~~~
 _Messages – compose new message to ‘123’ with content included_
 ~~~yaml
-sms://123?body=My%20URL%20encoded%20message
+sms:123?body=My%20URL%20encoded%20message
 ~~~
 _Messages – compose new multi-person message to ‘123’ and ‘345’ with content included_
 ~~~yaml
-sms://?addresses=123,345&body=My%20URL%20encoded%20message
+sms:?addresses=123,345&body=My%20URL%20encoded%20message
 ~~~
 _Notes_
 ~~~yaml
