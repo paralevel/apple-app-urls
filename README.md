@@ -281,21 +281,25 @@ _Phone <sup>macOS</sup>_
 ~~~yaml
 phoneapp://
 ~~~
-_Phone <sup>iOS</sup> – Favorites (only works in Classic mode)_
-~~~yaml
-mobilephone-favorites://
-~~~
-_Phone <sup>iOS</sup> – Calls (Unified mode) or Recents (Classic mode)_
+_Phone <sup>iOS</sup>_
 ~~~yaml
 mobilephone-recents://
+~~~
+_Phone – call ‘123’_
+~~~yaml
+tel:123
+~~~
+_Phone <sup>iOS</sup> – Keypad_
+~~~yaml
+mobilephone-keypad://
 ~~~
 _Phone <sup>iOS</sup> – Contacts_
 ~~~yaml
 mobilephone-contacts://
 ~~~
-_Phone <sup>iOS</sup> – Keypad_
+_Phone <sup>iOS</sup> – Favorites (only available in Classic mode)_
 ~~~yaml
-mobilephone-keypad://
+mobilephone-favorites://
 ~~~
 _Photos_
 ~~~yaml
