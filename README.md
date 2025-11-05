@@ -197,7 +197,7 @@ _Mail – compose new e-mail with multiple recipients included_
 ~~~yaml
 mailto:joe@example.com,bob@example.com
 ~~~
-_Mail – compose new e-mail with recipient included, in the form of `Name <user@domain.tld>`_
+_Mail – compose new e-mail with recipient as `Name <user@domain.tld>` included_
 ~~~yaml
 mailto:Joe%20%3Cjoe@example.com%3E
 ~~~
