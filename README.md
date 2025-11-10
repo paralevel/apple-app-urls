@@ -477,14 +477,6 @@ _Wallet <sup>iOS</sup>_
 ~~~yaml
 wallet://
 ~~~
-_Watch <sup>iOS</sup>_
-~~~yaml
-bridge://
-~~~
-_Watch <sup>iOS</sup> – Face Gallery_
-~~~yaml
-facegallery://
-~~~
 _Weather_
 ~~~yaml
 weather://
