@@ -427,15 +427,15 @@ shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
 _Shortcuts – run shortcut and on success, open URL_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my%20url%20encoded%20url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_success_url
 ~~~
 _Shortcuts – run shortcut and if the user cancels, open URL_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my%20url%20encoded%20url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
 _Shortcuts – run shortcut and on error, open URL <sub>(note: should be opened from outside Shortcuts app, otherwise the error URL may fail to load)</sub>_
 ~~~yaml
-shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my%20url%20encoded%20url
+shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
 _Shortcuts – open shortcut ‘example’_
 ~~~yaml
