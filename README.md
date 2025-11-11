@@ -209,35 +209,35 @@ _Mail – compose new e-mail_
 ~~~yaml
 mailto://
 ~~~
-_Mail – compose new e-mail with recipient included_
+_Mail – compose new e-mail to single recipient_
 ~~~yaml
 mailto:joe@example.com
 ~~~
-_Mail – compose new e-mail with multiple recipients included_
+_Mail – compose new e-mail to multiple recipients_
 ~~~yaml
 mailto:joe@example.com,bob@example.com
 ~~~
-_Mail – compose new e-mail with recipient as `Name <user@domain.tld>` included_
+_Mail – compose new e-mail to ‘Name <user`@`domain.tld>’_
 ~~~yaml
 mailto:Joe%20%3Cjoe@example.com%3E
 ~~~
-_Mail – compose new e-mail with To and Cc contents included_
+_Mail – compose new e-mail to recipient and Cc another recipient_
 ~~~yaml
 mailto:joe@example.com?cc=bob@example.com
 ~~~
-_Mail – compose new e-mail with To, Cc and Bcc contents included_
+_Mail – compose new e-mail to recipient, Cc another recipient and Bcc a third recipient_
 ~~~yaml
 mailto:joe@example.com?cc=bob@example.com&bcc=jim@example.com
 ~~~
-_Mail – compose new e-mail with To and Subject contents included_
+_Mail – compose new e-mail to recipient with subject_
 ~~~yaml
 mailto:joe@example.com?subject=Some%20subject
 ~~~
-_Mail – compose new e-mail with To and Message contents included_
+_Mail – compose new e-mail to recipient with message_
 ~~~yaml
 mailto:joe@example.com?body=Some%20message
 ~~~
-_Mail – compose new e-mail with To, Subject and Message contents included_
+_Mail – compose new e-mail to recipoient with subject and message_
 ~~~yaml
 mailto:joe@example.com?subject=Some%20subject&body=Some%20message
 ~~~
