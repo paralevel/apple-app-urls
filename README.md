@@ -205,39 +205,39 @@ _Mail <sup>iOS</sup>_
 ~~~yaml
 com.apple.mobilemail://
 ~~~
-_Mail – compose new e-mail_
+_Mail – compose new email_
 ~~~yaml
 mailto://
 ~~~
-_Mail – compose new e-mail to single recipient_
+_Mail – compose new email to recipient_
 ~~~yaml
 mailto:joe@example.com
 ~~~
-_Mail – compose new e-mail to multiple recipients_
+_Mail – compose new email to multiple recipients_
 ~~~yaml
 mailto:joe@example.com,bob@example.com
 ~~~
-_Mail – compose new e-mail to ‘Name <user`@`domain.tld>’_
+_Mail – compose new email to recipient using the ‘Name <user`@`domain.tld>’ form_
 ~~~yaml
 mailto:Joe%20%3Cjoe@example.com%3E
 ~~~
-_Mail – compose new e-mail to recipient and Cc another recipient_
+_Mail – compose new email to recipient and Cc another recipient_
 ~~~yaml
 mailto:joe@example.com?cc=bob@example.com
 ~~~
-_Mail – compose new e-mail to recipient, Cc another recipient and Bcc a third recipient_
+_Mail – compose new email to recipient, Cc another recipient and Bcc a third recipient_
 ~~~yaml
 mailto:joe@example.com?cc=bob@example.com&bcc=jim@example.com
 ~~~
-_Mail – compose new e-mail to recipient with subject_
+_Mail – compose new email to recipient with subject_
 ~~~yaml
 mailto:joe@example.com?subject=Some%20subject
 ~~~
-_Mail – compose new e-mail to recipient with message_
+_Mail – compose new email to recipient with message_
 ~~~yaml
 mailto:joe@example.com?body=Some%20message
 ~~~
-_Mail – compose new e-mail to recipoient with subject and message_
+_Mail – compose new email to recipient with subject and message_
 ~~~yaml
 mailto:joe@example.com?subject=Some%20subject&body=Some%20message
 ~~~
