@@ -49,6 +49,10 @@ _Calendar – add subscription calendar_
 ~~~yaml
 webcal://
 ~~~
+_Calendar <sup>iOS</sup> – calendar list_
+~~~yaml
+calshow://familyCalendar
+~~~
 _Camera <sup>iOS</sup>_
 ~~~yaml
 camera://
@@ -97,7 +101,7 @@ _FaceTime_
 ~~~yaml
 facetimeapp://
 ~~~
-_FaceTime – call {contact name/phone number}_
+_FaceTime – call [contact name/phone number]_
 ~~~yaml
 facetime://name_or_number
 ~~~
@@ -116,6 +120,22 @@ shareddocuments://
 _Finder <sup>macOS</sup> – Recents_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
+~~~
+_Finder <sup>macOS</sup> – iCloud Drive_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud Drive.app
+~~~
+_Finder <sup>macOS</sup> – AirDrop_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
+~~~
+_Finder <sup>macOS</sup> – [current Mac]_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
+~~~
+_Finder <sup>macOS</sup> – Network_
+~~~yaml
+file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
 _Finder <sup>macOS</sup> – Shared_
 ~~~yaml
