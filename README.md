@@ -123,7 +123,7 @@ file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/my
 ~~~
 _Finder <sup>macOS</sup> – iCloud Drive_
 ~~~yaml
-file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud Drive.app
+file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
 _Finder <sup>macOS</sup> – AirDrop_
 ~~~yaml
