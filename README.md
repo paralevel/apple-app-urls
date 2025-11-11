@@ -49,7 +49,7 @@ _Calendar – add subscription calendar_
 ~~~yaml
 webcal://
 ~~~
-_Calendar <sup>iOS</sup> – calendar list_
+_Calendar <sup>iOS</sup> – calendars_
 ~~~yaml
 calshow://familyCalendar
 ~~~
