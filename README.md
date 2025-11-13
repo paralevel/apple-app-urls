@@ -61,13 +61,13 @@ _Camera <sup>iOS</sup> – photo mode_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-_Camera <sup>iOS</sup> – photo mode with front-facing camera_
-~~~yaml
-camera://configuration?capturemode=photo&capturedevice=front
-~~~
 _Camera <sup>iOS</sup> – video mode_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=back
+~~~
+_Camera <sup>iOS</sup> – photo mode with front-facing camera_
+~~~yaml
+camera://configuration?capturemode=photo&capturedevice=front
 ~~~
 _Camera <sup>iOS</sup> – video mode with front-facing camera_
 ~~~yaml
