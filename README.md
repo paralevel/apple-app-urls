@@ -61,7 +61,7 @@ _Camera <sup>iOS</sup> – photo mode_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-_Camera <sup>iOS</sup> – photo mode w/front-facing camera_
+_Camera <sup>iOS</sup> – photo mode with front-facing camera_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
@@ -69,7 +69,7 @@ _Camera <sup>iOS</sup> – video mode_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-_Camera <sup>iOS</sup> – video mode w/front-facing camera_
+_Camera <sup>iOS</sup> – video mode with front-facing camera_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -217,7 +217,7 @@ _Mail – compose new email to multiple recipients_
 ~~~yaml
 mailto:joe@example.com,bob@example.com
 ~~~
-_Mail – compose new email to recipient using the ‘Name <user`@`domain.tld>’ form_
+_Mail – compose new email to recipient using the ‘Name <user</span>@domain.tld>’ form_
 ~~~yaml
 mailto:Joe%20%3Cjoe@example.com%3E
 ~~~
