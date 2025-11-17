@@ -181,10 +181,6 @@ _Home <sup>iOS</sup> > Home Settings > Recognize My Voice > Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
 ~~~
-_iTunes Store <sup>iOS</sup>_
-~~~yaml
-itms://
-~~~
 _Journal_
 ~~~yaml
 moments://
