@@ -29,10 +29,6 @@ _Apps <sup>macOS</sup>_
 ~~~yaml
 spotlight://apps
 ~~~
-_Books_
-~~~yaml
-ibooks://
-~~~
 _Calculator_
 ~~~yaml
 calc://
@@ -388,10 +384,6 @@ photos://preferences/icloud
 _Photos <sup>macOS</sup> > Preferences > Shared Library_
 ~~~yaml
 photos://preferences/shared-library
-~~~
-_Podcasts_
-~~~yaml
-podcasts://
 ~~~
 _Reminders_
 ~~~yaml
