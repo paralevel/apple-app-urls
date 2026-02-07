@@ -13,13 +13,21 @@ _App Store – Updates_
 ~~~yaml
 itms-apps://?action=updates
 ~~~
+_App Store – search for ‘example’_
+~~~yaml
+itms-apps://?action=search&term=example
+~~~
 _App Store – Safari Extensions_
 ~~~yaml
 itms-apps://safariExtensions
 ~~~
-_App Store – search for ‘example’_
+_App Store – Apps for Wallet_
 ~~~yaml
-itms-apps://?action=search&term=example
+itms-apps://?action=passbook
+~~~
+_App Store <sup>iOS</sup> – Trending – “Great apps to try with SharePlay”_
+~~~yaml
+itms-apps://sharePlayApps
 ~~~
 _Apple Configurator <sup>macOS</sup>_
 ~~~yaml
