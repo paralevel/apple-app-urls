@@ -73,13 +73,13 @@ _Clock_
 ~~~yaml
 clock-worldclock://
 ~~~
-_Contacts <sup>iOS</sup>_
+_Contacts_
 ~~~yaml
-contact://
+contacts-sensitive://
 ~~~
-_Contacts <sup>macOS</sup>_
+_Contacts <sup>iOS</sup> – List > Other Known_
 ~~~yaml
-addressbook://
+contacts-sensitive:///list/other-known
 ~~~
 _Desk View <sup>macOS</sup>_
 ~~~yaml
