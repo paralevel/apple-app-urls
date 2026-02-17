@@ -107,7 +107,7 @@ facetimeapp://
 ~~~
 _FaceTime – call [contact name/phone number]_
 ~~~yaml
-facetime://name_or_number
+facetime://replace_with_name_or_number
 ~~~
 _Feedback Assistant_
 ~~~yaml
