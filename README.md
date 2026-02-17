@@ -209,37 +209,37 @@ _Mail – compose new email_
 ~~~yaml
 mailto://
 ~~~
-_Mail – compose new email to recipient_
+_Mail – compose new email to single recipient_
 ~~~yaml
-mailto:joe@example.com
+mailto:someone@example.com
 ~~~
 _Mail – compose new email to multiple recipients_
 ~~~yaml
-mailto:joe@example.com,bob@example.com
+mailto:someone@example.com,another@example.com
 ~~~
 _Mail – compose new email to recipient using the ‘Name <user</span>@domain.tld>’ form_
 ~~~yaml
-mailto:Joe%20%3Cjoe@example.com%3E
+mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
 _Mail – compose new email to recipient and Cc another recipient_
 ~~~yaml
-mailto:joe@example.com?cc=bob@example.com
+mailto:someone@example.com?cc=another@example.com
 ~~~
 _Mail – compose new email to recipient, Cc another recipient and Bcc a third recipient_
 ~~~yaml
-mailto:joe@example.com?cc=bob@example.com&bcc=jim@example.com
+mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
 _Mail – compose new email to recipient with subject_
 ~~~yaml
-mailto:joe@example.com?subject=Some%20subject
+mailto:someone@example.com?subject=Some%20subject
 ~~~
 _Mail – compose new email to recipient with message_
 ~~~yaml
-mailto:joe@example.com?body=Some%20message
+mailto:someone@example.com?body=Some%20message
 ~~~
 _Mail – compose new email to recipient with subject and message_
 ~~~yaml
-mailto:joe@example.com?subject=Some%20subject&body=Some%20message
+mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
 _Maps_
 ~~~yaml
@@ -475,7 +475,7 @@ shortcuts://gallery
 ~~~
 _Shortcuts – install shortcut using ID from iCloud shortcut link_
 ~~~yaml
-shortcuts://shortcuts/icloud_link_id
+shortcuts://shortcuts/replace_with_id_from_icloud_link_id
 ~~~
 _System Settings <sup>macOS</sup>_
 ~~~yaml
