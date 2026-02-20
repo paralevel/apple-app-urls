@@ -253,25 +253,25 @@ _Messages – compose new message_
 ~~~yaml
 sms://
 ~~~
-_Messages – compose new message to ‘123’_
+_Messages – compose new message to phone number ‘12345’_
 ~~~yaml
-sms:123
+sms:12345
 ~~~
-_Messages – compose new multi-person message to ‘123’ and ‘345’_
+_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’_
 ~~~yaml
-sms:?addresses=123,345
+sms:?addresses=12345,67890
 ~~~
-_Messages – compose new message with content included_
+_Messages – compose new message with prewritten message included_
 ~~~yaml
 sms:?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new message to ‘123’ with content included_
+_Messages – compose new message to phone number ‘12345’ with prewritten message included_
 ~~~yaml
-sms:123?body=My%20URL%20encoded%20message
+sms:12345?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new multi-person message to ‘123’ and ‘345’ with content included_
+_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’ with prewritten message included_
 ~~~yaml
-sms:?addresses=123,345&body=My%20URL%20encoded%20message
+sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
 _Notes_
 ~~~yaml
@@ -309,9 +309,9 @@ _Phone <sup>iOS</sup>_
 ~~~yaml
 mobilephone-recents://
 ~~~
-_Phone – call ‘123’_
+_Phone – call phone number ‘12345’_
 ~~~yaml
-tel:123
+tel:12345
 ~~~
 _Phone <sup>iOS</sup> – Keypad_
 ~~~yaml
