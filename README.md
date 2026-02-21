@@ -217,7 +217,7 @@ _Mail – new email with multiple recipients supplied_
 ~~~yaml
 mailto:someone@example.com,another@example.com
 ~~~
-_Mail – compose new email with recipient supplied, using the ‘Name <user</span>@domain.tld>’ form_
+_Mail – new email with recipient supplied, using the ‘Name <user</span>@domain.tld>’ form_
 ~~~yaml
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
