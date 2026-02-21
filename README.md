@@ -85,7 +85,7 @@ _Contacts_
 ~~~yaml
 contacts-sensitive://
 ~~~
-_Contacts <sub><sup>__iOS__</sup></sub> – List > Other Known_
+_Contacts <sub><sup>__iOS__</sup></sub> – List -› Other Known_
 ~~~yaml
 contacts-sensitive:///list/other-known
 ~~~
@@ -185,7 +185,7 @@ _Home <sub><sup>__iOS__</sup></sub> – Security_
 ~~~yaml
 com.apple.home://accessorytype/security
 ~~~
-_Home <sub><sup>__iOS__</sup></sub> > Home Settings > Recognize My Voice > Personal Content_
+_Home <sub><sup>__iOS__</sup></sub> -› Home Settings -› Recognize My Voice -› Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
 ~~~
@@ -377,15 +377,15 @@ _Photos – Maps_
 ~~~yaml
 photos://places
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > General_
+_Photos <sub><sup>__macOS__</sup></sub> -› Preferences -› General_
 ~~~yaml
 photos://preferences/general
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > iCloud_
+_Photos <sub><sup>__macOS__</sup></sub> -› Preferences -› iCloud_
 ~~~yaml
 photos://preferences/icloud
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > Shared Library_
+_Photos <sub><sup>__macOS__</sup></sub> -› Preferences -› Shared Library_
 ~~~yaml
 photos://preferences/shared-library
 ~~~
