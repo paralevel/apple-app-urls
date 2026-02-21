@@ -261,15 +261,15 @@ _Messages – compose new multi-person message to phone numbers ‘12345’ and 
 ~~~yaml
 sms:?addresses=12345,67890
 ~~~
-_Messages – compose new message with prewritten message included_
+_Messages – compose new message with prewritten content included_
 ~~~yaml
 sms:?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new message to phone number ‘12345’ with prewritten message included_
+_Messages – compose new message to phone number ‘12345’ with prewritten content included_
 ~~~yaml
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’ with prewritten message included_
+_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’ with prewritten content included_
 ~~~yaml
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
