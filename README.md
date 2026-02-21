@@ -221,11 +221,11 @@ _Mail – new email with recipient supplied, using the ‘Name <user</span>@doma
 ~~~yaml
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
-_Mail – new email with regular and Cc recipients supplied_
+_Mail – new email with main and Cc recipients supplied_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com
 ~~~
-_Mail – new email with regular, Cc and Bcc recipients supplied_
+_Mail – new email with main, Cc and Bcc recipients supplied_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
