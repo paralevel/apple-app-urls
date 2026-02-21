@@ -205,39 +205,39 @@ _Mail <sub><sup>__iOS__</sup></sub>_
 ~~~yaml
 com.apple.mobilemail://
 ~~~
-_Mail – compose new email_
+_Mail – new email_
 ~~~yaml
 mailto://
 ~~~
-_Mail – compose new email to single recipient_
+_Mail – new email with recipient supplied_
 ~~~yaml
 mailto:someone@example.com
 ~~~
-_Mail – compose new email to multiple recipients_
+_Mail – new email with multiple recipients supplied_
 ~~~yaml
 mailto:someone@example.com,another@example.com
 ~~~
-_Mail – compose new email to recipient using the ‘Name <user</span>@domain.tld>’ form_
+_Mail – compose new email with recipient supplied, using the ‘Name <user</span>@domain.tld>’ form_
 ~~~yaml
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
-_Mail – compose new email to recipient and Cc another recipient_
+_Mail – new email with regular and Cc recipients supplied_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com
 ~~~
-_Mail – compose new email to recipient, Cc another recipient and Bcc a third recipient_
+_Mail – new email with regular, Cc and Bcc recipients supplied_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
-_Mail – compose new email to recipient with subject_
+_Mail – new email with recipient and subject supplied_
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject
 ~~~
-_Mail – compose new email to recipient with message_
+_Mail – new email with recipient and content supplied_
 ~~~yaml
 mailto:someone@example.com?body=Some%20message
 ~~~
-_Mail – compose new email to recipient with subject and message_
+_Mail – new email with recipient, subject and content supplied_
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
@@ -249,27 +249,27 @@ _Messages_
 ~~~yaml
 iChat://
 ~~~
-_Messages – compose new message_
+_Messages – new message_
 ~~~yaml
 sms://
 ~~~
-_Messages – compose new message to phone number ‘12345’_
+_Messages – new message to phone number ‘12345’_
 ~~~yaml
 sms:12345
 ~~~
-_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’_
+_Messages – new message to phone numbers ‘12345’ and ‘67890’_
 ~~~yaml
 sms:?addresses=12345,67890
 ~~~
-_Messages – compose new message with prewritten content included_
+_Messages – new message with content supplied_
 ~~~yaml
 sms:?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new message to phone number ‘12345’ with prewritten content included_
+_Messages – new message with content supplied to phone number ‘12345’_
 ~~~yaml
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
-_Messages – compose new multi-person message to phone numbers ‘12345’ and ‘67890’ with prewritten content included_
+_Messages – new message with content supplied to phone numbers ‘12345’ and ‘67890’_
 ~~~yaml
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
