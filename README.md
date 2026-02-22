@@ -473,9 +473,9 @@ _Shortcuts ··· Gallery_
 ~~~yaml
 shortcuts://gallery
 ~~~
-_Shortcuts ··· install shortcut using ID from iCloud shortcut link_
+_Shortcuts ··· install shortcut using ID from iCloud URL_
 ~~~yaml
-shortcuts://shortcuts/replace_with_id_from_icloud_link_id
+shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
 _System Settings <sub><sup>__macOS__</sup></sub>_
 ~~~yaml
