@@ -497,6 +497,10 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
+_Web App <sub><sup>__iOS__</sup></sub> <sub>If you only have a single web page added to your Home Screen, opens that one, otherwise it's quite unpredictable</sub>_
+~~~yaml
+webapp://
+~~~
 <br>
 <br>
 <br>
