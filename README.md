@@ -209,35 +209,35 @@ _Mail > new email_
 ~~~yaml
 mailto://
 ~~~
-_Mail > new email with recipient supplied_
+_Mail > new email with recipient included_
 ~~~yaml
 mailto:someone@example.com
 ~~~
-_Mail > new email with multiple recipients supplied_
+_Mail > new email with multiple recipients included_
 ~~~yaml
 mailto:someone@example.com,another@example.com
 ~~~
-_Mail > new email with recipient supplied, using the ‘Name <user</span>@domain.tld>’ form_
+_Mail > new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form_
 ~~~yaml
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
-_Mail > new email with main and Cc recipients supplied_
+_Mail > new email with main and Cc recipients included_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com
 ~~~
-_Mail > new email with main, Cc and Bcc recipients supplied_
+_Mail > new email with main, Cc and Bcc recipients included_
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
-_Mail > new email with recipient and subject supplied_
+_Mail > new email with recipient and subject included_
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject
 ~~~
-_Mail > new email with recipient and content supplied_
+_Mail > new email with recipient and content included_
 ~~~yaml
 mailto:someone@example.com?body=Some%20message
 ~~~
-_Mail > new email with recipient, subject and content supplied_
+_Mail > new email with recipient, subject and content included_
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
@@ -261,15 +261,15 @@ _Messages > new message to phone numbers ‘12345’ and ‘67890’_
 ~~~yaml
 sms:?addresses=12345,67890
 ~~~
-_Messages > new message with content supplied_
+_Messages > new message with content included_
 ~~~yaml
 sms:?body=My%20URL%20encoded%20message
 ~~~
-_Messages > new message with content supplied to phone number ‘12345’_
+_Messages > new message with content included to phone number ‘12345’_
 ~~~yaml
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
-_Messages > new message with content supplied to phone numbers ‘12345’ and ‘67890’_
+_Messages > new message with content included to phone numbers ‘12345’ and ‘67890’_
 ~~~yaml
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
