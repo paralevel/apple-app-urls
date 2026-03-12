@@ -1,6 +1,6 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
-<sup>_Disclaimer: Although there are [similar](https://github.com/bhagyas/app-urls) [projects](https://github.com/SKaplanOfficial/macOS-URL-Schemes-for-macOS-Applications), this is a collection consisting exclusively of URLs I've found (or often pieced together) myself by examining local system files_</sup>
+<sup>_Disclaimer: This is a collection consisting exclusively of URLs I've found, or often pieced together, myself by examining local system files, and not built on, or meant to compete with, similar, already existing projects [1)](https://github.com/bhagyas/app-urls) [2)](https://github.com/SKaplanOfficial/macOS-URL-Schemes-for-macOS-Applications)_</sup>
 
 <br>
 <br>
