@@ -303,7 +303,7 @@ assistivecontrolpanels://
 ~~~
 _Passwords_
 ~~~yaml
-apple-otpauth://
+otpauth-migration://
 ~~~
 _Phone <sub><sup>__macOS__</sup></sub>_
 ~~~yaml
