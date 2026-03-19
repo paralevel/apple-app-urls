@@ -4,9 +4,12 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 26   | :white_check_mark: |
-| < 26   | :x:                |
+| main   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-Security vulnerabilities in this repository can be reported [here](https://github.com/paralevel/apple-app-urls/security/advisories/new). You can expect a response within 3 business days of the report.
+Security vulnerabilities in this repository can be reported here:
+
+https://github.com/paralevel/apple-app-urls/issues
+
+https://github.com/paralevel/apple-app-urls/security/advisories/new
