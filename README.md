@@ -1,12 +1,9 @@
 # Apple app URL schemes for iOS 26 and macOS 26 Tahoe
 
-(see also: https://github.com/bhagyas/app-urls https://github.com/SKaplanOfficial/macOS-URL-Schemes-for-macOS-Applications)
-
 <br>
 
-<sup>_Disclaimer: This collection only includes URLs I have been able to find, or often reverse engineer, using data extracted from local system files, and no URLs that were copied from other online sources_</sup>
+<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files only, and not URLs copied from other online sources_</sup>
 
-<br>
 <br>
 
 _Accessibility Reader <sub><sup>__iOS__</sup></sub>_
