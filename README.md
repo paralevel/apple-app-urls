@@ -9,7 +9,7 @@
 <br>
 <br>
 
-_Accessibility Reader <sub><sup>__iOS__</sup></sub>_
+_Accessibility Reader_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 apple-axreader://
 ~~~
@@ -33,15 +33,15 @@ _App Store > Apps for Wallet_
 ~~~yaml
 itms-apps://?action=passbook
 ~~~
-_App Store <sub><sup>__iOS__</sup></sub> > Trending > “Great apps to try with SharePlay”_
+_App Store_ <sup>${\color{red} iOS}$</sup> _> Trending > “Great apps to try with SharePlay”_
 ~~~yaml
 itms-apps://sharePlayApps
 ~~~
-_Apple Configurator <sub><sup>__macOS__</sup></sub>_
+_Apple Configurator_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 configurator://
 ~~~
-_Apps <sub><sup>__macOS__</sup></sub>_
+_Apps_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 spotlight://apps
 ~~~
@@ -49,11 +49,11 @@ _Calculator_
 ~~~yaml
 calc://
 ~~~
-_Calendar <sub><sup>__iOS__</sup></sub>_
+_Calendar_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 calshow://
 ~~~
-_Calendar <sub><sup>__macOS__</sup></sub>_
+_Calendar_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 ical://
 ~~~
@@ -61,27 +61,27 @@ _Calendar > add subscription calendar_
 ~~~yaml
 webcal://
 ~~~
-_Calendar <sub><sup>__iOS__</sup></sub> > calendars_
+_Calendar_ <sup>${\color{red} iOS}$</sup> _> calendars_
 ~~~yaml
 calshow://familyCalendar
 ~~~
-_Camera <sub><sup>__iOS__</sup></sub>_
+_Camera_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 camera://
 ~~~
-_Camera <sub><sup>__iOS__</sup></sub> > photo mode_
+_Camera_ <sup>${\color{red} iOS}$</sup> _> photo mode_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-_Camera <sub><sup>__iOS__</sup></sub> > video mode_
+_Camera_ <sup>${\color{red} iOS}$</sup> _> video mode_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-_Camera <sub><sup>__iOS__</sup></sub> > photo mode with front-facing camera_
+_Camera_ <sup>${\color{red} iOS}$</sup> _> photo mode with front-facing camera_
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-_Camera <sub><sup>__iOS__</sup></sub> > video mode with front-facing camera_
+_Camera_ <sup>${\color{red} iOS}$</sup> _> video mode with front-facing camera_
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -93,19 +93,19 @@ _Contacts_
 ~~~yaml
 contacts-sensitive://
 ~~~
-_Contacts <sub><sup>__iOS__</sup></sub> > List > Other Known_
+_Contacts_ <sup>${\color{red} iOS}$</sup> _> List > Other Known_
 ~~~yaml
 contacts-sensitive:///list/other-known
 ~~~
-_Desk View <sub><sup>__macOS__</sup></sub>_
+_Desk View_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 deskcam://
 ~~~
-_Dictionary <sub><sup>__macOS__</sup></sub>_
+_Dictionary_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 dict://
 ~~~
-_Dictionary <sub><sup>__macOS__</sup></sub> > search for ‘example’_
+_Dictionary_ <sup>${\color{blue} macOS}$</sup> _> search for ‘example’_
 ~~~yaml
 dict://example
 ~~~
@@ -125,47 +125,47 @@ _Feedback Assistant > New Feedback_
 ~~~yaml
 applefeedback://new
 ~~~
-_Files <sub><sup>__iOS__</sup></sub>_
+_Files_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 shareddocuments://
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > Recents_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> Recents_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > iCloud Drive_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> iCloud Drive_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > AirDrop_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> AirDrop_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > [current Mac]_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> [current Mac]_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > Network_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> Network_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > Shared_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> Shared_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > Shared By Me_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> Shared By Me_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > Shared With Me_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> Shared With Me_
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-_Finder <sub><sup>__macOS__</sup></sub> > /Users/Shared_
+_Finder_ <sup>${\color{blue} macOS}$</sup> _> /Users/Shared_
 ~~~yaml
 file:///Users/Shared
 ~~~
-_Font Book <sub><sup>__macOS__</sup></sub>_
+_Font Book_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 fontbook://
 ~~~
@@ -177,23 +177,23 @@ _Games_
 ~~~yaml
 games://
 ~~~
-_Home <sub><sup>__iOS__</sup></sub>_
+_Home_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 com.apple.home://
 ~~~
-_Home <sub><sup>__iOS__</sup></sub> > Climate_
+_Home_ <sup>${\color{red} iOS}$</sup> _> Climate_
 ~~~yaml
 com.apple.home://accessorytype/climate
 ~~~
-_Home <sub><sup>__iOS__</sup></sub> > Lights_
+_Home_ <sup>${\color{red} iOS}$</sup> _> Lights_
 ~~~yaml
 com.apple.home://accessorytype/lights
 ~~~
-_Home <sub><sup>__iOS__</sup></sub> > Security_
+_Home_ <sup>${\color{red} iOS}$</sup> _> Security_
 ~~~yaml
 com.apple.home://accessorytype/security
 ~~~
-_Home <sub><sup>__iOS__</sup></sub> > Home Settings > Recognize My Voice > Personal Content_
+_Home_ <sup>${\color{red} iOS}$</sup> _> Home Settings > Recognize My Voice > Personal Content_
 ~~~yaml
 com.apple.home://personalRequestOptIn
 ~~~
@@ -201,15 +201,15 @@ _Journal_
 ~~~yaml
 moments://
 ~~~
-_Keynote <sub><sup>__macOS__</sup></sub>_
+_Keynote_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 com.apple.iwork.keynote-share://
 ~~~
-_Magnifier <sub><sup>__iOS__</sup></sub>_
+_Magnifier_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 apple-magnifier://
 ~~~
-_Mail <sub><sup>__iOS__</sup></sub>_
+_Mail_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 com.apple.mobilemail://
 ~~~
@@ -285,23 +285,23 @@ _Notes_
 ~~~yaml
 applenotes://
 ~~~
-_Notes <sub><sup>__iOS__</sup></sub> > create new note_
+_Notes_ <sup>${\color{red} iOS}$</sup> _> create new note_
 ~~~yaml
 mobilenotes://newNote
 ~~~
-_Notes <sub><sup>__macOS__</sup></sub> > create new note_
+_Notes_ <sup>${\color{blue} macOS}$</sup> _> create new note_
 ~~~yaml
 notes://newNote?displayMode=paper
 ~~~
-_Numbers <sub><sup>__macOS__</sup></sub>_
+_Numbers_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 com.apple.iwork.numbers-share://
 ~~~
-_Pages <sub><sup>__macOS__</sup></sub>_
+_Pages_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 com.apple.iwork.pages-share://
 ~~~
-_Panel Editor <sub><sup>__macOS__</sup></sub>_
+_Panel Editor_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 assistivecontrolpanels://
 ~~~
@@ -309,11 +309,11 @@ _Passwords_
 ~~~yaml
 otpauth-migration://
 ~~~
-_Phone <sub><sup>__macOS__</sup></sub>_
+_Phone_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 phoneapp://
 ~~~
-_Phone <sub><sup>__iOS__</sup></sub>_
+_Phone_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 mobilephone-recents://
 ~~~
@@ -321,15 +321,15 @@ _Phone > call phone number ‘12345’_
 ~~~yaml
 tel:12345
 ~~~
-_Phone <sub><sup>__iOS__</sup></sub> > Keypad_
+_Phone_ <sup>${\color{red} iOS}$</sup> _> Keypad_
 ~~~yaml
 mobilephone-keypad://
 ~~~
-_Phone <sub><sup>__iOS__</sup></sub> > Contacts_
+_Phone_ <sup>${\color{red} iOS}$</sup> _> Contacts_
 ~~~yaml
 mobilephone-contacts://
 ~~~
-_Phone <sub><sup>__iOS__</sup></sub> > Favorites (only available in Classic mode)_
+_Phone_ <sup>${\color{red} iOS}$</sup> _> Favorites (only available in Classic mode)_
 ~~~yaml
 mobilephone-favorites://
 ~~~
@@ -337,15 +337,15 @@ _Photos_
 ~~~yaml
 photos://
 ~~~
-_Photos <sub><sup>__iOS__</sup></sub> > Library (tab)_
+_Photos_ <sup>${\color{red} iOS}$</sup> _> Library (tab)_
 ~~~yaml
 photos://library
 ~~~
-_Photos <sub><sup>__iOS__</sup></sub> > Collections (tab)_
+_Photos_ <sup>${\color{red} iOS}$</sup> _> Collections (tab)_
 ~~~yaml
 photos://collections
 ~~~
-_Photos <sub><sup>__iOS__</sup></sub> > search for ‘example’_
+_Photos_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’_
 ~~~yaml
 photos-navigation://search?searchTerm=example
 ~~~
@@ -365,7 +365,7 @@ _Photos > Favorites_
 ~~~yaml
 photos://album?name=favorites
 ~~~
-_Photos <sub><sup>__iOS__</sup></sub> > Featured Photos_
+_Photos_ <sup>${\color{red} iOS}$</sup> _> Featured Photos_
 ~~~yaml
 photos://featuredPhoto
 ~~~
@@ -385,15 +385,15 @@ _Photos > Maps_
 ~~~yaml
 photos://places
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > General_
+_Photos_ <sup>${\color{blue} macOS}$</sup> _> Preferences > General_
 ~~~yaml
 photos://preferences/general
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > iCloud_
+_Photos_ <sup>${\color{blue} macOS}$</sup> _> Preferences > iCloud_
 ~~~yaml
 photos://preferences/icloud
 ~~~
-_Photos <sub><sup>__macOS__</sup></sub> > Preferences > Shared Library_
+_Photos_ <sup>${\color{blue} macOS}$</sup> _> Preferences > Shared Library_
 ~~~yaml
 photos://preferences/shared-library
 ~~~
@@ -401,35 +401,35 @@ _Reminders_
 ~~~yaml
 x-apple-reminderkit://
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on DuckDuckGo_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on DuckDuckGo_
 ~~~yaml
 x-web-search://duckduckgo/?example
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on Google_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on Google_
 ~~~yaml
 x-web-search://google/?example
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on Bing_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on Bing_
 ~~~yaml
 x-web-search://bing/?example
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on Yahoo_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on Yahoo_
 ~~~yaml
 x-web-search://yahoo/?example
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on Ecosia_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on Ecosia_
 ~~~yaml
 x-web-search://ecosia/?example
 ~~~
-_Safari <sub><sup>__iOS__</sup></sub> > search for ‘example’ on Wikipedia_
+_Safari_ <sup>${\color{red} iOS}$</sup> _> search for ‘example’ on Wikipedia_
 ~~~yaml
 x-web-search://wikipedia/?example
 ~~~
-_Script Editor <sub><sup>__macOS__</sup></sub>_
+_Script Editor_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 applescript://
 ~~~
-_Settings <sub><sup>__iOS__</sup></sub>_
+_Settings_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 prefs://
 ~~~
@@ -445,7 +445,7 @@ _Shortcuts > run shortcut ‘example’ with ‘my text’ as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-_Shortcuts <sub><sup>__iOS__</sup></sub> > run shortcut ‘example’ with the clipboard as input_
+_Shortcuts_ <sup>${\color{red} iOS}$</sup> _> run shortcut ‘example’ with the clipboard as input_
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
@@ -469,11 +469,11 @@ _Shortcuts > create new shortcut_
 ~~~yaml
 shortcuts://create-shortcut
 ~~~
-_Shortcuts <sub><sup>__iOS__</sup></sub> > create new automation_
+_Shortcuts_ <sup>${\color{red} iOS}$</sup> _> create new automation_
 ~~~yaml
 shortcuts://create-automation
 ~~~
-_Shortcuts <sub><sup>__iOS__</sup></sub> > Automations_
+_Shortcuts_ <sup>${\color{red} iOS}$</sup> _> Automations_
 ~~~yaml
 shortcuts://automations
 ~~~
@@ -485,7 +485,7 @@ _Shortcuts > install shortcut using ID from iCloud URL_
 ~~~yaml
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-_System Settings <sub><sup>__macOS__</sup></sub>_
+_System Settings_ <sup>${\color{blue} macOS}$</sup>
 ~~~yaml
 x-apple.systempreferences://
 ~~~
@@ -493,11 +493,11 @@ _Tips_
 ~~~yaml
 x-apple-tips://
 ~~~
-_Voice Memos <sub><sup>__iOS__</sup></sub>_
+_Voice Memos_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 voicememos://
 ~~~
-_Wallet <sub><sup>__iOS__</sup></sub>_
+_Wallet_ <sup>${\color{red} iOS}$</sup>
 ~~~yaml
 wallet://
 ~~~
@@ -505,7 +505,7 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
-_Web App <sub><sup>__iOS__</sup></sub> <sub>If you only have a single web app installed/web page added to your Home Screen, the URL will open that one (unpredictable otherwise)</sub>_
+_Web App_ <sup>${\color{red} iOS}$</sup> <sub>If you only have a single web app installed/web page added to your Home Screen, the URL will open that one (unpredictable otherwise)</sub>_
 ~~~yaml
 webapp://
 ~~~
