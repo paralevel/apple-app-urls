@@ -455,7 +455,7 @@ Shortcuts › run shortcut and if the user cancels, open URL
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
-Shortcuts › run shortcut and on error, open URL <sub>(note: should be opened from outside Shortcuts app, otherwise the error URL may fail to load)</sub>
+Shortcuts › run shortcut and on error, open URL<br><sub>Should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
@@ -503,7 +503,7 @@ Weather
 ~~~yaml
 weather://
 ~~~
-Web App ${\sf\small\color{DeepSkyBlue} iOS}$ <sub>If you only have a single web app installed/web page added to your Home Screen, the URL will open that one (unpredictable otherwise)</sub>
+Web App ${\sf\small\color{DeepSkyBlue} iOS}$<br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
 ~~~yaml
 webapp://
 ~~~
