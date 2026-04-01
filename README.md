@@ -455,7 +455,7 @@ Shortcuts › run shortcut and if the user cancels, open URL
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
-Shortcuts › run shortcut and on error, open URL<br><sub>Should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>
+Shortcuts › run shortcut and on error, open URL<br><sub>Note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
