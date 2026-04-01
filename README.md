@@ -2,9 +2,7 @@
 
 <br>
 
-<sup>_Credit: https://www.w3.org/People/Berners-Lee/ • https://www.apple.com_</sup>
-
-<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs copied from other online sources_</sup>
+<sup>_Disclaimer: This collection only includes URLs I have been able to find or reverse engineer myself, using data extracted from local system files, and not URLs that have been copied from outside sources_</sup>
 
 <br>
 <br>
