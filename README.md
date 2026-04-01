@@ -7,503 +7,503 @@
 <br>
 <br>
 
-_Accessibility Reader_ ${\small\color{DeepSkyBlue} iOS}$
+Accessibility Reader ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 apple-axreader://
 ~~~
-_App Store_
+App Store
 ~~~yaml
 itms-apps://?action=today
 ~~~
-_App Store > Updates_
+App Store › Updates
 ~~~yaml
 itms-apps://?action=updates
 ~~~
-_App Store > search for ‘example’_
+App Store › search for ‘example’
 ~~~yaml
 itms-apps://?action=search&term=example
 ~~~
-_App Store > Safari Extensions_
+App Store › Safari Extensions
 ~~~yaml
 itms-apps://safariExtensions
 ~~~
-_App Store > Apps for Wallet_
+App Store › Apps for Wallet
 ~~~yaml
 itms-apps://?action=passbook
 ~~~
-_App Store_ ${\small\color{DeepSkyBlue} iOS}$ _> Trending > “Great apps to try with SharePlay”_
+App Store ${\sf\small\color{DeepSkyBlue} iOS}$ › Trending › “Great apps to try with SharePlay”
 ~~~yaml
 itms-apps://sharePlayApps
 ~~~
-_Apple Configurator_ ${\small\color{DeepSkyBlue} macOS}$
+Apple Configurator ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 configurator://
 ~~~
-_Apps_ ${\small\color{DeepSkyBlue} macOS}$
+Apps ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 spotlight://apps
 ~~~
-_Calculator_
+Calculator
 ~~~yaml
 calc://
 ~~~
-_Calendar_ ${\small\color{DeepSkyBlue} iOS}$
+Calendar ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 calshow://
 ~~~
-_Calendar_ ${\small\color{DeepSkyBlue} macOS}$
+Calendar ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 ical://
 ~~~
-_Calendar > add subscription calendar_
+Calendar › add subscription calendar
 ~~~yaml
 webcal://
 ~~~
-_Calendar_ ${\small\color{DeepSkyBlue} iOS}$ _> calendars_
+Calendar ${\sf\small\color{DeepSkyBlue} iOS}$ › calendars
 ~~~yaml
 calshow://familyCalendar
 ~~~
-_Camera_ ${\small\color{DeepSkyBlue} iOS}$
+Camera ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 camera://
 ~~~
-_Camera_ ${\small\color{DeepSkyBlue} iOS}$ _> photo mode_
+Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-_Camera_ ${\small\color{DeepSkyBlue} iOS}$ _> video mode_
+Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-_Camera_ ${\small\color{DeepSkyBlue} iOS}$ _> photo mode with front-facing camera_
+Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode with front-facing camera
 ~~~yaml
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-_Camera_ ${\small\color{DeepSkyBlue} iOS}$ _> video mode with front-facing camera_
+Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode with front-facing camera
 ~~~yaml
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
-_Clock_
+Clock
 ~~~yaml
 clock-worldclock://
 ~~~
-_Contacts_
+Contacts
 ~~~yaml
 contacts-sensitive://
 ~~~
-_Contacts_ ${\small\color{DeepSkyBlue} iOS}$ _> List > Other Known_
+Contacts ${\sf\small\color{DeepSkyBlue} iOS}$ › List › Other Known
 ~~~yaml
 contacts-sensitive:///list/other-known
 ~~~
-_Desk View_ ${\small\color{DeepSkyBlue} macOS}$
+Desk View ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 deskcam://
 ~~~
-_Dictionary_ ${\small\color{DeepSkyBlue} macOS}$
+Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 dict://
 ~~~
-_Dictionary_ ${\small\color{DeepSkyBlue} macOS}$ _> search for ‘example’_
+Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$ › search for ‘example’
 ~~~yaml
 dict://example
 ~~~
-_FaceTime_
+FaceTime
 ~~~yaml
 facetimeapp://
 ~~~
-_FaceTime > call [contact name/phone number]_
+FaceTime › call [contact name/phone number]
 ~~~yaml
 facetime://replace_with_name_or_number
 ~~~
-_Feedback Assistant_
+Feedback Assistant
 ~~~yaml
 applefeedback://
 ~~~
-_Feedback Assistant > New Feedback_
+Feedback Assistant › New Feedback
 ~~~yaml
 applefeedback://new
 ~~~
-_Files_ ${\small\color{DeepSkyBlue} iOS}$
+Files ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 shareddocuments://
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> Recents_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Recents
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> iCloud Drive_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › iCloud Drive
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> AirDrop_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › AirDrop
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> [current Mac]_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › [current Mac]
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> Network_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Network
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> Shared_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> Shared By Me_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared By Me
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> Shared With Me_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared With Me
 ~~~yaml
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-_Finder_ ${\small\color{DeepSkyBlue} macOS}$ _> /Users/Shared_
+Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › /Users/Shared
 ~~~yaml
 file:///Users/Shared
 ~~~
-_Font Book_ ${\small\color{DeepSkyBlue} macOS}$
+Font Book ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 fontbook://
 ~~~
-_Freeform_
+Freeform
 ~~~yaml
 freeform://
 ~~~
-_Games_
+Games
 ~~~yaml
 games://
 ~~~
-_Home_ ${\small\color{DeepSkyBlue} iOS}$
+Home ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 com.apple.home://
 ~~~
-_Home_ ${\small\color{DeepSkyBlue} iOS}$ _> Climate_
+Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Climate
 ~~~yaml
 com.apple.home://accessorytype/climate
 ~~~
-_Home_ ${\small\color{DeepSkyBlue} iOS}$ _> Lights_
+Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Lights
 ~~~yaml
 com.apple.home://accessorytype/lights
 ~~~
-_Home_ ${\small\color{DeepSkyBlue} iOS}$ _> Security_
+Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Security
 ~~~yaml
 com.apple.home://accessorytype/security
 ~~~
-_Home_ ${\small\color{DeepSkyBlue} iOS}$ _> Home Settings > Recognize My Voice > Personal Content_
+Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Home Settings › Recognize My Voice › Personal Content
 ~~~yaml
 com.apple.home://personalRequestOptIn
 ~~~
-_Journal_
+Journal
 ~~~yaml
 moments://
 ~~~
-_Keynote_ ${\small\color{DeepSkyBlue} macOS}$
+Keynote ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 com.apple.iwork.keynote-share://
 ~~~
-_Magnifier_ ${\small\color{DeepSkyBlue} iOS}$
+Magnifier ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 apple-magnifier://
 ~~~
-_Mail_ ${\small\color{DeepSkyBlue} iOS}$
+Mail ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 com.apple.mobilemail://
 ~~~
-_Mail > new email_
+Mail › new email
 ~~~yaml
 mailto://
 ~~~
-_Mail > new email with recipient included_
+Mail › new email with recipient included
 ~~~yaml
 mailto:someone@example.com
 ~~~
-_Mail > new email with multiple recipients included_
+Mail › new email with multiple recipients included
 ~~~yaml
 mailto:someone@example.com,another@example.com
 ~~~
-_Mail > new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form_
+Mail › new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form
 ~~~yaml
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
-_Mail > new email with main and Cc recipients included_
+Mail › new email with main and Cc recipients included
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com
 ~~~
-_Mail > new email with main, Cc and Bcc recipients included_
+Mail › new email with main, Cc and Bcc recipients included
 ~~~yaml
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
-_Mail > new email with recipient and subject included_
+Mail › new email with recipient and subject included
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject
 ~~~
-_Mail > new email with recipient and content included_
+Mail › new email with recipient and content included
 ~~~yaml
 mailto:someone@example.com?body=Some%20message
 ~~~
-_Mail > new email with recipient, subject and content included_
+Mail › new email with recipient, subject and content included
 ~~~yaml
 mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
-_Maps_
+Maps
 ~~~yaml
 maps://
 ~~~
-_Messages_
+Messages
 ~~~yaml
 iChat://
 ~~~
-_Messages > new message_
+Messages › new message
 ~~~yaml
 sms://
 ~~~
-_Messages > new message to phone number ‘12345’_
+Messages › new message to phone number ‘12345’
 ~~~yaml
 sms:12345
 ~~~
-_Messages > new message to phone numbers ‘12345’ and ‘67890’_
+Messages › new message to phone numbers ‘12345’ and ‘67890’
 ~~~yaml
 sms:?addresses=12345,67890
 ~~~
-_Messages > new message with content included_
+Messages › new message with content included
 ~~~yaml
 sms:?body=My%20URL%20encoded%20message
 ~~~
-_Messages > new message with content included to phone number ‘12345’_
+Messages › new message with content included to phone number ‘12345’
 ~~~yaml
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
-_Messages > new message with content included to phone numbers ‘12345’ and ‘67890’_
+Messages › new message with content included to phone numbers ‘12345’ and ‘67890’
 ~~~yaml
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
-_Notes_
+Notes
 ~~~yaml
 applenotes://
 ~~~
-_Notes_ ${\small\color{DeepSkyBlue} iOS}$ _> create new note_
+Notes ${\sf\small\color{DeepSkyBlue} iOS}$ › create new note
 ~~~yaml
 mobilenotes://newNote
 ~~~
-_Notes_ ${\small\color{DeepSkyBlue} macOS}$ _> create new note_
+Notes ${\sf\small\color{DeepSkyBlue} macOS}$ › create new note
 ~~~yaml
 notes://newNote?displayMode=paper
 ~~~
-_Numbers_ ${\small\color{DeepSkyBlue} macOS}$
+Numbers ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 com.apple.iwork.numbers-share://
 ~~~
-_Pages_ ${\small\color{DeepSkyBlue} macOS}$
+Pages ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 com.apple.iwork.pages-share://
 ~~~
-_Panel Editor_ ${\small\color{DeepSkyBlue} macOS}$
+Panel Editor ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 assistivecontrolpanels://
 ~~~
-_Passwords_
+Passwords
 ~~~yaml
 otpauth-migration://
 ~~~
-_Phone_ ${\small\color{DeepSkyBlue} macOS}$
+Phone ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 phoneapp://
 ~~~
-_Phone_ ${\small\color{DeepSkyBlue} iOS}$
+Phone ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 mobilephone-recents://
 ~~~
-_Phone > call phone number ‘12345’_
+Phone › call phone number ‘12345’
 ~~~yaml
 tel:12345
 ~~~
-_Phone_ ${\small\color{DeepSkyBlue} iOS}$ _> Keypad_
+Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Keypad
 ~~~yaml
 mobilephone-keypad://
 ~~~
-_Phone_ ${\small\color{DeepSkyBlue} iOS}$ _> Contacts_
+Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Contacts
 ~~~yaml
 mobilephone-contacts://
 ~~~
-_Phone_ ${\small\color{DeepSkyBlue} iOS}$ _> Favorites (only available in Classic mode)_
+Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Favorites (only available in Classic mode)
 ~~~yaml
 mobilephone-favorites://
 ~~~
-_Photos_
+Photos
 ~~~yaml
 photos://
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} iOS}$ _> Library (tab)_
+Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Library (tab)
 ~~~yaml
 photos://library
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} iOS}$ _> Collections (tab)_
+Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Collections (tab)
 ~~~yaml
 photos://collections
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’_
+Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’
 ~~~yaml
 photos-navigation://search?searchTerm=example
 ~~~
-_Photos > most recent photo_
+Photos › most recent photo
 ~~~yaml
 photos://lastasset
 ~~~
-_Photos > Recently Saved_
+Photos › Recently Saved
 ~~~yaml
 photos://album?name=recently-saved
 ~~~
-_Photos > Recently Deleted_
+Photos › Recently Deleted
 ~~~yaml
 photos://album?name=recently-deleted
 ~~~
-_Photos > Favorites_
+Photos › Favorites
 ~~~yaml
 photos://album?name=favorites
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} iOS}$ _> Featured Photos_
+Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Featured Photos
 ~~~yaml
 photos://featuredPhoto
 ~~~
-_Photos > Duplicates_
+Photos › Duplicates
 ~~~yaml
 photos://album?name=duplicates
 ~~~
-_Photos > Memories_
+Photos › Memories
 ~~~yaml
 photos://memory-generation
 ~~~
-_Photos > People & Pets_
+Photos › People & Pets
 ~~~yaml
 photos://people
 ~~~
-_Photos > Maps_
+Photos › Maps
 ~~~yaml
 photos://places
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} macOS}$ _> Preferences > General_
+Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › General
 ~~~yaml
 photos://preferences/general
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} macOS}$ _> Preferences > iCloud_
+Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › iCloud
 ~~~yaml
 photos://preferences/icloud
 ~~~
-_Photos_ ${\small\color{DeepSkyBlue} macOS}$ _> Preferences > Shared Library_
+Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › Shared Library
 ~~~yaml
 photos://preferences/shared-library
 ~~~
-_Reminders_
+Reminders
 ~~~yaml
 x-apple-reminderkit://
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on DuckDuckGo_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on DuckDuckGo
 ~~~yaml
 x-web-search://duckduckgo/?example
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on Google_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Google
 ~~~yaml
 x-web-search://google/?example
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on Bing_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Bing
 ~~~yaml
 x-web-search://bing/?example
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on Yahoo_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Yahoo
 ~~~yaml
 x-web-search://yahoo/?example
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on Ecosia_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Ecosia
 ~~~yaml
 x-web-search://ecosia/?example
 ~~~
-_Safari_ ${\small\color{DeepSkyBlue} iOS}$ _> search for ‘example’ on Wikipedia_
+Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Wikipedia
 ~~~yaml
 x-web-search://wikipedia/?example
 ~~~
-_Script Editor_ ${\small\color{DeepSkyBlue} macOS}$
+Script Editor ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 applescript://
 ~~~
-_Settings_ ${\small\color{DeepSkyBlue} iOS}$
+Settings ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 prefs://
 ~~~
-_Shortcuts_
+Shortcuts
 ~~~yaml
 shortcuts://
 ~~~
-_Shortcuts > run shortcut ‘example’_
+Shortcuts › run shortcut ‘example’
 ~~~yaml
 shortcuts://run-shortcut?name=example
 ~~~
-_Shortcuts > run shortcut ‘example’ with ‘my text’ as input_
+Shortcuts › run shortcut ‘example’ with ‘my text’ as input
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-_Shortcuts_ ${\small\color{DeepSkyBlue} iOS}$ _> run shortcut ‘example’ with the clipboard as input_
+Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › run shortcut ‘example’ with the clipboard as input
 ~~~yaml
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
-_Shortcuts > run shortcut and on success, open URL_
+Shortcuts › run shortcut and on success, open URL
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_success_url
 ~~~
-_Shortcuts > run shortcut and if the user cancels, open URL_
+Shortcuts › run shortcut and if the user cancels, open URL
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
-_Shortcuts > run shortcut and on error, open URL <sub>(note: should be opened from outside Shortcuts app, otherwise the error URL may fail to load)</sub>_
+Shortcuts › run shortcut and on error, open URL <sub>(note: should be opened from outside Shortcuts app, otherwise the error URL may fail to load)</sub>
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
-_Shortcuts > open shortcut ‘example’_
+Shortcuts › open shortcut ‘example’
 ~~~yaml
 shortcuts://open-shortcut?name=example
 ~~~
-_Shortcuts > create new shortcut_
+Shortcuts › create new shortcut
 ~~~yaml
 shortcuts://create-shortcut
 ~~~
-_Shortcuts_ ${\small\color{DeepSkyBlue} iOS}$ _> create new automation_
+Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › create new automation
 ~~~yaml
 shortcuts://create-automation
 ~~~
-_Shortcuts_ ${\small\color{DeepSkyBlue} iOS}$ _> Automations_
+Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › Automations
 ~~~yaml
 shortcuts://automations
 ~~~
-_Shortcuts > Gallery_
+Shortcuts › Gallery
 ~~~yaml
 shortcuts://gallery
 ~~~
-_Shortcuts > install shortcut using ID from iCloud URL_
+Shortcuts › install shortcut using ID from iCloud URL
 ~~~yaml
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-_System Settings_ ${\small\color{DeepSkyBlue} macOS}$
+System Settings ${\sf\small\color{DeepSkyBlue} macOS}$
 ~~~yaml
 x-apple.systempreferences://
 ~~~
-_Tips_
+Tips
 ~~~yaml
 x-apple-tips://
 ~~~
-_Voice Memos_ ${\small\color{DeepSkyBlue} iOS}$
+Voice Memos ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 voicememos://
 ~~~
-_Wallet_ ${\small\color{DeepSkyBlue} iOS}$
+Wallet ${\sf\small\color{DeepSkyBlue} iOS}$
 ~~~yaml
 wallet://
 ~~~
-_Weather_
+Weather
 ~~~yaml
 weather://
 ~~~
-_Web App_ ${\small\color{DeepSkyBlue} iOS}$ <sub>If you only have a single web app installed/web page added to your Home Screen, the URL will open that one (unpredictable otherwise)</sub>_
+Web App ${\sf\small\color{DeepSkyBlue} iOS}$ <sub>If you only have a single web app installed/web page added to your Home Screen, the URL will open that one (unpredictable otherwise)</sub>
 ~~~yaml
 webapp://
 ~~~
