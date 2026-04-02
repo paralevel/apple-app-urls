@@ -8,503 +8,503 @@
 <br>
 
 Accessibility Reader ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 apple-axreader://
 ~~~
 App Store
-~~~csv
+~~~robot
 itms-apps://?action=today
 ~~~
 App Store › Updates
-~~~csv
+~~~robot
 itms-apps://?action=updates
 ~~~
 App Store › search for ‘example’
-~~~csv
+~~~robot
 itms-apps://?action=search&term=example
 ~~~
 App Store › Safari Extensions
-~~~csv
+~~~robot
 itms-apps://safariExtensions
 ~~~
 App Store › Apps for Wallet
-~~~csv
+~~~robot
 itms-apps://?action=passbook
 ~~~
 App Store ${\sf\small\color{DeepSkyBlue} iOS}$ › Trending › “Great apps to try with SharePlay”
-~~~csv
+~~~robot
 itms-apps://sharePlayApps
 ~~~
 Apple Configurator ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 configurator://
 ~~~
 Apps ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 spotlight://apps
 ~~~
 Calculator
-~~~csv
+~~~robot
 calc://
 ~~~
 Calendar ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 calshow://
 ~~~
 Calendar ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 ical://
 ~~~
 Calendar › add subscription calendar
-~~~csv
+~~~robot
 webcal://
 ~~~
 Calendar ${\sf\small\color{DeepSkyBlue} iOS}$ › calendars
-~~~csv
+~~~robot
 calshow://familyCalendar
 ~~~
 Camera ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 camera://
 ~~~
 Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode
-~~~csv
+~~~robot
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
 Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode
-~~~csv
+~~~robot
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
 Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode with front-facing camera
-~~~csv
+~~~robot
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
 Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode with front-facing camera
-~~~csv
+~~~robot
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
 Clock
-~~~csv
+~~~robot
 clock-worldclock://
 ~~~
 Contacts
-~~~csv
+~~~robot
 contacts-sensitive://
 ~~~
 Contacts ${\sf\small\color{DeepSkyBlue} iOS}$ › List › Other Known
-~~~csv
+~~~robot
 contacts-sensitive:///list/other-known
 ~~~
 Desk View ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 deskcam://
 ~~~
 Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 dict://
 ~~~
 Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$ › search for ‘example’
-~~~csv
+~~~robot
 dict://example
 ~~~
 FaceTime
-~~~csv
+~~~robot
 facetimeapp://
 ~~~
 FaceTime › call [contact name/phone number]
-~~~csv
+~~~robot
 facetime://replace_with_name_or_number
 ~~~
 Feedback Assistant
-~~~csv
+~~~robot
 applefeedback://
 ~~~
 Feedback Assistant › New Feedback
-~~~csv
+~~~robot
 applefeedback://new
 ~~~
 Files ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 shareddocuments://
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Recents
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › iCloud Drive
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › AirDrop
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › [current Mac]
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Network
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared By Me
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared With Me
-~~~csv
+~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
 Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › /Users/Shared
-~~~csv
+~~~robot
 file:///Users/Shared
 ~~~
 Font Book ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 fontbook://
 ~~~
 Freeform
-~~~csv
+~~~robot
 freeform://
 ~~~
 Games
-~~~csv
+~~~robot
 games://
 ~~~
 Home ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 com.apple.home://
 ~~~
 Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Climate
-~~~csv
+~~~robot
 com.apple.home://accessorytype/climate
 ~~~
 Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Lights
-~~~csv
+~~~robot
 com.apple.home://accessorytype/lights
 ~~~
 Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Security
-~~~csv
+~~~robot
 com.apple.home://accessorytype/security
 ~~~
 Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Home Settings › Recognize My Voice › Personal Content
-~~~csv
+~~~robot
 com.apple.home://personalRequestOptIn
 ~~~
 Journal
-~~~csv
+~~~robot
 moments://
 ~~~
 Keynote ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 com.apple.iwork.keynote-share://
 ~~~
 Magnifier ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 apple-magnifier://
 ~~~
 Mail ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 com.apple.mobilemail://
 ~~~
 Mail › new email
-~~~csv
+~~~robot
 mailto://
 ~~~
 Mail › new email with recipient included
-~~~csv
+~~~robot
 mailto:someone@example.com
 ~~~
 Mail › new email with multiple recipients included
-~~~csv
+~~~robot
 mailto:someone@example.com,another@example.com
 ~~~
 Mail › new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form
-~~~csv
+~~~robot
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
 Mail › new email with main and Cc recipients included
-~~~csv
+~~~robot
 mailto:someone@example.com?cc=another@example.com
 ~~~
 Mail › new email with main, Cc and Bcc recipients included
-~~~csv
+~~~robot
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
 Mail › new email with recipient and subject included
-~~~csv
+~~~robot
 mailto:someone@example.com?subject=Some%20subject
 ~~~
 Mail › new email with recipient and content included
-~~~csv
+~~~robot
 mailto:someone@example.com?body=Some%20message
 ~~~
 Mail › new email with recipient, subject and content included
-~~~csv
+~~~robot
 mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
 Maps
-~~~csv
+~~~robot
 maps://
 ~~~
 Messages
-~~~csv
+~~~robot
 iChat://
 ~~~
 Messages › new message
-~~~csv
+~~~robot
 sms://
 ~~~
 Messages › new message to phone number ‘12345’
-~~~csv
+~~~robot
 sms:12345
 ~~~
 Messages › new message to phone numbers ‘12345’ and ‘67890’
-~~~csv
+~~~robot
 sms:?addresses=12345,67890
 ~~~
 Messages › new message with content included
-~~~csv
+~~~robot
 sms:?body=My%20URL%20encoded%20message
 ~~~
 Messages › new message with content included to phone number ‘12345’
-~~~csv
+~~~robot
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
 Messages › new message with content included to phone numbers ‘12345’ and ‘67890’
-~~~csv
+~~~robot
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
 Notes
-~~~csv
+~~~robot
 applenotes://
 ~~~
 Notes ${\sf\small\color{DeepSkyBlue} iOS}$ › create new note
-~~~csv
+~~~robot
 mobilenotes://newNote
 ~~~
 Notes ${\sf\small\color{DeepSkyBlue} macOS}$ › create new note
-~~~csv
+~~~robot
 notes://newNote?displayMode=paper
 ~~~
 Numbers ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 com.apple.iwork.numbers-share://
 ~~~
 Pages ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 com.apple.iwork.pages-share://
 ~~~
 Panel Editor ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 assistivecontrolpanels://
 ~~~
 Passwords
-~~~csv
+~~~robot
 otpauth-migration://
 ~~~
 Phone ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 phoneapp://
 ~~~
 Phone ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 mobilephone-recents://
 ~~~
 Phone › call phone number ‘12345’
-~~~csv
+~~~robot
 tel:12345
 ~~~
 Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Keypad
-~~~csv
+~~~robot
 mobilephone-keypad://
 ~~~
 Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Contacts
-~~~csv
+~~~robot
 mobilephone-contacts://
 ~~~
 Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Favorites (only available in Classic mode)
-~~~csv
+~~~robot
 mobilephone-favorites://
 ~~~
 Photos
-~~~csv
+~~~robot
 photos://
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Library (tab)
-~~~csv
+~~~robot
 photos://library
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Collections (tab)
-~~~csv
+~~~robot
 photos://collections
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’
-~~~csv
+~~~robot
 photos-navigation://search?searchTerm=example
 ~~~
 Photos › most recent photo
-~~~csv
+~~~robot
 photos://lastasset
 ~~~
 Photos › Recently Saved
-~~~csv
+~~~robot
 photos://album?name=recently-saved
 ~~~
 Photos › Recently Deleted
-~~~csv
+~~~robot
 photos://album?name=recently-deleted
 ~~~
 Photos › Favorites
-~~~csv
+~~~robot
 photos://album?name=favorites
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Featured Photos
-~~~csv
+~~~robot
 photos://featuredPhoto
 ~~~
 Photos › Duplicates
-~~~csv
+~~~robot
 photos://album?name=duplicates
 ~~~
 Photos › Memories
-~~~csv
+~~~robot
 photos://memory-generation
 ~~~
 Photos › People & Pets
-~~~csv
+~~~robot
 photos://people
 ~~~
 Photos › Maps
-~~~csv
+~~~robot
 photos://places
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › General
-~~~csv
+~~~robot
 photos://preferences/general
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › iCloud
-~~~csv
+~~~robot
 photos://preferences/icloud
 ~~~
 Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › Shared Library
-~~~csv
+~~~robot
 photos://preferences/shared-library
 ~~~
 Reminders
-~~~csv
+~~~robot
 x-apple-reminderkit://
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on DuckDuckGo
-~~~csv
+~~~robot
 x-web-search://duckduckgo/?example
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Google
-~~~csv
+~~~robot
 x-web-search://google/?example
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Bing
-~~~csv
+~~~robot
 x-web-search://bing/?example
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Yahoo
-~~~csv
+~~~robot
 x-web-search://yahoo/?example
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Ecosia
-~~~csv
+~~~robot
 x-web-search://ecosia/?example
 ~~~
 Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Wikipedia
-~~~csv
+~~~robot
 x-web-search://wikipedia/?example
 ~~~
 Script Editor ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 applescript://
 ~~~
 Settings ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 prefs://
 ~~~
 Shortcuts
-~~~csv
+~~~robot
 shortcuts://
 ~~~
 Shortcuts › run shortcut ‘example’
-~~~csv
+~~~robot
 shortcuts://run-shortcut?name=example
 ~~~
 Shortcuts › run shortcut ‘example’ with ‘my text’ as input
-~~~csv
+~~~robot
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
 Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › run shortcut ‘example’ with the clipboard as input
-~~~csv
+~~~robot
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
 Shortcuts › run shortcut and on success, open URL
-~~~csv
+~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_success_url
 ~~~
 Shortcuts › run shortcut and if the user cancels, open URL
-~~~csv
+~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
 Shortcuts › run shortcut and on error, open URL<br><sub>Note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>
-~~~csv
+~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
 Shortcuts › open shortcut ‘example’
-~~~csv
+~~~robot
 shortcuts://open-shortcut?name=example
 ~~~
 Shortcuts › create new shortcut
-~~~csv
+~~~robot
 shortcuts://create-shortcut
 ~~~
 Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › create new automation
-~~~csv
+~~~robot
 shortcuts://create-automation
 ~~~
 Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › Automations
-~~~csv
+~~~robot
 shortcuts://automations
 ~~~
 Shortcuts › Gallery
-~~~csv
+~~~robot
 shortcuts://gallery
 ~~~
 Shortcuts › install shortcut using ID from iCloud URL
-~~~csv
+~~~robot
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
 System Settings ${\sf\small\color{DeepSkyBlue} macOS}$
-~~~csv
+~~~robot
 x-apple.systempreferences://
 ~~~
 Tips
-~~~csv
+~~~robot
 x-apple-tips://
 ~~~
 Voice Memos ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 voicememos://
 ~~~
 Wallet ${\sf\small\color{DeepSkyBlue} iOS}$
-~~~csv
+~~~robot
 wallet://
 ~~~
 Weather
-~~~csv
+~~~robot
 weather://
 ~~~
 Web App ${\sf\small\color{DeepSkyBlue} iOS}$<br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
-~~~csv
+~~~robot
 webapp://
 ~~~
 <br>
