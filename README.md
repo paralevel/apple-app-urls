@@ -503,7 +503,7 @@ _Weather_
 ~~~robot
 weather://
 ~~~
-_Web App <sup>iOS</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>_
+_Web App <sup>iOS</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it seems very unpredictable what it opens</sub>_
 ~~~robot
 webapp://
 ~~~
