@@ -7,7 +7,7 @@
 <br>
 <br>
 
-Accessibility Reader ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Accessibility Reader <sub>_iOS_</sub>
 ~~~robot
 apple-axreader://
 ~~~
@@ -31,15 +31,15 @@ App Store › Apps for Wallet
 ~~~robot
 itms-apps://?action=passbook
 ~~~
-App Store ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Trending › “Great apps to try with SharePlay”
+App Store <sub>_iOS_</sub> › Trending › “Great apps to try with SharePlay”
 ~~~robot
 itms-apps://sharePlayApps
 ~~~
-Apple Configurator ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Apple Configurator <sub>_macOS_</sub>
 ~~~robot
 configurator://
 ~~~
-Apps ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Apps <sub>_macOS_</sub>
 ~~~robot
 spotlight://apps
 ~~~
@@ -47,11 +47,11 @@ Calculator
 ~~~robot
 calc://
 ~~~
-Calendar ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Calendar <sub>_iOS_</sub>
 ~~~robot
 calshow://
 ~~~
-Calendar ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Calendar <sub>_macOS_</sub>
 ~~~robot
 ical://
 ~~~
@@ -59,27 +59,27 @@ Calendar › add subscription calendar
 ~~~robot
 webcal://
 ~~~
-Calendar ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › calendars
+Calendar <sub>_iOS_</sub> › calendars
 ~~~robot
 calshow://familyCalendar
 ~~~
-Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Camera <sub>_iOS_</sub>
 ~~~robot
 camera://
 ~~~
-Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › photo mode
+Camera <sub>_iOS_</sub> › photo mode
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › video mode
+Camera <sub>_iOS_</sub> › video mode
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › photo mode with front-facing camera
+Camera <sub>_iOS_</sub> › photo mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › video mode with front-facing camera
+Camera <sub>_iOS_</sub> › video mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -91,19 +91,19 @@ Contacts
 ~~~robot
 contacts-sensitive://
 ~~~
-Contacts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › List › Other Known
+Contacts <sub>_iOS_</sub> › List › Other Known
 ~~~robot
 contacts-sensitive:///list/other-known
 ~~~
-Desk View ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Desk View <sub>_macOS_</sub>
 ~~~robot
 deskcam://
 ~~~
-Dictionary ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Dictionary <sub>_macOS_</sub>
 ~~~robot
 dict://
 ~~~
-Dictionary ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › search for ‘example’
+Dictionary <sub>_macOS_</sub> › search for ‘example’
 ~~~robot
 dict://example
 ~~~
@@ -123,47 +123,47 @@ Feedback Assistant › New Feedback
 ~~~robot
 applefeedback://new
 ~~~
-Files ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Files <sub>_iOS_</sub>
 ~~~robot
 shareddocuments://
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Recents
+Finder <sub>_macOS_</sub> › Recents
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › iCloud Drive
+Finder <sub>_macOS_</sub> › iCloud Drive
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › AirDrop
+Finder <sub>_macOS_</sub> › AirDrop
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › [current Mac]
+Finder <sub>_macOS_</sub> › [current Mac]
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Network
+Finder <sub>_macOS_</sub> › Network
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared
+Finder <sub>_macOS_</sub> › Shared
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared By Me
+Finder <sub>_macOS_</sub> › Shared By Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared With Me
+Finder <sub>_macOS_</sub> › Shared With Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › /Users/Shared
+Finder <sub>_macOS_</sub> › /Users/Shared
 ~~~robot
 file:///Users/Shared
 ~~~
-Font Book ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Font Book <sub>_macOS_</sub>
 ~~~robot
 fontbook://
 ~~~
@@ -175,23 +175,23 @@ Games
 ~~~robot
 games://
 ~~~
-Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Home <sub>_iOS_</sub>
 ~~~robot
 com.apple.home://
 ~~~
-Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Climate
+Home <sub>_iOS_</sub> › Climate
 ~~~robot
 com.apple.home://accessorytype/climate
 ~~~
-Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Lights
+Home <sub>_iOS_</sub> › Lights
 ~~~robot
 com.apple.home://accessorytype/lights
 ~~~
-Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Security
+Home <sub>_iOS_</sub> › Security
 ~~~robot
 com.apple.home://accessorytype/security
 ~~~
-Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Home Settings › Recognize My Voice › Personal Content
+Home <sub>_iOS_</sub> › Home Settings › Recognize My Voice › Personal Content
 ~~~robot
 com.apple.home://personalRequestOptIn
 ~~~
@@ -199,15 +199,15 @@ Journal
 ~~~robot
 moments://
 ~~~
-Keynote ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Keynote <sub>_macOS_</sub>
 ~~~robot
 com.apple.iwork.keynote-share://
 ~~~
-Magnifier ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Magnifier <sub>_iOS_</sub>
 ~~~robot
 apple-magnifier://
 ~~~
-Mail ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Mail <sub>_iOS_</sub>
 ~~~robot
 com.apple.mobilemail://
 ~~~
@@ -283,23 +283,23 @@ Notes
 ~~~robot
 applenotes://
 ~~~
-Notes ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › create new note
+Notes <sub>_iOS_</sub> › create new note
 ~~~robot
 mobilenotes://newNote
 ~~~
-Notes ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › create new note
+Notes <sub>_macOS_</sub> › create new note
 ~~~robot
 notes://newNote?displayMode=paper
 ~~~
-Numbers ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Numbers <sub>_macOS_</sub>
 ~~~robot
 com.apple.iwork.numbers-share://
 ~~~
-Pages ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Pages <sub>_macOS_</sub>
 ~~~robot
 com.apple.iwork.pages-share://
 ~~~
-Panel Editor ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Panel Editor <sub>_macOS_</sub>
 ~~~robot
 assistivecontrolpanels://
 ~~~
@@ -307,11 +307,11 @@ Passwords
 ~~~robot
 otpauth-migration://
 ~~~
-Phone ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Phone <sub>_macOS_</sub>
 ~~~robot
 phoneapp://
 ~~~
-Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Phone <sub>_iOS_</sub>
 ~~~robot
 mobilephone-recents://
 ~~~
@@ -319,15 +319,15 @@ Phone › call phone number ‘12345’
 ~~~robot
 tel:12345
 ~~~
-Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Keypad
+Phone <sub>_iOS_</sub> › Keypad
 ~~~robot
 mobilephone-keypad://
 ~~~
-Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Contacts
+Phone <sub>_iOS_</sub> › Contacts
 ~~~robot
 mobilephone-contacts://
 ~~~
-Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Favorites (only available in Classic mode)
+Phone <sub>_iOS_</sub> › Favorites (only available in Classic mode)
 ~~~robot
 mobilephone-favorites://
 ~~~
@@ -335,15 +335,15 @@ Photos
 ~~~robot
 photos://
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Library (tab)
+Photos <sub>_iOS_</sub> › Library (tab)
 ~~~robot
 photos://library
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Collections (tab)
+Photos <sub>_iOS_</sub> › Collections (tab)
 ~~~robot
 photos://collections
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’
+Photos <sub>_iOS_</sub> › search for ‘example’
 ~~~robot
 photos-navigation://search?searchTerm=example
 ~~~
@@ -363,7 +363,7 @@ Photos › Favorites
 ~~~robot
 photos://album?name=favorites
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Featured Photos
+Photos <sub>_iOS_</sub> › Featured Photos
 ~~~robot
 photos://featuredPhoto
 ~~~
@@ -383,15 +383,15 @@ Photos › Maps
 ~~~robot
 photos://places
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › General
+Photos <sub>_macOS_</sub> › Preferences › General
 ~~~robot
 photos://preferences/general
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › iCloud
+Photos <sub>_macOS_</sub> › Preferences › iCloud
 ~~~robot
 photos://preferences/icloud
 ~~~
-Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › Shared Library
+Photos <sub>_macOS_</sub> › Preferences › Shared Library
 ~~~robot
 photos://preferences/shared-library
 ~~~
@@ -399,35 +399,35 @@ Reminders
 ~~~robot
 x-apple-reminderkit://
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on DuckDuckGo
+Safari <sub>_iOS_</sub> › search for ‘example’ on DuckDuckGo
 ~~~robot
 x-web-search://duckduckgo/?example
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Google
+Safari <sub>_iOS_</sub> › search for ‘example’ on Google
 ~~~robot
 x-web-search://google/?example
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Bing
+Safari <sub>_iOS_</sub> › search for ‘example’ on Bing
 ~~~robot
 x-web-search://bing/?example
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Yahoo
+Safari <sub>_iOS_</sub> › search for ‘example’ on Yahoo
 ~~~robot
 x-web-search://yahoo/?example
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Ecosia
+Safari <sub>_iOS_</sub> › search for ‘example’ on Ecosia
 ~~~robot
 x-web-search://ecosia/?example
 ~~~
-Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Wikipedia
+Safari <sub>_iOS_</sub> › search for ‘example’ on Wikipedia
 ~~~robot
 x-web-search://wikipedia/?example
 ~~~
-Script Editor ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+Script Editor <sub>_macOS_</sub>
 ~~~robot
 applescript://
 ~~~
-Settings ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Settings <sub>_iOS_</sub>
 ~~~robot
 prefs://
 ~~~
@@ -443,7 +443,7 @@ Shortcuts › run shortcut ‘example’ with ‘my text’ as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › run shortcut ‘example’ with the clipboard as input
+Shortcuts <sub>_iOS_</sub> › run shortcut ‘example’ with the clipboard as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
@@ -467,11 +467,11 @@ Shortcuts › create new shortcut
 ~~~robot
 shortcuts://create-shortcut
 ~~~
-Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › create new automation
+Shortcuts <sub>_iOS_</sub> › create new automation
 ~~~robot
 shortcuts://create-automation
 ~~~
-Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Automations
+Shortcuts <sub>_iOS_</sub> › Automations
 ~~~robot
 shortcuts://automations
 ~~~
@@ -483,7 +483,7 @@ Shortcuts › install shortcut using ID from iCloud URL
 ~~~robot
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-System Settings ${\sf\small\color{rgb(256, 128, 256)} macOS}$
+System Settings <sub>_macOS_</sub>
 ~~~robot
 x-apple.systempreferences://
 ~~~
@@ -491,11 +491,11 @@ Tips
 ~~~robot
 x-apple-tips://
 ~~~
-Voice Memos ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Voice Memos <sub>_iOS_</sub>
 ~~~robot
 voicememos://
 ~~~
-Wallet ${\sf\small\color{rgb(256, 128, 256)} iOS}$
+Wallet <sub>_iOS_</sub>
 ~~~robot
 wallet://
 ~~~
@@ -503,7 +503,7 @@ Weather
 ~~~robot
 weather://
 ~~~
-Web App ${\sf\small\color{rgb(256, 128, 256)} iOS}$<br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
+Web App <sub>_iOS_</sub><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
 ~~~robot
 webapp://
 ~~~
