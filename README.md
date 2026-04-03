@@ -7,7 +7,7 @@
 <br>
 <br>
 
-Accessibility Reader ${\sf\small\color{DeepSkyBlue} iOS}$
+Accessibility Reader ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 apple-axreader://
 ~~~
@@ -31,15 +31,15 @@ App Store › Apps for Wallet
 ~~~robot
 itms-apps://?action=passbook
 ~~~
-App Store ${\sf\small\color{DeepSkyBlue} iOS}$ › Trending › “Great apps to try with SharePlay”
+App Store ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Trending › “Great apps to try with SharePlay”
 ~~~robot
 itms-apps://sharePlayApps
 ~~~
-Apple Configurator ${\sf\small\color{DeepSkyBlue} macOS}$
+Apple Configurator ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 configurator://
 ~~~
-Apps ${\sf\small\color{DeepSkyBlue} macOS}$
+Apps ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 spotlight://apps
 ~~~
@@ -47,11 +47,11 @@ Calculator
 ~~~robot
 calc://
 ~~~
-Calendar ${\sf\small\color{DeepSkyBlue} iOS}$
+Calendar ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 calshow://
 ~~~
-Calendar ${\sf\small\color{DeepSkyBlue} macOS}$
+Calendar ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 ical://
 ~~~
@@ -59,27 +59,27 @@ Calendar › add subscription calendar
 ~~~robot
 webcal://
 ~~~
-Calendar ${\sf\small\color{DeepSkyBlue} iOS}$ › calendars
+Calendar ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › calendars
 ~~~robot
 calshow://familyCalendar
 ~~~
-Camera ${\sf\small\color{DeepSkyBlue} iOS}$
+Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 camera://
 ~~~
-Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode
+Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › photo mode
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode
+Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › video mode
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › photo mode with front-facing camera
+Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › photo mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-Camera ${\sf\small\color{DeepSkyBlue} iOS}$ › video mode with front-facing camera
+Camera ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › video mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -91,19 +91,19 @@ Contacts
 ~~~robot
 contacts-sensitive://
 ~~~
-Contacts ${\sf\small\color{DeepSkyBlue} iOS}$ › List › Other Known
+Contacts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › List › Other Known
 ~~~robot
 contacts-sensitive:///list/other-known
 ~~~
-Desk View ${\sf\small\color{DeepSkyBlue} macOS}$
+Desk View ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 deskcam://
 ~~~
-Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$
+Dictionary ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 dict://
 ~~~
-Dictionary ${\sf\small\color{DeepSkyBlue} macOS}$ › search for ‘example’
+Dictionary ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › search for ‘example’
 ~~~robot
 dict://example
 ~~~
@@ -123,47 +123,47 @@ Feedback Assistant › New Feedback
 ~~~robot
 applefeedback://new
 ~~~
-Files ${\sf\small\color{DeepSkyBlue} iOS}$
+Files ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 shareddocuments://
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Recents
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Recents
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › iCloud Drive
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › iCloud Drive
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › AirDrop
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › AirDrop
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › [current Mac]
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › [current Mac]
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Network
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Network
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared By Me
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared By Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › Shared With Me
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Shared With Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-Finder ${\sf\small\color{DeepSkyBlue} macOS}$ › /Users/Shared
+Finder ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › /Users/Shared
 ~~~robot
 file:///Users/Shared
 ~~~
-Font Book ${\sf\small\color{DeepSkyBlue} macOS}$
+Font Book ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 fontbook://
 ~~~
@@ -175,23 +175,23 @@ Games
 ~~~robot
 games://
 ~~~
-Home ${\sf\small\color{DeepSkyBlue} iOS}$
+Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 com.apple.home://
 ~~~
-Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Climate
+Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Climate
 ~~~robot
 com.apple.home://accessorytype/climate
 ~~~
-Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Lights
+Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Lights
 ~~~robot
 com.apple.home://accessorytype/lights
 ~~~
-Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Security
+Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Security
 ~~~robot
 com.apple.home://accessorytype/security
 ~~~
-Home ${\sf\small\color{DeepSkyBlue} iOS}$ › Home Settings › Recognize My Voice › Personal Content
+Home ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Home Settings › Recognize My Voice › Personal Content
 ~~~robot
 com.apple.home://personalRequestOptIn
 ~~~
@@ -199,15 +199,15 @@ Journal
 ~~~robot
 moments://
 ~~~
-Keynote ${\sf\small\color{DeepSkyBlue} macOS}$
+Keynote ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 com.apple.iwork.keynote-share://
 ~~~
-Magnifier ${\sf\small\color{DeepSkyBlue} iOS}$
+Magnifier ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 apple-magnifier://
 ~~~
-Mail ${\sf\small\color{DeepSkyBlue} iOS}$
+Mail ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 com.apple.mobilemail://
 ~~~
@@ -283,23 +283,23 @@ Notes
 ~~~robot
 applenotes://
 ~~~
-Notes ${\sf\small\color{DeepSkyBlue} iOS}$ › create new note
+Notes ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › create new note
 ~~~robot
 mobilenotes://newNote
 ~~~
-Notes ${\sf\small\color{DeepSkyBlue} macOS}$ › create new note
+Notes ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › create new note
 ~~~robot
 notes://newNote?displayMode=paper
 ~~~
-Numbers ${\sf\small\color{DeepSkyBlue} macOS}$
+Numbers ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 com.apple.iwork.numbers-share://
 ~~~
-Pages ${\sf\small\color{DeepSkyBlue} macOS}$
+Pages ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 com.apple.iwork.pages-share://
 ~~~
-Panel Editor ${\sf\small\color{DeepSkyBlue} macOS}$
+Panel Editor ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 assistivecontrolpanels://
 ~~~
@@ -307,11 +307,11 @@ Passwords
 ~~~robot
 otpauth-migration://
 ~~~
-Phone ${\sf\small\color{DeepSkyBlue} macOS}$
+Phone ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 phoneapp://
 ~~~
-Phone ${\sf\small\color{DeepSkyBlue} iOS}$
+Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 mobilephone-recents://
 ~~~
@@ -319,15 +319,15 @@ Phone › call phone number ‘12345’
 ~~~robot
 tel:12345
 ~~~
-Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Keypad
+Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Keypad
 ~~~robot
 mobilephone-keypad://
 ~~~
-Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Contacts
+Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Contacts
 ~~~robot
 mobilephone-contacts://
 ~~~
-Phone ${\sf\small\color{DeepSkyBlue} iOS}$ › Favorites (only available in Classic mode)
+Phone ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Favorites (only available in Classic mode)
 ~~~robot
 mobilephone-favorites://
 ~~~
@@ -335,15 +335,15 @@ Photos
 ~~~robot
 photos://
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Library (tab)
+Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Library (tab)
 ~~~robot
 photos://library
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Collections (tab)
+Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Collections (tab)
 ~~~robot
 photos://collections
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’
+Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’
 ~~~robot
 photos-navigation://search?searchTerm=example
 ~~~
@@ -363,7 +363,7 @@ Photos › Favorites
 ~~~robot
 photos://album?name=favorites
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} iOS}$ › Featured Photos
+Photos ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Featured Photos
 ~~~robot
 photos://featuredPhoto
 ~~~
@@ -383,15 +383,15 @@ Photos › Maps
 ~~~robot
 photos://places
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › General
+Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › General
 ~~~robot
 photos://preferences/general
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › iCloud
+Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › iCloud
 ~~~robot
 photos://preferences/icloud
 ~~~
-Photos ${\sf\small\color{DeepSkyBlue} macOS}$ › Preferences › Shared Library
+Photos ${\sf\small\color{rgb(256, 128, 256)} macOS}$ › Preferences › Shared Library
 ~~~robot
 photos://preferences/shared-library
 ~~~
@@ -399,35 +399,35 @@ Reminders
 ~~~robot
 x-apple-reminderkit://
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on DuckDuckGo
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on DuckDuckGo
 ~~~robot
 x-web-search://duckduckgo/?example
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Google
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Google
 ~~~robot
 x-web-search://google/?example
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Bing
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Bing
 ~~~robot
 x-web-search://bing/?example
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Yahoo
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Yahoo
 ~~~robot
 x-web-search://yahoo/?example
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Ecosia
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Ecosia
 ~~~robot
 x-web-search://ecosia/?example
 ~~~
-Safari ${\sf\small\color{DeepSkyBlue} iOS}$ › search for ‘example’ on Wikipedia
+Safari ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › search for ‘example’ on Wikipedia
 ~~~robot
 x-web-search://wikipedia/?example
 ~~~
-Script Editor ${\sf\small\color{DeepSkyBlue} macOS}$
+Script Editor ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 applescript://
 ~~~
-Settings ${\sf\small\color{DeepSkyBlue} iOS}$
+Settings ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 prefs://
 ~~~
@@ -443,7 +443,7 @@ Shortcuts › run shortcut ‘example’ with ‘my text’ as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › run shortcut ‘example’ with the clipboard as input
+Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › run shortcut ‘example’ with the clipboard as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
@@ -467,11 +467,11 @@ Shortcuts › create new shortcut
 ~~~robot
 shortcuts://create-shortcut
 ~~~
-Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › create new automation
+Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › create new automation
 ~~~robot
 shortcuts://create-automation
 ~~~
-Shortcuts ${\sf\small\color{DeepSkyBlue} iOS}$ › Automations
+Shortcuts ${\sf\small\color{rgb(256, 128, 256)} iOS}$ › Automations
 ~~~robot
 shortcuts://automations
 ~~~
@@ -483,7 +483,7 @@ Shortcuts › install shortcut using ID from iCloud URL
 ~~~robot
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-System Settings ${\sf\small\color{DeepSkyBlue} macOS}$
+System Settings ${\sf\small\color{rgb(256, 128, 256)} macOS}$
 ~~~robot
 x-apple.systempreferences://
 ~~~
@@ -491,11 +491,11 @@ Tips
 ~~~robot
 x-apple-tips://
 ~~~
-Voice Memos ${\sf\small\color{DeepSkyBlue} iOS}$
+Voice Memos ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 voicememos://
 ~~~
-Wallet ${\sf\small\color{DeepSkyBlue} iOS}$
+Wallet ${\sf\small\color{rgb(256, 128, 256)} iOS}$
 ~~~robot
 wallet://
 ~~~
@@ -503,7 +503,7 @@ Weather
 ~~~robot
 weather://
 ~~~
-Web App ${\sf\small\color{DeepSkyBlue} iOS}$<br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
+Web App ${\sf\small\color{rgb(256, 128, 256)} iOS}$<br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
 ~~~robot
 webapp://
 ~~~
