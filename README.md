@@ -7,7 +7,7 @@
 <br>
 <br>
 
-Accessibility Reader <sub>_iOS_</sub>
+Accessibility Reader <sup>_iOS_</sup>
 ~~~robot
 apple-axreader://
 ~~~
@@ -31,15 +31,15 @@ App Store › Apps for Wallet
 ~~~robot
 itms-apps://?action=passbook
 ~~~
-App Store <sub>_iOS_</sub> › Trending › “Great apps to try with SharePlay”
+App Store <sup>_iOS_</sup> › Trending › “Great apps to try with SharePlay”
 ~~~robot
 itms-apps://sharePlayApps
 ~~~
-Apple Configurator <sub>_macOS_</sub>
+Apple Configurator <sup>_macOS_</sup>
 ~~~robot
 configurator://
 ~~~
-Apps <sub>_macOS_</sub>
+Apps <sup>_macOS_</sup>
 ~~~robot
 spotlight://apps
 ~~~
@@ -47,11 +47,11 @@ Calculator
 ~~~robot
 calc://
 ~~~
-Calendar <sub>_iOS_</sub>
+Calendar <sup>_iOS_</sup>
 ~~~robot
 calshow://
 ~~~
-Calendar <sub>_macOS_</sub>
+Calendar <sup>_macOS_</sup>
 ~~~robot
 ical://
 ~~~
@@ -59,27 +59,27 @@ Calendar › add subscription calendar
 ~~~robot
 webcal://
 ~~~
-Calendar <sub>_iOS_</sub> › calendars
+Calendar <sup>_iOS_</sup> › calendars
 ~~~robot
 calshow://familyCalendar
 ~~~
-Camera <sub>_iOS_</sub>
+Camera <sup>_iOS_</sup>
 ~~~robot
 camera://
 ~~~
-Camera <sub>_iOS_</sub> › photo mode
+Camera <sup>_iOS_</sup> › photo mode
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-Camera <sub>_iOS_</sub> › video mode
+Camera <sup>_iOS_</sup> › video mode
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-Camera <sub>_iOS_</sub> › photo mode with front-facing camera
+Camera <sup>_iOS_</sup> › photo mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-Camera <sub>_iOS_</sub> › video mode with front-facing camera
+Camera <sup>_iOS_</sup> › video mode with front-facing camera
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
@@ -91,19 +91,19 @@ Contacts
 ~~~robot
 contacts-sensitive://
 ~~~
-Contacts <sub>_iOS_</sub> › List › Other Known
+Contacts <sup>_iOS_</sup> › List › Other Known
 ~~~robot
 contacts-sensitive:///list/other-known
 ~~~
-Desk View <sub>_macOS_</sub>
+Desk View <sup>_macOS_</sup>
 ~~~robot
 deskcam://
 ~~~
-Dictionary <sub>_macOS_</sub>
+Dictionary <sup>_macOS_</sup>
 ~~~robot
 dict://
 ~~~
-Dictionary <sub>_macOS_</sub> › search for ‘example’
+Dictionary <sup>_macOS_</sup> › search for ‘example’
 ~~~robot
 dict://example
 ~~~
@@ -123,47 +123,47 @@ Feedback Assistant › New Feedback
 ~~~robot
 applefeedback://new
 ~~~
-Files <sub>_iOS_</sub>
+Files <sup>_iOS_</sup>
 ~~~robot
 shareddocuments://
 ~~~
-Finder <sub>_macOS_</sub> › Recents
+Finder <sup>_macOS_</sup> › Recents
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-Finder <sub>_macOS_</sub> › iCloud Drive
+Finder <sup>_macOS_</sup> › iCloud Drive
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-Finder <sub>_macOS_</sub> › AirDrop
+Finder <sup>_macOS_</sup> › AirDrop
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-Finder <sub>_macOS_</sub> › [current Mac]
+Finder <sup>_macOS_</sup> › [current Mac]
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-Finder <sub>_macOS_</sub> › Network
+Finder <sup>_macOS_</sup> › Network
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-Finder <sub>_macOS_</sub> › Shared
+Finder <sup>_macOS_</sup> › Shared
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-Finder <sub>_macOS_</sub> › Shared By Me
+Finder <sup>_macOS_</sup> › Shared By Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-Finder <sub>_macOS_</sub> › Shared With Me
+Finder <sup>_macOS_</sup> › Shared With Me
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-Finder <sub>_macOS_</sub> › /Users/Shared
+Finder <sup>_macOS_</sup> › /Users/Shared
 ~~~robot
 file:///Users/Shared
 ~~~
-Font Book <sub>_macOS_</sub>
+Font Book <sup>_macOS_</sup>
 ~~~robot
 fontbook://
 ~~~
@@ -175,23 +175,23 @@ Games
 ~~~robot
 games://
 ~~~
-Home <sub>_iOS_</sub>
+Home <sup>_iOS_</sup>
 ~~~robot
 com.apple.home://
 ~~~
-Home <sub>_iOS_</sub> › Climate
+Home <sup>_iOS_</sup> › Climate
 ~~~robot
 com.apple.home://accessorytype/climate
 ~~~
-Home <sub>_iOS_</sub> › Lights
+Home <sup>_iOS_</sup> › Lights
 ~~~robot
 com.apple.home://accessorytype/lights
 ~~~
-Home <sub>_iOS_</sub> › Security
+Home <sup>_iOS_</sup> › Security
 ~~~robot
 com.apple.home://accessorytype/security
 ~~~
-Home <sub>_iOS_</sub> › Home Settings › Recognize My Voice › Personal Content
+Home <sup>_iOS_</sup> › Home Settings › Recognize My Voice › Personal Content
 ~~~robot
 com.apple.home://personalRequestOptIn
 ~~~
@@ -199,15 +199,15 @@ Journal
 ~~~robot
 moments://
 ~~~
-Keynote <sub>_macOS_</sub>
+Keynote <sup>_macOS_</sup>
 ~~~robot
 com.apple.iwork.keynote-share://
 ~~~
-Magnifier <sub>_iOS_</sub>
+Magnifier <sup>_iOS_</sup>
 ~~~robot
 apple-magnifier://
 ~~~
-Mail <sub>_iOS_</sub>
+Mail <sup>_iOS_</sup>
 ~~~robot
 com.apple.mobilemail://
 ~~~
@@ -283,23 +283,23 @@ Notes
 ~~~robot
 applenotes://
 ~~~
-Notes <sub>_iOS_</sub> › create new note
+Notes <sup>_iOS_</sup> › create new note
 ~~~robot
 mobilenotes://newNote
 ~~~
-Notes <sub>_macOS_</sub> › create new note
+Notes <sup>_macOS_</sup> › create new note
 ~~~robot
 notes://newNote?displayMode=paper
 ~~~
-Numbers <sub>_macOS_</sub>
+Numbers <sup>_macOS_</sup>
 ~~~robot
 com.apple.iwork.numbers-share://
 ~~~
-Pages <sub>_macOS_</sub>
+Pages <sup>_macOS_</sup>
 ~~~robot
 com.apple.iwork.pages-share://
 ~~~
-Panel Editor <sub>_macOS_</sub>
+Panel Editor <sup>_macOS_</sup>
 ~~~robot
 assistivecontrolpanels://
 ~~~
@@ -307,11 +307,11 @@ Passwords
 ~~~robot
 otpauth-migration://
 ~~~
-Phone <sub>_macOS_</sub>
+Phone <sup>_macOS_</sup>
 ~~~robot
 phoneapp://
 ~~~
-Phone <sub>_iOS_</sub>
+Phone <sup>_iOS_</sup>
 ~~~robot
 mobilephone-recents://
 ~~~
@@ -319,15 +319,15 @@ Phone › call phone number ‘12345’
 ~~~robot
 tel:12345
 ~~~
-Phone <sub>_iOS_</sub> › Keypad
+Phone <sup>_iOS_</sup> › Keypad
 ~~~robot
 mobilephone-keypad://
 ~~~
-Phone <sub>_iOS_</sub> › Contacts
+Phone <sup>_iOS_</sup> › Contacts
 ~~~robot
 mobilephone-contacts://
 ~~~
-Phone <sub>_iOS_</sub> › Favorites (only available in Classic mode)
+Phone <sup>_iOS_</sup> › Favorites (only available in Classic mode)
 ~~~robot
 mobilephone-favorites://
 ~~~
@@ -335,15 +335,15 @@ Photos
 ~~~robot
 photos://
 ~~~
-Photos <sub>_iOS_</sub> › Library (tab)
+Photos <sup>_iOS_</sup> › Library (tab)
 ~~~robot
 photos://library
 ~~~
-Photos <sub>_iOS_</sub> › Collections (tab)
+Photos <sup>_iOS_</sup> › Collections (tab)
 ~~~robot
 photos://collections
 ~~~
-Photos <sub>_iOS_</sub> › search for ‘example’
+Photos <sup>_iOS_</sup> › search for ‘example’
 ~~~robot
 photos-navigation://search?searchTerm=example
 ~~~
@@ -363,7 +363,7 @@ Photos › Favorites
 ~~~robot
 photos://album?name=favorites
 ~~~
-Photos <sub>_iOS_</sub> › Featured Photos
+Photos <sup>_iOS_</sup> › Featured Photos
 ~~~robot
 photos://featuredPhoto
 ~~~
@@ -383,15 +383,15 @@ Photos › Maps
 ~~~robot
 photos://places
 ~~~
-Photos <sub>_macOS_</sub> › Preferences › General
+Photos <sup>_macOS_</sup> › Preferences › General
 ~~~robot
 photos://preferences/general
 ~~~
-Photos <sub>_macOS_</sub> › Preferences › iCloud
+Photos <sup>_macOS_</sup> › Preferences › iCloud
 ~~~robot
 photos://preferences/icloud
 ~~~
-Photos <sub>_macOS_</sub> › Preferences › Shared Library
+Photos <sup>_macOS_</sup> › Preferences › Shared Library
 ~~~robot
 photos://preferences/shared-library
 ~~~
@@ -399,35 +399,35 @@ Reminders
 ~~~robot
 x-apple-reminderkit://
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on DuckDuckGo
+Safari <sup>_iOS_</sup> › search for ‘example’ on DuckDuckGo
 ~~~robot
 x-web-search://duckduckgo/?example
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on Google
+Safari <sup>_iOS_</sup> › search for ‘example’ on Google
 ~~~robot
 x-web-search://google/?example
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on Bing
+Safari <sup>_iOS_</sup> › search for ‘example’ on Bing
 ~~~robot
 x-web-search://bing/?example
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on Yahoo
+Safari <sup>_iOS_</sup> › search for ‘example’ on Yahoo
 ~~~robot
 x-web-search://yahoo/?example
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on Ecosia
+Safari <sup>_iOS_</sup> › search for ‘example’ on Ecosia
 ~~~robot
 x-web-search://ecosia/?example
 ~~~
-Safari <sub>_iOS_</sub> › search for ‘example’ on Wikipedia
+Safari <sup>_iOS_</sup> › search for ‘example’ on Wikipedia
 ~~~robot
 x-web-search://wikipedia/?example
 ~~~
-Script Editor <sub>_macOS_</sub>
+Script Editor <sup>_macOS_</sup>
 ~~~robot
 applescript://
 ~~~
-Settings <sub>_iOS_</sub>
+Settings <sup>_iOS_</sup>
 ~~~robot
 prefs://
 ~~~
@@ -443,7 +443,7 @@ Shortcuts › run shortcut ‘example’ with ‘my text’ as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-Shortcuts <sub>_iOS_</sub> › run shortcut ‘example’ with the clipboard as input
+Shortcuts <sup>_iOS_</sup> › run shortcut ‘example’ with the clipboard as input
 ~~~robot
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
@@ -467,11 +467,11 @@ Shortcuts › create new shortcut
 ~~~robot
 shortcuts://create-shortcut
 ~~~
-Shortcuts <sub>_iOS_</sub> › create new automation
+Shortcuts <sup>_iOS_</sup> › create new automation
 ~~~robot
 shortcuts://create-automation
 ~~~
-Shortcuts <sub>_iOS_</sub> › Automations
+Shortcuts <sup>_iOS_</sup> › Automations
 ~~~robot
 shortcuts://automations
 ~~~
@@ -483,7 +483,7 @@ Shortcuts › install shortcut using ID from iCloud URL
 ~~~robot
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-System Settings <sub>_macOS_</sub>
+System Settings <sup>_macOS_</sup>
 ~~~robot
 x-apple.systempreferences://
 ~~~
@@ -491,11 +491,11 @@ Tips
 ~~~robot
 x-apple-tips://
 ~~~
-Voice Memos <sub>_iOS_</sub>
+Voice Memos <sup>_iOS_</sup>
 ~~~robot
 voicememos://
 ~~~
-Wallet <sub>_iOS_</sub>
+Wallet <sup>_iOS_</sup>
 ~~~robot
 wallet://
 ~~~
@@ -503,7 +503,7 @@ Weather
 ~~~robot
 weather://
 ~~~
-Web App <sub>_iOS_</sub><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
+Web App <sup>_iOS_</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
 ~~~robot
 webapp://
 ~~~
