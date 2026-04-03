@@ -7,503 +7,503 @@
 <br>
 <br>
 
-Accessibility Reader <sup>_iOS_</sup>
+_Accessibility Reader <sup>iOS</sup>_
 ~~~robot
 apple-axreader://
 ~~~
-App Store
+_App Store_
 ~~~robot
 itms-apps://?action=today
 ~~~
-App Store › Updates
+_App Store › Updates_
 ~~~robot
 itms-apps://?action=updates
 ~~~
-App Store › search for ‘example’
+_App Store › search for ‘example’_
 ~~~robot
 itms-apps://?action=search&term=example
 ~~~
-App Store › Safari Extensions
+_App Store › Safari Extensions_
 ~~~robot
 itms-apps://safariExtensions
 ~~~
-App Store › Apps for Wallet
+_App Store › Apps for Wallet_
 ~~~robot
 itms-apps://?action=passbook
 ~~~
-App Store <sup>_iOS_</sup> › Trending › “Great apps to try with SharePlay”
+_App Store <sup>iOS</sup> › Trending › “Great apps to try with SharePlay”_
 ~~~robot
 itms-apps://sharePlayApps
 ~~~
-Apple Configurator <sup>_macOS_</sup>
+_Apple Configurator <sup>macOS</sup>_
 ~~~robot
 configurator://
 ~~~
-Apps <sup>_macOS_</sup>
+_Apps <sup>macOS</sup>_
 ~~~robot
 spotlight://apps
 ~~~
-Calculator
+_Calculator_
 ~~~robot
 calc://
 ~~~
-Calendar <sup>_iOS_</sup>
+_Calendar <sup>iOS</sup>_
 ~~~robot
 calshow://
 ~~~
-Calendar <sup>_macOS_</sup>
+_Calendar <sup>macOS</sup>_
 ~~~robot
 ical://
 ~~~
-Calendar › add subscription calendar
+_Calendar › add subscription calendar_
 ~~~robot
 webcal://
 ~~~
-Calendar <sup>_iOS_</sup> › calendars
+_Calendar <sup>iOS</sup> › calendars_
 ~~~robot
 calshow://familyCalendar
 ~~~
-Camera <sup>_iOS_</sup>
+_Camera <sup>iOS</sup>_
 ~~~robot
 camera://
 ~~~
-Camera <sup>_iOS_</sup> › photo mode
+_Camera <sup>iOS</sup> › photo mode_
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=back
 ~~~
-Camera <sup>_iOS_</sup> › video mode
+_Camera <sup>iOS</sup> › video mode_
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=back
 ~~~
-Camera <sup>_iOS_</sup> › photo mode with front-facing camera
+_Camera <sup>iOS</sup> › photo mode with front-facing camera_
 ~~~robot
 camera://configuration?capturemode=photo&capturedevice=front
 ~~~
-Camera <sup>_iOS_</sup> › video mode with front-facing camera
+_Camera <sup>iOS</sup> › video mode with front-facing camera_
 ~~~robot
 camera://configuration?capturemode=video&capturedevice=front
 ~~~
-Clock
+_Clock_
 ~~~robot
 clock-worldclock://
 ~~~
-Contacts
+_Contacts_
 ~~~robot
 contacts-sensitive://
 ~~~
-Contacts <sup>_iOS_</sup> › List › Other Known
+_Contacts <sup>iOS</sup> › List › Other Known_
 ~~~robot
 contacts-sensitive:///list/other-known
 ~~~
-Desk View <sup>_macOS_</sup>
+_Desk View <sup>macOS</sup>_
 ~~~robot
 deskcam://
 ~~~
-Dictionary <sup>_macOS_</sup>
+_Dictionary <sup>macOS</sup>_
 ~~~robot
 dict://
 ~~~
-Dictionary <sup>_macOS_</sup> › search for ‘example’
+_Dictionary <sup>macOS</sup> › search for ‘example’_
 ~~~robot
 dict://example
 ~~~
-FaceTime
+_FaceTime_
 ~~~robot
 facetimeapp://
 ~~~
-FaceTime › call [contact name/phone number]
+_FaceTime › call [contact name/phone number]_
 ~~~robot
 facetime://replace_with_name_or_number
 ~~~
-Feedback Assistant
+_Feedback Assistant_
 ~~~robot
 applefeedback://
 ~~~
-Feedback Assistant › New Feedback
+_Feedback Assistant › New Feedback_
 ~~~robot
 applefeedback://new
 ~~~
-Files <sup>_iOS_</sup>
+_Files <sup>iOS</sup>_
 ~~~robot
 shareddocuments://
 ~~~
-Finder <sup>_macOS_</sup> › Recents
+_Finder <sup>macOS</sup> › Recents_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch
 ~~~
-Finder <sup>_macOS_</sup> › iCloud Drive
+_Finder <sup>macOS</sup> › iCloud Drive_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/iCloud%20Drive.app
 ~~~
-Finder <sup>_macOS_</sup> › AirDrop
+_Finder <sup>macOS</sup> › AirDrop_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
 ~~~
-Finder <sup>_macOS_</sup> › [current Mac]
+_Finder <sup>macOS</sup> › [current Mac]_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
 ~~~
-Finder <sup>_macOS_</sup> › Network
+_Finder <sup>macOS</sup> › Network_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
 ~~~
-Finder <sup>_macOS_</sup> › Shared
+_Finder <sup>macOS</sup> › Shared_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedDocuments.cannedSearch
 ~~~
-Finder <sup>_macOS_</sup> › Shared By Me
+_Finder <sup>macOS</sup> › Shared By Me_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedByMe.cannedSearch	
 ~~~
-Finder <sup>_macOS_</sup> › Shared With Me
+_Finder <sup>macOS</sup> › Shared With Me_
 ~~~robot
 file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/SharedWithMe.cannedSearch
 ~~~
-Finder <sup>_macOS_</sup> › /Users/Shared
+_Finder <sup>macOS</sup> › /Users/Shared_
 ~~~robot
 file:///Users/Shared
 ~~~
-Font Book <sup>_macOS_</sup>
+_Font Book <sup>macOS</sup>_
 ~~~robot
 fontbook://
 ~~~
-Freeform
+_Freeform_
 ~~~robot
 freeform://
 ~~~
-Games
+_Games_
 ~~~robot
 games://
 ~~~
-Home <sup>_iOS_</sup>
+_Home <sup>iOS</sup>_
 ~~~robot
 com.apple.home://
 ~~~
-Home <sup>_iOS_</sup> › Climate
+_Home <sup>iOS</sup> › Climate_
 ~~~robot
 com.apple.home://accessorytype/climate
 ~~~
-Home <sup>_iOS_</sup> › Lights
+_Home <sup>iOS</sup> › Lights_
 ~~~robot
 com.apple.home://accessorytype/lights
 ~~~
-Home <sup>_iOS_</sup> › Security
+_Home <sup>iOS</sup> › Security_
 ~~~robot
 com.apple.home://accessorytype/security
 ~~~
-Home <sup>_iOS_</sup> › Home Settings › Recognize My Voice › Personal Content
+_Home <sup>iOS</sup> › Home Settings › Recognize My Voice › Personal Content_
 ~~~robot
 com.apple.home://personalRequestOptIn
 ~~~
-Journal
+_Journal_
 ~~~robot
 moments://
 ~~~
-Keynote <sup>_macOS_</sup>
+_Keynote <sup>macOS</sup>_
 ~~~robot
 com.apple.iwork.keynote-share://
 ~~~
-Magnifier <sup>_iOS_</sup>
+_Magnifier <sup>iOS</sup>_
 ~~~robot
 apple-magnifier://
 ~~~
-Mail <sup>_iOS_</sup>
+_Mail <sup>iOS</sup>_
 ~~~robot
 com.apple.mobilemail://
 ~~~
-Mail › new email
+_Mail › new email_
 ~~~robot
 mailto://
 ~~~
-Mail › new email with recipient included
+_Mail › new email with recipient included_
 ~~~robot
 mailto:someone@example.com
 ~~~
-Mail › new email with multiple recipients included
+_Mail › new email with multiple recipients included_
 ~~~robot
 mailto:someone@example.com,another@example.com
 ~~~
-Mail › new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form
+_Mail › new email with recipient included, using the ‘Name <user</span>@domain.tld>’ form_
 ~~~robot
 mailto:Someone%20%3Csomeone@example.com%3E
 ~~~
-Mail › new email with main and Cc recipients included
+_Mail › new email with main and Cc recipients included_
 ~~~robot
 mailto:someone@example.com?cc=another@example.com
 ~~~
-Mail › new email with main, Cc and Bcc recipients included
+_Mail › new email with main, Cc and Bcc recipients included_
 ~~~robot
 mailto:someone@example.com?cc=another@example.com&bcc=different@example.com
 ~~~
-Mail › new email with recipient and subject included
+_Mail › new email with recipient and subject included_
 ~~~robot
 mailto:someone@example.com?subject=Some%20subject
 ~~~
-Mail › new email with recipient and content included
+_Mail › new email with recipient and content included_
 ~~~robot
 mailto:someone@example.com?body=Some%20message
 ~~~
-Mail › new email with recipient, subject and content included
+_Mail › new email with recipient, subject and content included_
 ~~~robot
 mailto:someone@example.com?subject=Some%20subject&body=Some%20message
 ~~~
-Maps
+_Maps_
 ~~~robot
 maps://
 ~~~
-Messages
+_Messages_
 ~~~robot
 iChat://
 ~~~
-Messages › new message
+_Messages › new message_
 ~~~robot
 sms://
 ~~~
-Messages › new message to phone number ‘12345’
+_Messages › new message to phone number ‘12345’_
 ~~~robot
 sms:12345
 ~~~
-Messages › new message to phone numbers ‘12345’ and ‘67890’
+_Messages › new message to phone numbers ‘12345’ and ‘67890’_
 ~~~robot
 sms:?addresses=12345,67890
 ~~~
-Messages › new message with content included
+_Messages › new message with content included_
 ~~~robot
 sms:?body=My%20URL%20encoded%20message
 ~~~
-Messages › new message with content included to phone number ‘12345’
+_Messages › new message with content included to phone number ‘12345’_
 ~~~robot
 sms:12345?body=My%20URL%20encoded%20message
 ~~~
-Messages › new message with content included to phone numbers ‘12345’ and ‘67890’
+_Messages › new message with content included to phone numbers ‘12345’ and ‘67890’_
 ~~~robot
 sms:?addresses=12345,67890&body=My%20URL%20encoded%20message
 ~~~
-Notes
+_Notes_
 ~~~robot
 applenotes://
 ~~~
-Notes <sup>_iOS_</sup> › create new note
+_Notes <sup>iOS</sup> › create new note_
 ~~~robot
 mobilenotes://newNote
 ~~~
-Notes <sup>_macOS_</sup> › create new note
+_Notes <sup>macOS</sup> › create new note_
 ~~~robot
 notes://newNote?displayMode=paper
 ~~~
-Numbers <sup>_macOS_</sup>
+_Numbers <sup>macOS</sup>_
 ~~~robot
 com.apple.iwork.numbers-share://
 ~~~
-Pages <sup>_macOS_</sup>
+_Pages <sup>macOS</sup>_
 ~~~robot
 com.apple.iwork.pages-share://
 ~~~
-Panel Editor <sup>_macOS_</sup>
+_Panel Editor <sup>macOS</sup>_
 ~~~robot
 assistivecontrolpanels://
 ~~~
-Passwords
+_Passwords_
 ~~~robot
 otpauth-migration://
 ~~~
-Phone <sup>_macOS_</sup>
+_Phone <sup>macOS</sup>_
 ~~~robot
 phoneapp://
 ~~~
-Phone <sup>_iOS_</sup>
+_Phone <sup>iOS</sup>_
 ~~~robot
 mobilephone-recents://
 ~~~
-Phone › call phone number ‘12345’
+_Phone › call phone number ‘12345’_
 ~~~robot
 tel:12345
 ~~~
-Phone <sup>_iOS_</sup> › Keypad
+_Phone <sup>iOS</sup> › Keypad_
 ~~~robot
 mobilephone-keypad://
 ~~~
-Phone <sup>_iOS_</sup> › Contacts
+_Phone <sup>iOS</sup> › Contacts_
 ~~~robot
 mobilephone-contacts://
 ~~~
-Phone <sup>_iOS_</sup> › Favorites (only available in Classic mode)
+_Phone <sup>iOS</sup> › Favorites (only available in Classic mode)_
 ~~~robot
 mobilephone-favorites://
 ~~~
-Photos
+_Photos_
 ~~~robot
 photos://
 ~~~
-Photos <sup>_iOS_</sup> › Library (tab)
+_Photos <sup>iOS</sup> › Library (tab)_
 ~~~robot
 photos://library
 ~~~
-Photos <sup>_iOS_</sup> › Collections (tab)
+_Photos <sup>iOS</sup> › Collections (tab)_
 ~~~robot
 photos://collections
 ~~~
-Photos <sup>_iOS_</sup> › search for ‘example’
+_Photos <sup>iOS</sup> › search for ‘example’_
 ~~~robot
 photos-navigation://search?searchTerm=example
 ~~~
-Photos › most recent photo
+_Photos › most recent photo_
 ~~~robot
 photos://lastasset
 ~~~
-Photos › Recently Saved
+_Photos › Recently Saved_
 ~~~robot
 photos://album?name=recently-saved
 ~~~
-Photos › Recently Deleted
+_Photos › Recently Deleted_
 ~~~robot
 photos://album?name=recently-deleted
 ~~~
-Photos › Favorites
+_Photos › Favorites_
 ~~~robot
 photos://album?name=favorites
 ~~~
-Photos <sup>_iOS_</sup> › Featured Photos
+_Photos <sup>iOS</sup> › Featured Photos_
 ~~~robot
 photos://featuredPhoto
 ~~~
-Photos › Duplicates
+_Photos › Duplicates_
 ~~~robot
 photos://album?name=duplicates
 ~~~
-Photos › Memories
+_Photos › Memories_
 ~~~robot
 photos://memory-generation
 ~~~
-Photos › People & Pets
+_Photos › People & Pets_
 ~~~robot
 photos://people
 ~~~
-Photos › Maps
+_Photos › Maps_
 ~~~robot
 photos://places
 ~~~
-Photos <sup>_macOS_</sup> › Preferences › General
+_Photos <sup>macOS</sup> › Preferences › General_
 ~~~robot
 photos://preferences/general
 ~~~
-Photos <sup>_macOS_</sup> › Preferences › iCloud
+_Photos <sup>macOS</sup> › Preferences › iCloud_
 ~~~robot
 photos://preferences/icloud
 ~~~
-Photos <sup>_macOS_</sup> › Preferences › Shared Library
+_Photos <sup>macOS</sup> › Preferences › Shared Library_
 ~~~robot
 photos://preferences/shared-library
 ~~~
-Reminders
+_Reminders_
 ~~~robot
 x-apple-reminderkit://
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on DuckDuckGo
+_Safari <sup>iOS</sup> › search for ‘example’ on DuckDuckGo_
 ~~~robot
 x-web-search://duckduckgo/?example
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on Google
+_Safari <sup>iOS</sup> › search for ‘example’ on Google_
 ~~~robot
 x-web-search://google/?example
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on Bing
+_Safari <sup>iOS</sup> › search for ‘example’ on Bing_
 ~~~robot
 x-web-search://bing/?example
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on Yahoo
+_Safari <sup>iOS</sup> › search for ‘example’ on Yahoo_
 ~~~robot
 x-web-search://yahoo/?example
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on Ecosia
+_Safari <sup>iOS</sup> › search for ‘example’ on Ecosia_
 ~~~robot
 x-web-search://ecosia/?example
 ~~~
-Safari <sup>_iOS_</sup> › search for ‘example’ on Wikipedia
+_Safari <sup>iOS</sup> › search for ‘example’ on Wikipedia_
 ~~~robot
 x-web-search://wikipedia/?example
 ~~~
-Script Editor <sup>_macOS_</sup>
+_Script Editor <sup>macOS</sup>_
 ~~~robot
 applescript://
 ~~~
-Settings <sup>_iOS_</sup>
+_Settings <sup>iOS</sup>_
 ~~~robot
 prefs://
 ~~~
-Shortcuts
+_Shortcuts_
 ~~~robot
 shortcuts://
 ~~~
-Shortcuts › run shortcut ‘example’
+_Shortcuts › run shortcut ‘example’_
 ~~~robot
 shortcuts://run-shortcut?name=example
 ~~~
-Shortcuts › run shortcut ‘example’ with ‘my text’ as input
+_Shortcuts › run shortcut ‘example’ with ‘my text’ as input_
 ~~~robot
 shortcuts://run-shortcut?name=example&input=my%20text
 ~~~
-Shortcuts <sup>_iOS_</sup> › run shortcut ‘example’ with the clipboard as input
+_Shortcuts <sup>iOS</sup> › run shortcut ‘example’ with the clipboard as input_
 ~~~robot
 shortcuts://run-shortcut?name=example&input=clipboard
 ~~~
-Shortcuts › run shortcut and on success, open URL
+_Shortcuts › run shortcut and on success, open URL_
 ~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-success=my_success_url
 ~~~
-Shortcuts › run shortcut and if the user cancels, open URL
+_Shortcuts › run shortcut and if the user cancels, open URL_
 ~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
-Shortcuts › run shortcut and on error, open URL<br><sub>Note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>
+_Shortcuts › run shortcut and on error, open URL<br><sub>Note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>_
 ~~~robot
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
-Shortcuts › open shortcut ‘example’
+_Shortcuts › open shortcut ‘example’_
 ~~~robot
 shortcuts://open-shortcut?name=example
 ~~~
-Shortcuts › create new shortcut
+_Shortcuts › create new shortcut_
 ~~~robot
 shortcuts://create-shortcut
 ~~~
-Shortcuts <sup>_iOS_</sup> › create new automation
+_Shortcuts <sup>iOS</sup> › create new automation_
 ~~~robot
 shortcuts://create-automation
 ~~~
-Shortcuts <sup>_iOS_</sup> › Automations
+_Shortcuts <sup>iOS</sup> › Automations_
 ~~~robot
 shortcuts://automations
 ~~~
-Shortcuts › Gallery
+_Shortcuts › Gallery_
 ~~~robot
 shortcuts://gallery
 ~~~
-Shortcuts › install shortcut using ID from iCloud URL
+_Shortcuts › install shortcut using ID from iCloud URL_
 ~~~robot
 shortcuts://shortcuts/replace_with_id_from_icloud_url
 ~~~
-System Settings <sup>_macOS_</sup>
+_System Settings <sup>macOS</sup>_
 ~~~robot
 x-apple.systempreferences://
 ~~~
-Tips
+_Tips_
 ~~~robot
 x-apple-tips://
 ~~~
-Voice Memos <sup>_iOS_</sup>
+_Voice Memos <sup>iOS</sup>_
 ~~~robot
 voicememos://
 ~~~
-Wallet <sup>_iOS_</sup>
+_Wallet <sup>iOS</sup>_
 ~~~robot
 wallet://
 ~~~
-Weather
+_Weather_
 ~~~robot
 weather://
 ~~~
-Web App <sup>_iOS_</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>
+_Web App <sup>iOS</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it's unpredictable what it opens</sub>_
 ~~~robot
 webapp://
 ~~~
