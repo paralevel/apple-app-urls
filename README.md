@@ -335,11 +335,11 @@ _Photos_
 ~~~yaml
 photos://
 ~~~
-_Photos <sup>iOS</sup> › Library (tab)_
+_Photos <sup>iOS</sup> › Library [tab]_
 ~~~yaml
 photos://library
 ~~~
-_Photos <sup>iOS</sup> › Collections (tab)_
+_Photos <sup>iOS</sup> › Collections [tab]_
 ~~~yaml
 photos://collections
 ~~~
@@ -455,7 +455,7 @@ _Shortcuts › run shortcut and if the user cancels, open URL_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-cancel=my_cancel_url
 ~~~
-_Shortcuts › run shortcut and on error, open URL<br><sub>Note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>_
+_Shortcuts › run shortcut and on error, open URL <sub>note: should be opened from outside Shortcuts app, otherwise the x-error URL may fail to load</sub>_
 ~~~yaml
 shortcuts://x-callback-url/run-shortcut?name=My%20Shortcut&x-error=my_error_url
 ~~~
@@ -503,7 +503,7 @@ _Weather_
 ~~~yaml
 weather://
 ~~~
-_Web App <sup>iOS</sup><br><sub>If you only have a single web app installed/web page added to your Home Screen, this URL will open that one, otherwise it seems very unpredictable what it opens</sub>_
+_Web App <sup>iOS</sup> <sub>if you only have a single web app installed, the URL opens that one, otherwise it seems very unpredictable what opens</sub>_
 ~~~yaml
 webapp://
 ~~~
