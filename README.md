@@ -209,7 +209,7 @@ apple-magnifier://
 ~~~
 _Magnifier <sup>iOS</sup> › Detect_
 ~~~yaml
-apple-magnifier://
+apple-magnifier://detectionMode
 ~~~
 _Mail <sup>iOS</sup>_
 ~~~yaml
