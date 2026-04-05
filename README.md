@@ -207,6 +207,10 @@ _Magnifier <sup>iOS</sup>_
 ~~~yaml
 apple-magnifier://
 ~~~
+_Magnifier <sup>iOS</sup> › Detect_
+~~~yaml
+apple-magnifier://
+~~~
 _Mail <sup>iOS</sup>_
 ~~~yaml
 com.apple.mobilemail://
@@ -430,6 +434,10 @@ applescript://
 _Settings <sup>iOS</sup>_
 ~~~yaml
 prefs://
+~~~
+_Shazam <sup>iOS</sup>_
+~~~yaml
+shazam://
 ~~~
 _Shortcuts_
 ~~~yaml
