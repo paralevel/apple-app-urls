@@ -1,4 +1,4 @@
-# Apple app URL schemes for iOS 26 and macOS 26 Tahoe
+# Apple app URL schemes for iOS 26 and macOS Tahoe 26
 
 <br>
 
