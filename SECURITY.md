@@ -1,15 +1,7 @@
 # Security Policy
 
 ## Supported Versions
-
-| Version | Supported          |
-| ------- | ------------------ |
-| main   | :white_check_mark: |
-
+The version that’s currently under active development
+##
 ## Reporting a Vulnerability
-
-Security vulnerabilities in this repository can be reported here:
-
-https://github.com/paralevel/apple-app-urls/issues
-
-https://github.com/paralevel/apple-app-urls/security/advisories/new
+Vulnerabilities can be reported [here](mailto:paralevel@duck.com)
