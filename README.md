@@ -443,6 +443,10 @@ _Shortcuts_
 ~~~yaml
 shortcuts://
 ~~~
+_Shortcuts › Home_
+~~~yaml
+shortcuts://home
+~~~
 _Shortcuts › run shortcut ‘example’_
 ~~~yaml
 shortcuts://run-shortcut?name=example
